@@ -23,6 +23,18 @@
         "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8"
     },
     {
+        "name": "GOLIVE - English",
+        "logo": "https://rtb-images.glueapi.io/320x0/live/GoLiveNew.png",
+        "group": "FIFA",
+        "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8"
+    },
+    {
+        "name": "Toffee",
+        "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/43/Toffee_logo.png",
+        "group": "FIFA",
+        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-5/0/master_1700.m3u8?hdntl=Expires=1782030536~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AduQTZ9HGTA0mWw_1BM4vBOsaGJIHPpjfpgbzddewBVA3V2b-1hSAxZ_Tg4n64ar-_KUxuHxNiYClLxNWyvUreGqC18C"
+    },
+    {
         "name": "Football World Cup 2026 4K",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "group": "FIFA",
@@ -47,25 +59,10 @@
         "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
     },
     {
-        "name": "FOX English (No VPN)",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/250px-2026_FIFA_World_Cup_emblem.svg.png",
-        "group": "FIFA",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/26/index.m3u8"
-    },
-    {
         "name": "DAZN FIFA",
         "logo": "https://i.postimg.cc/Kc3mP7Qt/cbimage.png",
         "group": "FIFA",
         "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8"
-    },
-    {
-        "name": "FIFA CTV - English (1080p)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/CTV_logo_2018.svg/3840px-CTV_logo_2018.svg.png",
-        "group": "FIFA",
-        "url": "https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
-        "type": "dash",
-        "kid": "d185684e2330de5bea436daa094a5e86",
-        "key": "014f0116154f5bf0050e03a6b0a23157"
     },
     {
         "name": "M6 Direct TV",

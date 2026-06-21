@@ -1,25 +1,5 @@
 [
     {
-        "name": "FOX 4K",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/250px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/hb3qqzxz0j/out/v1/40b31d7224c4457fbbd23fc02ada6e11/cenc.mpd",
-        "type": "dash",
-        "group": "FIFA",
-        "kid": "a6164ea0967b4bbbb51fdd6c4f83a64f",
-        "key": "b431d9ed821ca93df596168601ae5b00",
-        "no_proxy": true
-    },
-    {
-        "name": "FOX 1080p",
-        "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
-        "group": "FOX",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
-        "type": "dash",
-        "kid": "f6564ec2aee819046328a0e153be574d",
-        "key": "ff46a8a1031eb27ef22576a077c98ab7",
-        "no_proxy": true
-    },
-    {
         "name": "TSN Sports 4 - English",
         "logo": "https://i.imgur.com/qJyAWU8.png",
         "group": "FIFA",
@@ -208,6 +188,13 @@
         "no_proxy": true
     },
     {
+        "name": "ARABIC LIVE",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
+        "group": "FIFA",
+        "no_proxy": true
+    },
+    {
         "name": "SKY SPORTS HD",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
         "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
@@ -344,24 +331,6 @@
         "no_proxy": false
     },
     {
-        "name": "TSN 1",
-        "logo": "https://images.seeklogo.com/logo-png/31/1/tsn-1-logo-png_seeklogo-314693.png",
-        "group": "FIFA",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-        "type": "dash",
-        "kid": "14eeabf30c14b7fbf3008c03099ce011",
-        "key": "17d2ac8dbc5429bd70af3433aa12158d",
-        "no_proxy": true
-    },
-    {
-        "name": "iOS",
-        "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
-        "url": "https://live05.msdht.app/live/24561735.m3u8",
-        "referer": "https://kick.yagaverse.net/",
-        "group": "FIFA",
-        "no_proxy": false
-    },
-    {
         "name": "RU LIVE",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
@@ -415,6 +384,146 @@
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "https://serieAleague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8",
         "group": "Cricket",
+        "no_proxy": true
+    },
+    {
+        "name": "HD LVE",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "http://193.47.62.47/hls/Xrtttt.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "SERVER 2",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "http://193.47.62.59/hls/Xlplplp.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "HD LVE 2",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "http://193.47.62.55/hls/Xrttttx.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "SERVER 3",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "http://193.47.62.55/hls/Xlplplpqqq.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "SERVER 4",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "http://193.47.62.47/hls/Xlplplpqqqq.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "SERVER 5",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "http://193.47.62.51/hls/Xlplplpqq.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "SERVER 6",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "http://193.47.62.59/hls/XlplplpA.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "SERVER 7",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "http://193.47.62.59/hls/Xlplplpq.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "LVE  1",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "https://pullsgp.yyzb456.top/live/stream-506605_lhd.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "SD LVE",
+        "logo": "https://ia600909.us.archive.org/10/items/image-19_202606/image%20%2819%29.png",
+        "url": "http://193.47.62.42/hls/YAAAZQQ.m3u8",
+        "group": "Baseball",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "SD LVE",
+        "logo": "https://ia903205.us.archive.org/16/items/image-1_20260607/image%20%281%29.png",
+        "url": "http://193.47.62.42/hls/YAAAZQQQQ.m3u8",
+        "group": "Baseball",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "SD LVE",
+        "logo": "https://ia600501.us.archive.org/1/items/image-6_20260607/image%20%286%29.png",
+        "url": "http://193.47.62.42/hls/YAAAZQQQ.m3u8",
+        "group": "Baseball",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
+        "name": "CazéTV",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
+        "group": "Football",
+        "type": "dash",
+        "kid": "34475edab991ad5e92548aebd710410a",
+        "key": "501b209cccd323ac00bf5ac15b406cb4",
+        "no_proxy": true
+    },
+    {
+        "name": "BeIN MAX 1",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+        "url": "https://tmaxapp.site/beinmax1.m3u8",
+        "group": "Football",
+        "no_proxy": true
+    },
+    {
+        "name": "ZDF (USE GERMAN VPN)",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+        "url": "https://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpdhttps://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpd",
+        "group": "Football",
+        "type": "dash",
+        "kid": "c1a0ac1044a433d0856ccdc08f245084",
+        "key": "7f0e8800a6d63d7915ac181bb88ce813",
+        "no_proxy": true
+    },
+    {
+        "name": "RTB",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+        "url": "https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8",
+        "group": "Football",
+        "no_proxy": true
+    },
+    {
+        "name": "TSN",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "group": "Football",
+        "type": "dash",
+        "kid": "14eeabf30c14b7fbf3008c03099ce011",
+        "key": "17d2ac8dbc5429bd70af3433aa12158d",
         "no_proxy": true
     }
 ]

@@ -71,7 +71,11 @@ async function getStreamQualities() {
     if (!url) continue;
     if (!stream.url) stream.url = url;
     if (stream.no_proxy === undefined) {
-      stream.no_proxy = true;
+      // Streams with referer NEED the proxy to forward custom headers
+      stream.no_proxy = !stream.referer;
+    } else if (stream.referer && stream.no_proxy === true) {
+      // Fix: referer streams must go through proxy
+      stream.no_proxy = false;
     }
 
     const normalizedUrl = url.trim();

@@ -6,55 +6,64 @@
         "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?Null",
         "type": "dash",
         "kid": "14eeabf30c14b7fbf3008c03099ce011",
-        "key": "17d2ac8dbc5429bd70af3433aa12158d"
+        "key": "17d2ac8dbc5429bd70af3433aa12158d",
+        "no_proxy": true
     },
     {
         "name": "TVP Sport",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_TVP_Sport.jpg/1280px-Logo_TVP_Sport.jpg",
         "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "D Sports HLS",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
         "group": "FIFA",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8"
+        "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
+        "no_proxy": true
     },
     {
         "name": "BEIN Sports 5",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "group": "FIFA",
-        "url": "http://starhub.pro/live/farhat-3379/67897-913379/744527.ts"
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/744527.ts",
+        "no_proxy": true
     },
     {
         "name": "iOS 2",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "url": "https://hugh.cdn.rumble.cloud/live/y16rq9u0/slot-13/2rvn-cv3b_360p/chunklist_DVR.m3u8",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "CAZE TV",
         "logo": "https://images.seeklogo.com/logo-png/61/1/cazetv-logo-png_seeklogo-619708.png",
         "group": "FIFA",
-        "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8"
+        "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8",
+        "no_proxy": true
     },
     {
         "name": "Somoy TV",
         "logo": "https://upload.wikimedia.org/wikipedia/bn/thumb/f/f6/%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/960px-%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg.png?_=20250102083708",
         "group": "FIFA",
-        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
+        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
+        "no_proxy": true
     },
     {
         "name": "Bein Sports 1",
         "logo": "https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png",
         "group": "FIFA",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
+        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+        "no_proxy": true
     },
     {
         "name": "DAZN FIFA",
         "logo": "https://i.postimg.cc/Kc3mP7Qt/cbimage.png",
         "group": "FIFA",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8"
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "no_proxy": true
     },
     {
         "name": "M6 Direct TV",
@@ -63,7 +72,8 @@
         "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
         "type": "dash",
         "kid": "433ffba670963e70857859a9dff4be04",
-        "key": "51ede3a821229fe81e71282c8eff80e3"
+        "key": "51ede3a821229fe81e71282c8eff80e3",
+        "no_proxy": true
     },
     {
         "name": "TIPIK HD",
@@ -72,7 +82,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "adca25b8779e4168a0cd710f59f61ccf",
-        "key": "be5383ed3cd8079f4ffe78ad067f476a"
+        "key": "be5383ed3cd8079f4ffe78ad067f476a",
+        "no_proxy": true
     },
     {
         "name": "RTE SPORTS",
@@ -81,19 +92,22 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d"
+        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
+        "no_proxy": true
     },
     {
         "name": "Match! Football 1",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
         "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "BeIN MAX 2",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
         "url": "https://tmaxapp.site/beinmax2.m3u8",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "FUSSBALL TV (USE GERMAN VPN)",
@@ -102,7 +116,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "1cb20afcd9d979c833cfd208c7d3eeb2",
-        "key": "fef0c15b4a523370892edd5e4133c269"
+        "key": "fef0c15b4a523370892edd5e4133c269",
+        "no_proxy": true
     },
     {
         "name": "TELEMUNDO (USA VPN)",
@@ -111,7 +126,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "ce7ab3022e753307997f58afe001bac4",
-        "key": "72d631a66e635c60829a0fe7705516c1"
+        "key": "72d631a66e635c60829a0fe7705516c1",
+        "no_proxy": true
     },
     {
         "name": "D SPORTS",
@@ -120,7 +136,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
-        "key": "afad49d20eb39670e93e371c1d669921"
+        "key": "afad49d20eb39670e93e371c1d669921",
+        "no_proxy": true
     },
     {
         "name": "CTV",
@@ -129,7 +146,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "d185684e2330de5bea436daa094a5e86",
-        "key": "014f0116154f5bf0050e03a6b0a23157"
+        "key": "014f0116154f5bf0050e03a6b0a23157",
+        "no_proxy": true
     },
     {
         "name": "D SPORTS FHD +",
@@ -138,14 +156,16 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "83f81c4cc1443991543de4e22eea7586",
-        "key": "ddfd7ca653d6f35543d8edb3c688e20f"
+        "key": "ddfd7ca653d6f35543d8edb3c688e20f",
+        "no_proxy": true
     },
     {
         "name": "CH LIVE",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://live.wxinxi.com/live/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8",
         "group": "FIFA",
-        "referer": "http://www.fawanews.sc/"
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": true
     },
     {
         "name": "JOJ SPORTS",
@@ -154,7 +174,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "11223344556677889900112233445566",
-        "key": "4b80724d0ef86bcb2c21f7999d67739d"
+        "key": "4b80724d0ef86bcb2c21f7999d67739d",
+        "no_proxy": true
     },
     {
         "name": "TUDN",
@@ -163,13 +184,15 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "75074a0cbd83f5b72fb3e5c1495252a9",
-        "key": "a4a0df04b2d28f2160cead2ecdeb7203"
+        "key": "a4a0df04b2d28f2160cead2ecdeb7203",
+        "no_proxy": true
     },
     {
         "name": "SKY SPORTS HD",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
         "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "LIVE 1",
@@ -178,25 +201,29 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "290e09c837da78d5cd961978d390515c",
-        "key": "b748836c71e6a4ca68ef5b5652db6247"
+        "key": "b748836c71e6a4ca68ef5b5652db6247",
+        "no_proxy": true
     },
     {
         "name": "BeIN Sports 1",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT1/index.m3u8",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "BeIN Sports 2",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT2/index.m3u8",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "BeIN Sports 5",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT5/index.m3u8",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "SporTV 3",
@@ -205,7 +232,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "902e5ec0e3d05e665daa32fc23f4f59e",
-        "key": "7b2322a273843921a43e2c61dac7cae3"
+        "key": "7b2322a273843921a43e2c61dac7cae3",
+        "no_proxy": true
     },
     {
         "name": "D Sports (Alt)",
@@ -214,7 +242,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "03f12d6a3dbfd3a6fa7dd7f6417e0c11",
-        "key": "ea07b87acdf2e45be824cde4a1cf3504"
+        "key": "ea07b87acdf2e45be824cde4a1cf3504",
+        "no_proxy": true
     },
     {
         "name": "TNT Sports 2",
@@ -223,7 +252,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "0b59ce06de74ed84f2eda5e81dadba13",
-        "key": "48e4ba4ad6c2a60d2bda5d71a0050844"
+        "key": "48e4ba4ad6c2a60d2bda5d71a0050844",
+        "no_proxy": true
     },
     {
         "name": "TNT Sports 3",
@@ -232,7 +262,8 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "12413e2c2855cfc59ce0fe6b20cc71ca",
-        "key": "08d55a8f5fc93a9375f9b0cb2e1739ca"
+        "key": "08d55a8f5fc93a9375f9b0cb2e1739ca",
+        "no_proxy": true
     },
     {
         "name": "TNT SPORTS",
@@ -241,7 +272,8 @@
         "group": "Cricket",
         "type": "dash",
         "kid": "570c19f1be3410e4e409be4dc7923f2b",
-        "key": "9a4dea8af2a2a703dffa8a477e9edc50"
+        "key": "9a4dea8af2a2a703dffa8a477e9edc50",
+        "no_proxy": true
     },
     {
         "name": "WILLOW HD",
@@ -250,7 +282,8 @@
         "group": "Cricket",
         "type": "dash",
         "kid": "8094deb4bf11428aa0d663b3168bc69d",
-        "key": "da904540e06da7a77270d63422cb0f69"
+        "key": "da904540e06da7a77270d63422cb0f69",
+        "no_proxy": true
     },
     {
         "name": "SPO TV",
@@ -259,14 +292,16 @@
         "group": "Motorsports",
         "type": "dash",
         "kid": "7eea72d6075245a99ee3255603d58853",
-        "key": "6848ef60575579bf4d415db1032153ed"
+        "key": "6848ef60575579bf4d415db1032153ed",
+        "no_proxy": true
     },
     {
         "name": "I Screen",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "url": "https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8",
         "referer": "https://iscreen.com.bd/",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "FOX [No VPN]",
@@ -275,14 +310,16 @@
         "type": "dash",
         "group": "FIFA",
         "kid": "1f68713028d439ec03be07f56c1d6213",
-        "key": "20093db6455160fffed4c394def3193d"
+        "key": "20093db6455160fffed4c394def3193d",
+        "no_proxy": true
     },
     {
         "name": "iOS",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "url": "https://live05.msdht.app/live/24561735.m3u8",
         "referer": "https://kick.yagaverse.net/",
-        "group": "FIFA"
+        "group": "FIFA",
+        "no_proxy": true
     },
     {
         "name": "RU LIVE",
@@ -291,20 +328,23 @@
         "group": "FIFA",
         "type": "dash",
         "kid": "9145a6e0f778e61866f573d4944dd533",
-        "key": "d02173d40515fea5c83944f21d0f3114"
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "no_proxy": true
     },
     {
         "name": "JAPAN SERVER",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
         "url": "https://live.wxinxi.com/live/84600906_46n5rq10l0bmsj8e2aovavl914psvggx.m3u8",
         "group": "Football",
-        "referer": "http://www.fawanews.sc/"
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": true
     },
     {
         "name": "GOLIVE - English",
         "logo": "https://rtb-images.glueapi.io/320x0/live/GoLiveNew.png",
         "group": "FIFA",
-        "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8"
+        "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8",
+        "no_proxy": true
     },
     {
         "name": "Toffee",
@@ -317,6 +357,7 @@
         "name": "TAPMAD",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "https://serieAleague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8",
-        "group": "Cricket"
+        "group": "Cricket",
+        "no_proxy": true
     }
 ]

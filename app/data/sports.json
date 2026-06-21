@@ -7,7 +7,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:06:07.595445",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "CAZE TV (1080p)",
@@ -17,7 +18,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:06:07.595445",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Cricket Gold",
@@ -27,7 +29,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.828697",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "A sports",
@@ -37,7 +40,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.820885",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "PTV Sports",
@@ -47,7 +51,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.820885",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Golf Channel",
@@ -57,7 +62,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.824050",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Fox Sports 2",
@@ -67,7 +73,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.859752",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TSN 2",
@@ -77,7 +84,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.858166",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Talk Sport",
@@ -87,7 +95,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.833313",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Espn",
@@ -97,7 +106,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.830767",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Marquee Sports Network",
@@ -107,7 +117,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.841443",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Sports Grid",
@@ -117,7 +128,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.842471",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TSN 3",
@@ -127,7 +139,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.871911",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TSN 1",
@@ -137,7 +150,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.869398",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Bloomberg TV",
@@ -147,7 +161,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.852358",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "NFL Network",
@@ -157,7 +172,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.869398",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Willow HD TV",
@@ -167,7 +183,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:55.864529",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FB | Goal TV",
@@ -178,7 +195,8 @@
         "verified_at": "2026-06-04T15:05:56.354894",
         "status_code": 200,
         "content_type": "application/x-mpegurl",
-        "id": "fbgoaltv-330"
+        "id": "fbgoaltv-330",
+        "no_proxy": true
     },
     {
         "name": "DD Sports",
@@ -188,7 +206,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:56.113764",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "MIXER | KTV Sport Plus",
@@ -199,7 +218,8 @@
         "verified_at": "2026-06-04T15:05:56.957252",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "mixerktvsportplus-357"
+        "id": "mixerktvsportplus-357",
+        "no_proxy": true
     },
     {
         "name": "FB | Oman Sports TV",
@@ -210,7 +230,8 @@
         "verified_at": "2026-06-04T15:05:57.355501",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "fbomansportstv-336"
+        "id": "fbomansportstv-336",
+        "no_proxy": true
     },
     {
         "name": "FB | Bleav Football",
@@ -221,7 +242,8 @@
         "verified_at": "2026-06-04T15:05:56.716123",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "fbbleavfootball-353"
+        "id": "fbbleavfootball-353",
+        "no_proxy": true
     },
     {
         "name": "MIXER | NBC Sports",
@@ -232,7 +254,8 @@
         "verified_at": "2026-06-04T15:05:56.923051",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "mixernbcsports-374"
+        "id": "mixernbcsports-374",
+        "no_proxy": true
     },
     {
         "name": "RACING | speed sports 1",
@@ -243,7 +266,8 @@
         "verified_at": "2026-06-04T15:05:56.570538",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "racingspeedsports1-385"
+        "id": "racingspeedsports1-385",
+        "no_proxy": true
     },
     {
         "name": "Bahrain Sports 1",
@@ -253,7 +277,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:57.028303",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FB | MORE THEN SPORTS TV",
@@ -264,7 +289,8 @@
         "verified_at": "2026-06-04T15:05:57.441426",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "fbmorethensportstv-368"
+        "id": "fbmorethensportstv-368",
+        "no_proxy": true
     },
     {
         "name": "SPORTS FIRST TV",
@@ -274,7 +300,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:57.368693",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "MIXER | Xtrem Sports",
@@ -285,7 +312,8 @@
         "verified_at": "2026-06-04T15:05:56.822994",
         "status_code": 200,
         "content_type": "application/x-mpegurl",
-        "id": "mixerxtremsports-384"
+        "id": "mixerxtremsports-384",
+        "no_proxy": true
     },
     {
         "name": "WOF 1",
@@ -295,7 +323,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:05:59.196245",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "CR | Fox Cricket 501",
@@ -306,7 +335,8 @@
         "verified_at": "2026-06-04T15:06:11.968317",
         "status_code": 200,
         "content_type": "application/x-mpegurl",
-        "id": "crfoxcricket501-352"
+        "id": "crfoxcricket501-352",
+        "no_proxy": true
     },
     {
         "name": "RACING | MTRSPT1",
@@ -317,116 +347,134 @@
         "verified_at": "2026-06-04T15:06:10.413846",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "racingmtrspt1-397"
+        "id": "racingmtrspt1-397",
+        "no_proxy": true
     },
     {
         "name": "T-SPORTS",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/500px-T_Sports_logo.svg.png",
         "group": "Sports",
-        "url": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8"
+        "url": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8",
+        "no_proxy": true
     },
     {
         "name": "PSL + IPL",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrZBygzDovVY_wCvtTy8J8SQogo6-QPwfmGThA4vBFcWXFqXLpCNpQuaG7&s=10",
         "group": "Sports",
-        "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8"
+        "url": "https://tvsen5.aynaott.com/willowhd/index.m3u8",
+        "no_proxy": true
     },
     {
         "name": "Star Select 1",
         "logo": "https://ctgiptv.com/assets/images/channels/starselect1hd.jpg",
         "group": "Sports",
-        "url": "https://tvsen7.aynaott.com/sspts1/index.m3u8"
+        "url": "https://tvsen7.aynaott.com/sspts1/index.m3u8",
+        "no_proxy": true
     },
     {
         "name": "P Tv Sports",
         "logo": "https://i.postimg.cc/sXpJqtm3/Ptv.png",
         "group": "Sports",
-        "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8"
+        "url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8",
+        "no_proxy": true
     },
     {
         "name": "A Sports",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWw7Tog0Vmto_gO32WGjKy2-tX8G-CIdmuZN8QCIla3g&s=10",
         "group": "Sports",
-        "url": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8"
+        "url": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8",
+        "no_proxy": true
     },
     {
         "name": "DD Sports",
         "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvJ1HtheTbTZjOoXTO9KRK1fIhh1uXhyvSckbf05J7yIcdT4ZucX1fvfjnyiv9QK-m0pBK6MoY6KhcVPQpsRSXdgBFU612nmbKpY864gsoMvMaCyu_fOdNVbx6ADMbz2dftZ7-0Arzx81kC8nqbeduSEsquwrPpzNGm2wZw6rXHe79vlF7DokCavubWA/s600/Nur_20251107_160202_0000.png",
         "group": "Sports",
-        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8"
+        "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8",
+        "no_proxy": true
     },
     {
         "name": "Premier League",
         "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggALPjRyvL1P2P5tscUTQmFzD2-W0lfCb0wMtEfSWo-ZxHpbJtV_nGQwskPxayJdbvTpUgRoVBiVcatDfm6Ik99fgiXKo7ctjJYkVQPym8teoSiyy3R8WO-sPJNpAzp35LDyOIeSwWYSUpQprqLWy01SGxz2_7o0AUFfblSugnXSt6-znRFJ8w4-gE8w/s1080/1000058092.png",
         "group": "Sports",
-        "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-240p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1"
+        "url": "https://ml-pull-hwc.myco.io/PROMO/hls/PROMO_H264-240p.m3u8?pkg_media=video&pkg_hm=index.m3u8&pkg_svc=1&pkg_vcodec=avc1",
+        "no_proxy": true
     },
     {
         "name": "FIGHTER TV",
         "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNTVL_Em_EdwVB2BrdBsyD6vxWv3VoEcBlDLj2qpE_jdxCDlIAqp07_ToS5ZFAB2ThnA04BYdC9T7pgwPy5HWX8IwL74oCwsNXdVANpHq7x98tgvaEBCGMkYBQqAUfj5W9un5H8BckX7TgB5pVV3g7kGMRc_vLGyY5XfmsLtrEEmgJJ5-q5eNqBZp8qA/s1080/1000059174.png",
         "group": "Sports",
-        "url": "https://nomawnoijl.gpcdn.net/akash/fighter/chunks.m3u8"
+        "url": "https://nomawnoijl.gpcdn.net/akash/fighter/chunks.m3u8",
+        "no_proxy": true
     },
     {
         "name": "UFC TV",
         "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpk7qcLQpJwBYzXGY25LdrndzWRDs3tgwp5rY0W-pkxJQ9UVDcWvE88Ng6AGWlHpHNhjQrb28lJ2r4V_BW1fVkLySo3sB1nzTwt_LuRQ9cYGim_FInDnyZWBuULFUFI_Vr9YdIpTs7KvDsVb0CEy_XYJCmUXB4Jpo1uPnXTjh09EqP_sJLqgb6Dwf1uA/s1080/1000060530.png",
         "group": "Sports",
-        "url": "https://linear-893.frequency.stream/mt/plex/893/hls/master/playlist_640x360.m3u8"
+        "url": "https://linear-893.frequency.stream/mt/plex/893/hls/master/playlist_640x360.m3u8",
+        "no_proxy": true
     },
     {
         "name": "--Live(FOOTBALL)--",
         "logo": "",
         "group": "Sports",
         "url": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8",
-        "id": "livefootball-325"
+        "id": "livefootball-325",
+        "no_proxy": true
     },
     {
         "name": "Sports Legends",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png",
         "group": "Sports",
         "url": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
-        "id": "sportslegends-659"
+        "id": "sportslegends-659",
+        "no_proxy": true
     },
     {
         "name": "Flash Guys HD",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png",
         "group": "Sports",
         "url": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
-        "id": "flashguyshd-657"
+        "id": "flashguyshd-657",
+        "no_proxy": true
     },
     {
         "name": "Sports Range",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380601958.png",
         "group": "Sports",
         "url": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
-        "id": "sportsrange-666"
+        "id": "sportsrange-666",
+        "no_proxy": true
     },
     {
         "name": "Thunder Er",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png",
         "group": "Sports",
         "url": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
-        "id": "thunderer-670"
+        "id": "thunderer-670",
+        "no_proxy": true
     },
     {
         "name": "Fighters",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png",
         "group": "Sports",
         "url": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
-        "id": "fighters-667"
+        "id": "fighters-667",
+        "no_proxy": true
     },
     {
         "name": "Crazy Ex",
         "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1778085745609.png",
         "group": "Sports",
         "url": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
-        "id": "crazyex-675"
+        "id": "crazyex-675",
+        "no_proxy": true
     },
     {
         "name": "Redbull TV",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-I_gjgaJYlqDQGjAj96xh8S-5GZe_CZQK3w&usqp=CAU",
         "group": "Sports",
-        "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8"
+        "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8",
+        "no_proxy": true
     },
     {
         "name": "30A Golf Kingdom (720p)",
@@ -437,7 +485,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:09:57.667988",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "ACI Sport TV (1080p)",
@@ -448,7 +497,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:14.164934",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "ACCDN (1080p)",
@@ -459,7 +509,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:14.174969",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Al Iraqia Sport (720p)",
@@ -470,7 +521,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:26.256797",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Alkass One (1080p)",
@@ -481,7 +533,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:33.120683",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Alkass Four (1080p)",
@@ -492,7 +545,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:33.141500",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Alkass SHOOF 2 (1080p)",
@@ -503,7 +557,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:33.443026",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Alkass Six (1080p)",
@@ -514,7 +569,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:33.550209",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Alkass SHOOF (1080p)",
@@ -525,7 +581,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:34.473673",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Alkass Three (1080p)",
@@ -536,7 +593,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:34.583176",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Alkass Two (1080p)",
@@ -547,7 +605,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:34.682902",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "ATG Live (720p)",
@@ -558,7 +617,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:10:58.777506",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Bahrain Sports 2 (720p) [Not 24/7]",
@@ -569,7 +629,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:11:11.036696",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "OTHER | BEK TV Sports West",
@@ -581,7 +642,8 @@
         "verified_at": "2026-06-04T15:11:17.654722",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "otherbektvsportswest-392"
+        "id": "otherbektvsportswest-392",
+        "no_proxy": true
     },
     {
         "name": "beIN SPORTS XTRA (1080p)",
@@ -592,7 +654,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:11:18.177616",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "beIN Sports XTRA en Espanol (1080p)",
@@ -603,7 +666,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:11:19.153903",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "CDN Deportes (720p)",
@@ -614,7 +678,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:12:35.014330",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "CCTV-Golf & Tennis (1080p)",
@@ -625,7 +690,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:12:35.611762",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "ColimdoT TV (720p)",
@@ -636,7 +702,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:13:02.690478",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "OTHER | Cowboy TV",
@@ -648,7 +715,8 @@
         "verified_at": "2026-06-04T15:13:18.289390",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "othercowboytv-371"
+        "id": "othercowboytv-371",
+        "no_proxy": true
     },
     {
         "name": "Cricket Gold (1080p)",
@@ -659,7 +727,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:13:20.280388",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "---Live(DD Sports)---",
@@ -671,7 +740,8 @@
         "verified_at": "2026-06-04T15:13:34.846490",
         "status_code": 200,
         "content_type": "application/x-mpegurl",
-        "id": "liveddsports-318"
+        "id": "liveddsports-318",
+        "no_proxy": true
     },
     {
         "name": "DAZN Combat (1080p)",
@@ -682,7 +752,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:13:35.119688",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Deportes TVC (1080p)",
@@ -693,7 +764,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:13:38.269299",
         "status_code": 200,
-        "content_type": "application/octet-stream"
+        "content_type": "application/octet-stream",
+        "no_proxy": true
     },
     {
         "name": "DraftKings Network (1080p)",
@@ -704,7 +776,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:13:54.903052",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "El-Heddaf TV (1080i)",
@@ -715,7 +788,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:12.971659",
         "status_code": 200,
-        "content_type": "application/dash+xml"
+        "content_type": "application/dash+xml",
+        "no_proxy": true
     },
     {
         "name": "Equidia (1080p)",
@@ -726,7 +800,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:21.422274",
         "status_code": 200,
-        "content_type": "text/plain; charset=utf-8"
+        "content_type": "text/plain; charset=utf-8",
+        "no_proxy": true
     },
     {
         "name": "ESPN8 The Ocho (1080p)",
@@ -737,7 +812,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:25.468401",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FB TV",
@@ -748,7 +824,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:36.715216",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FIFA+ (720p)",
@@ -759,7 +836,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:38.748252",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FIFA+ French (720p)",
@@ -770,7 +848,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:38.903940",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FIFA+ German (720p)",
@@ -781,7 +860,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:39.188724",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FIFA+ United States (720p)",
@@ -792,7 +872,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:39.638063",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FIFA+ Portuguese (720p)",
@@ -803,7 +884,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:39.757032",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FIFA+ Italy (720p)",
@@ -814,7 +896,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:40.556681",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FIFA+ Women (720p)",
@@ -825,7 +908,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:40.718239",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FIFA+ Hispanic America (720p)",
@@ -836,7 +920,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:41.393301",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FIFA+ Spain (720p)",
@@ -847,7 +932,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:43.206317",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FITE 24/7 (1080p)",
@@ -858,7 +944,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:44.856936",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FloHockey 24/7 (1080p)",
@@ -869,7 +956,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:48.173190",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FloRacing 24/7 (1080p)",
@@ -880,7 +968,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:51.279834",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FTF Sports (720p)",
@@ -891,7 +980,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:57.145332",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Fuel TV (1080p)",
@@ -902,7 +992,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:57.344600",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "fubo Sports Network (1080p)",
@@ -913,7 +1004,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:57.384169",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FTV (720p)",
@@ -924,7 +1016,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:57.841695",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Sports\",FUEL TV (1080p)",
@@ -935,7 +1028,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:58.390301",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Futbol (1080p)",
@@ -946,7 +1040,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:14:58.773178",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "FUEL TV (1080p)",
@@ -957,7 +1052,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:00.307155",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Game+ (720p)",
@@ -968,7 +1064,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:00.834483",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Gaora Sports (544p)",
@@ -979,7 +1076,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:01.134900",
         "status_code": 200,
-        "content_type": "application/x-mpegurl;charset=utf-8"
+        "content_type": "application/x-mpegurl;charset=utf-8",
+        "no_proxy": true
     },
     {
         "name": "GEM Fit",
@@ -990,7 +1088,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:04.294955",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "GLORY Kickboxing (720p)",
@@ -1001,7 +1100,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:12.318992",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Gol Classics (1080p)",
@@ -1012,7 +1112,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:13.851844",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Golf Network (544p)",
@@ -1023,7 +1124,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:14.071383",
         "status_code": 200,
-        "content_type": "application/x-mpegurl;charset=utf-8"
+        "content_type": "application/x-mpegurl;charset=utf-8",
+        "no_proxy": true
     },
     {
         "name": "like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Sports\",Hard Knocks (1080p)",
@@ -1034,7 +1136,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:28.727393",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Horse TV (720p)",
@@ -1045,7 +1148,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:51.944578",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "HTSpor TV (1080p)",
@@ -1056,7 +1160,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:15:56.568094",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "IRIB3",
@@ -1067,7 +1172,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:16:32.133283",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "J Sports 1 (544p)",
@@ -1078,7 +1184,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:16:37.766840",
         "status_code": 200,
-        "content_type": "application/x-mpegurl;charset=utf-8"
+        "content_type": "application/x-mpegurl;charset=utf-8",
+        "no_proxy": true
     },
     {
         "name": "J Sports 2 (544p)",
@@ -1089,7 +1196,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:16:37.945259",
         "status_code": 200,
-        "content_type": "application/x-mpegurl;charset=utf-8"
+        "content_type": "application/x-mpegurl;charset=utf-8",
+        "no_proxy": true
     },
     {
         "name": "J Sports 3 (544p)",
@@ -1100,7 +1208,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:16:38.104889",
         "status_code": 200,
-        "content_type": "application/x-mpegurl;charset=utf-8"
+        "content_type": "application/x-mpegurl;charset=utf-8",
+        "no_proxy": true
     },
     {
         "name": "J Sports 4 (544p)",
@@ -1111,7 +1220,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:16:38.276467",
         "status_code": 200,
-        "content_type": "application/x-mpegurl;charset=utf-8"
+        "content_type": "application/x-mpegurl;charset=utf-8",
+        "no_proxy": true
     },
     {
         "name": "Jordan Sport (1080p)",
@@ -1122,7 +1232,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:16:51.877813",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "KHL (720p)",
@@ -1133,7 +1244,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:08.207439",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "KHL Prime (720p)",
@@ -1144,7 +1256,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:08.318484",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Sports\",KOZOOM TV (1080p)",
@@ -1155,7 +1268,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:13.555616",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "KSA Sports 2 (1080p)",
@@ -1166,7 +1280,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:14.951512",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "KSA Sports 1 (1080p)",
@@ -1177,7 +1292,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:14.981909",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "KSA Sports 3 (1080p)",
@@ -1188,7 +1304,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:15.051861",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "KTV Sport (1080p)",
@@ -1199,7 +1316,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:16.872800",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "LaLiga TV",
@@ -1210,7 +1328,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:28.382723",
         "status_code": 200,
-        "content_type": "application/octet-stream"
+        "content_type": "application/octet-stream",
+        "no_proxy": true
     },
     {
         "name": "Match! Strana (720p)",
@@ -1221,7 +1340,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:58.045717",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "MAX Sports",
@@ -1232,7 +1352,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:17:58.775191",
         "status_code": 200,
-        "content_type": "application/dash+xml"
+        "content_type": "application/dash+xml",
+        "no_proxy": true
     },
     {
         "name": "MMA TV.com (1080p)",
@@ -1243,7 +1364,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:18:23.563825",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "MMA-TV (576p)",
@@ -1254,7 +1376,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:18:23.844847",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "MNB Sport (1080p)",
@@ -1265,7 +1388,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:18:24.444709",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Monterrico TV (1080p) [Not 24/7]",
@@ -1276,7 +1400,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:18:31.473301",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "RACING | Motor Vision",
@@ -1288,7 +1413,8 @@
         "verified_at": "2026-06-04T15:18:34.805777",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "racingmotorvision-377"
+        "id": "racingmotorvision-377",
+        "no_proxy": true
     },
     {
         "name": "Multivisión Sports (720p) [Not 24/7]",
@@ -1299,7 +1425,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:18:49.271734",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Nautical Channel (720p)",
@@ -1310,7 +1437,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:19:08.082066",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "NBA TV Canada (1080p)",
@@ -1321,7 +1449,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:19:13.537740",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "NFL RedZone (720p) [Not 24/7]",
@@ -1332,7 +1461,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:19:39.804275",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Nittele G Plus (544p)",
@@ -1343,7 +1473,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:19:47.440578",
         "status_code": 200,
-        "content_type": "application/x-mpegurl;charset=utf-8"
+        "content_type": "application/x-mpegurl;charset=utf-8",
+        "no_proxy": true
     },
     {
         "name": "Overtime (1080p)",
@@ -1354,7 +1485,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:20:21.885727",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Ovacion TV (720p) [Not 24/7]",
@@ -1365,7 +1497,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:20:22.273201",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Pac 12 Insider (1080p)",
@@ -1376,7 +1509,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:20:23.422055",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Persiana Fight",
@@ -1387,7 +1521,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:20:36.953756",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "PGA Tour (1080p)",
@@ -1398,7 +1533,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:20:38.725130",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "QazSport (480p) [Geo-blocked]",
@@ -1409,7 +1545,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:21:01.931391",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "RACER International (1080p)",
@@ -1420,7 +1557,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:21:05.707150",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Racer Select (1080p)",
@@ -1431,7 +1569,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:21:05.901438",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Rai Sport HD (1080p)",
@@ -1442,7 +1581,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:21:22.183158",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Rally TV (1080p)",
@@ -1453,7 +1593,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:21:32.311849",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Real Madrid TV (404p)",
@@ -1464,7 +1605,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:21:35.196247",
         "status_code": 200,
-        "content_type": "application/x-mpegurl"
+        "content_type": "application/x-mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Realitatea Sportiva (720p)",
@@ -1475,7 +1617,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:21:35.699491",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "San Marino RTV Sport (720p)",
@@ -1486,7 +1629,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:22:35.283888",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Sky Racing 2 (720p)",
@@ -1497,7 +1641,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:22:59.379064",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Sky Racing 1 (720p)",
@@ -1508,7 +1653,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:22:59.379064",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Sport 1 (1280p)",
@@ -1519,7 +1665,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:09.949199",
         "status_code": 200,
-        "content_type": "application/octet-stream"
+        "content_type": "application/octet-stream",
+        "no_proxy": true
     },
     {
         "name": "Sportitalia (1080p)",
@@ -1530,7 +1677,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:11.086877",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Sports Connect (720p)",
@@ -1541,7 +1689,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:12.249006",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Sports\",SportsTVPlus (1080p)",
@@ -1552,7 +1701,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:12.460503",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Stadium (720p)",
@@ -1563,7 +1713,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:12.654229",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Star Sports 1 HD (1080p)",
@@ -1574,7 +1725,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:13.865149",
         "status_code": 200,
-        "content_type": "application/octet-stream"
+        "content_type": "application/octet-stream",
+        "no_proxy": true
     },
     {
         "name": "Star Sports 1 Hindi (576p)",
@@ -1585,7 +1737,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:13.892244",
         "status_code": 200,
-        "content_type": "application/octet-stream"
+        "content_type": "application/octet-stream",
+        "no_proxy": true
     },
     {
         "name": "Star Sports 2 Hindi HD (1080p)",
@@ -1596,7 +1749,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:14.008053",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "SPOTV 2 (1080p)",
@@ -1607,7 +1761,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:16.425299",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "SPOTV (720p)",
@@ -1618,7 +1773,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:16.439129",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Strongman Champions League (720p)",
@@ -1629,7 +1785,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:23.174335",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Strongman (720p)",
@@ -1640,7 +1797,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:23.524507",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Swerve Combat (1080p)",
@@ -1651,7 +1809,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:42.601139",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Talent TV (720p)",
@@ -1662,7 +1821,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:45.788193",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TAP Edge (480p) [Geo-blocked]",
@@ -1673,7 +1833,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:47.675175",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "talkSPORT (1080p)",
@@ -1684,7 +1845,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:48.186869",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Tele Rebelde (480p) [Not 24/7]",
@@ -1695,7 +1857,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:54.455839",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Teledeporte (1080p)",
@@ -1706,7 +1869,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:23:58.978333",
         "status_code": 200,
-        "content_type": "application/octet-stream"
+        "content_type": "application/octet-stream",
+        "no_proxy": true
     },
     {
         "name": "Teletrak (720p)",
@@ -1717,7 +1881,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:24:09.083657",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Tennis Channel (1080p)",
@@ -1728,7 +1893,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:24:14.344882",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Tigo Sports (1080p)",
@@ -1739,7 +1905,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:24:25.097799",
         "status_code": 200,
-        "content_type": "application/octet-stream"
+        "content_type": "application/octet-stream",
+        "no_proxy": true
     },
     {
         "name": "Tigo Sports+",
@@ -1750,7 +1917,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:24:25.476275",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TJK TV (1080p)",
@@ -1761,7 +1929,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:24:27.756147",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "MIXER | Trace Sports Stars",
@@ -1773,7 +1942,8 @@
         "verified_at": "2026-06-04T15:24:32.852127",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "id": "mixertracesportsstars-373"
+        "id": "mixertracesportsstars-373",
+        "no_proxy": true
     },
     {
         "name": "Tour Spot TV (1280p) [Not 24/7]",
@@ -1784,7 +1954,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:24:33.742972",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TSN The Ocho (1080p)",
@@ -1795,7 +1966,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:24:41.912129",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Türkmenistan Sport (406p) [Not 24/7]",
@@ -1806,7 +1978,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:24:44.085685",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Turf Movil (720p)",
@@ -1817,7 +1990,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:24:49.952670",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TVMsport+ (1080p)",
@@ -1828,7 +2002,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:33.226500",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TVP Sport (1080p)",
@@ -1839,7 +2014,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:37.859328",
         "status_code": 200,
-        "content_type": "application/dash+xml"
+        "content_type": "application/dash+xml",
+        "no_proxy": true
     },
     {
         "name": "TVRI Sport (720p)",
@@ -1850,7 +2026,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:42.217904",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TVS Classic Sports (360p)",
@@ -1861,7 +2038,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:44.101928",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TVS Bowling Network (720p)",
@@ -1872,7 +2050,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:44.104182",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TVS Boxing (360p)",
@@ -1883,7 +2062,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:44.736176",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TVS Sports Bureau (720p)",
@@ -1894,7 +2074,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:46.228096",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TVS Sports (720p) [Not 24/7]",
@@ -1905,7 +2086,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:46.257649",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TVS Turbo (360p)",
@@ -1916,7 +2098,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:47.447664",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TVS Women Sports (720p)",
@@ -1927,7 +2110,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:47.506785",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TyC Sports USA",
@@ -1938,7 +2122,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:48.873024",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "TyC Sports (1080p)",
@@ -1949,7 +2134,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:49.120693",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Unbeaten Sports Channel (1080p)",
@@ -1960,7 +2146,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:25:51.770837",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Varzesh TV",
@@ -1971,7 +2158,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:26:14.350565",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Willow Sports (1080p)",
@@ -1982,7 +2170,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:26:45.666974",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "World of Freesports (1080p)",
@@ -1993,7 +2182,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:26:49.985187",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "World Poker Tour (1080p)",
@@ -2004,7 +2194,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:26:50.407124",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "World Poker Tour (1080p)",
@@ -2015,7 +2206,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:26:50.897212",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0\" group-title=\"Sports\",World Poker Tour (1080p)",
@@ -2026,7 +2218,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:26:51.653185",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Бокс ТВ (720p)",
@@ -2037,7 +2230,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:27:29.049035",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "МАТЧ! Боец (576p)",
@@ -2048,7 +2242,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:27:39.754459",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "МАТЧ! Арена (720p)",
@@ -2059,7 +2254,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:27:39.756666",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Sports\",Матч! Планета (720p)",
@@ -2070,7 +2266,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:27:39.897977",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "МАТЧ! Игра (720p)",
@@ -2081,7 +2278,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:27:40.054616",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Русский Экстрим (576p)",
@@ -2092,7 +2290,8 @@
         "status": "live",
         "verified_at": "2026-06-04T15:27:41.967555",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "Футбол (720p)",
@@ -2103,314 +2302,359 @@
         "status": "live",
         "verified_at": "2026-06-04T15:27:43.250736",
         "status_code": 200,
-        "content_type": "application/vnd.apple.mpegurl"
+        "content_type": "application/vnd.apple.mpegurl",
+        "no_proxy": true
     },
     {
         "name": "--Live(beIN SPORTS XTRA)--",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/b/b5/XTRA_2.png",
         "group": "Sports",
         "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8",
-        "id": "livebeinsportsxtra-316"
+        "id": "livebeinsportsxtra-316",
+        "no_proxy": true
     },
     {
         "name": "CR | Star Sports 1 Hindi",
         "logo": "https://static.epg.best/cn/StarSports1.cn.png",
         "group": "Sports",
         "url": "https://starsportshindiii.pages.dev/index.m3u8",
-        "id": "crstarsports1hindi-324"
+        "id": "crstarsports1hindi-324",
+        "no_proxy": true
     },
     {
         "name": "--Live(Star Sports 2 HD)--",
         "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Live%20Sports.png",
         "group": "Sports",
         "url": "http://maxotts.maxdigitaltv.com/x-media/C250/master.m3u8",
-        "id": "livestarsports2hd-327"
+        "id": "livestarsports2hd-327",
+        "no_proxy": true
     },
     {
         "name": "--Live(Euro Sport 1)--",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/9/93/Eurosport_1_%28II%29.svg",
         "group": "Sports",
         "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
-        "id": "liveeurosport1-332"
+        "id": "liveeurosport1-332",
+        "no_proxy": true
     },
     {
         "name": "--Live(Euro Sport 2 HD)--",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/d/da/Eurosport_2_%28II%29.svg",
         "group": "Sports",
         "url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
-        "id": "liveeurosport2hd-333"
+        "id": "liveeurosport2hd-333",
+        "no_proxy": true
     },
     {
         "name": "FIGHT | FIGHT NETWORK",
         "logo": "https://media.unreel.me/prod/sportsplus/logo/7607dd92-7305-4bab-886e-c38fe745fff7",
         "group": "Sports",
         "url": "https://amg00966-amg00966c10-amgplt0201.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg00966-amg00966c10-amgplt0201/playlist.m3u8",
-        "id": "fightfightnetwork-335"
+        "id": "fightfightnetwork-335",
+        "no_proxy": true
     },
     {
         "name": "FIGHT | Lucha Plus",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/2cf051b6-a8b1-46ed-ac4c-2d0ef812dc90",
         "group": "Sports",
         "url": "https://amg17334-amg17334c1-freelivesports-emea-7386.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17334-luchalibrefast-luchalibre-freelivesportsemea/playlist.m3u8",
-        "id": "fightluchaplus-337"
+        "id": "fightluchaplus-337",
+        "no_proxy": true
     },
     {
         "name": "GOLF | Golf Network",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/aef93e60-809c-4253-8a6f-012ad4a18842",
         "group": "Sports",
         "url": "https://streams2.sofast.tv/ptnr-sportstribal/genre-Sports/lang-English/ctgr-Sport/title-Golf_Network/sofastplayout/b7500c3f-bd94-4725-abfd-2644e004132c/manifest.m3u8",
-        "id": "golfgolfnetwork-343"
+        "id": "golfgolfnetwork-343",
+        "no_proxy": true
     },
     {
         "name": "FIGHT | TNA Wrestling Channel",
         "logo": "https://media.unreel.me/prod/sportsplus/logo/67c2dd14-d8c7-47fa-99e5-452f2715e404",
         "group": "Sports",
         "url": "https://amg00966-amg00966c1-freelivesports-emea-7712.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00966-anthem-tnawrestling-freelivesportsemea/playlist.m3u8",
-        "id": "fighttnawrestlingchannel-344"
+        "id": "fighttnawrestlingchannel-344",
+        "no_proxy": true
     },
     {
         "name": "GOLF | Unbeaten (Worldwide)",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/09fa93ff-a539-4d81-bbbf-da599e11e77c",
         "group": "Sports",
         "url": "https://amg00721-amg00721c6-freelivesports-emea-9595.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00721-inverleigh-unbtn3row-freelivesportsemea/playlist.m3u8",
-        "id": "golfunbeatenworldwide-347"
+        "id": "golfunbeatenworldwide-347",
+        "no_proxy": true
     },
     {
         "name": "MIXER | ACE TV",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/a0198825-7700-4a3a-8399-338e8e1d9c64",
         "group": "Sports",
         "url": "https://amg00585-amg00585c10-sportstribal-emea-5519.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-acetv-sportstribalemea/playlist.m3u8",
-        "id": "mixeracetv-348"
+        "id": "mixeracetv-348",
+        "no_proxy": true
     },
     {
         "name": "MIXER | FUEL TV",
         "logo": "https://a.jsrdn.com/hls/23055/fuel-tv-ww/logo_20231219_202054_68.png",
         "group": "Sports",
         "url": "https://amg01074-fueltv-fueltvemeaen-sportstribal-n7krp.amagi.tv/ts-eu-w1-n2/playlist/amg01074-fueltv-fueltvemeaen-sportstribal/playlist.m3u8",
-        "id": "mixerfueltv-350"
+        "id": "mixerfueltv-350",
+        "no_proxy": true
     },
     {
         "name": "CR | Fox Cricket 501 HD",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/2/24/FoxCricket.svg",
         "group": "Sports",
         "url": "http://ee0c5e74.akadatel.com/iptv/QRDWGTBMDHSDGK/19146/index.m3u8",
-        "id": "crfoxcricket501hd-354"
+        "id": "crfoxcricket501hd-354",
+        "no_proxy": true
     },
     {
         "name": "MIXER | HOOP TV",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/4454e89b-ea81-4752-a9bb-6db85b40a194",
         "group": "Sports",
         "url": "https://amg00585-amg00585c9-sportstribal-emea-5518.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-hooptv-sportstribalemea/playlist.m3u8",
-        "id": "mixerhooptv-355"
+        "id": "mixerhooptv-355",
+        "no_proxy": true
     },
     {
         "name": "MIXER | Cornhole TV",
         "logo": "https://media.unreel.me/prod/sportsplus/logo/47355675-c7fe-49b7-943a-507b3fa938e4",
         "group": "Sports",
         "url": "https://bbb-aclco-freelivesports.otteravision.com/bbb/aclco/aclco.m3u8",
-        "id": "mixercornholetv-356"
+        "id": "mixercornholetv-356",
+        "no_proxy": true
     },
     {
         "name": "MIXER | Redbull TV",
         "logo": "https://openpaddock.net/wp-content/uploads/2014/11/RedbullTV_blue.jpg",
         "group": "Sports",
         "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8",
-        "id": "mixerredbulltv-358"
+        "id": "mixerredbulltv-358",
+        "no_proxy": true
     },
     {
         "name": "MIXER | Sports Fishing",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/4f11d7b4-99e6-447e-b517-10dbb827a67c",
         "group": "Sports",
         "url": "https://amg00585-amg00585c12-sportstribal-emea-5521.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00585-sportstribaltvfast-sportsfishing-sportstribalemea/playlist.m3u8",
-        "id": "mixersportsfishing-359"
+        "id": "mixersportsfishing-359",
+        "no_proxy": true
     },
     {
         "name": "MIXER | World of Freesports",
         "logo": "https://media.unreel.me/prod/sportsplus/logo/ef4c576d-49fb-4997-afe1-55f0b11d7982",
         "group": "Sports",
         "url": "https://amg01866-mainstreammedia-freesportsinc-sportstribal-b3zdo.amagi.tv/ts-eu-w1-n2/playlist/amg01866-mainstreammedia-freesportsinc-sportstribal/playlist.m3u8",
-        "id": "mixerworldoffreesports-361"
+        "id": "mixerworldoffreesports-361",
+        "no_proxy": true
     },
     {
         "name": "MIXER | ESPN",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/3/34/ESPN.svg",
         "group": "Sports",
         "url": "http://41.205.93.154/ESPN/index.m3u8",
-        "id": "mixerespn-362"
+        "id": "mixerespn-362",
+        "no_proxy": true
     },
     {
         "name": "MIXER | WOF 1",
         "logo": "https://s3.aynaott.com/storage/1a580ee2636a0c4761e623bc131ba7a6",
         "group": "Sports",
         "url": "https://rakutenaa-mainstreammediafreesportsintl-rakuten-t7dc0.amagi.tv/playlist/rakutenAA-mainstreammediafreesportsintl-rakuten/playlist.m3u8",
-        "id": "mixerwof1-363"
+        "id": "mixerwof1-363",
+        "no_proxy": true
     },
     {
         "name": "MIXER | InTrouble",
         "logo": "https://media.unreel.me/prod/sportsplus/logo/be5d5d67-3049-4ab3-829e-eadac9a1c986",
         "group": "Sports",
         "url": "https://amg00861-terninternation-introuble-sportstribal-sog8f.amagi.tv/ts-us-e2-n1/playlist/amg00861-terninternation-introuble-sportstribal/playlist.m3u8",
-        "id": "mixerintrouble-364"
+        "id": "mixerintrouble-364",
+        "no_proxy": true
     },
     {
         "name": "FIGHT | MMA TV",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/9cb9b4ff-2958-4179-bd0b-bc9a44888cc7",
         "group": "Sports",
         "url": "https://streams2.sofast.tv/ptnr-sportstrible/title-MMA_Sportstrible/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/f6b049e4-885e-4551-85ac-8eef0b33d3a2/playlist.m3u8",
-        "id": "fightmmatv-365"
+        "id": "fightmmatv-365",
+        "no_proxy": true
     },
     {
         "name": "MIXER | Horse & Country",
         "logo": "https://media.unreel.me/prod/sportsplus/logo/403787aa-0d0a-440c-9056-84226a5c4a82",
         "group": "Sports",
         "url": "https://sportstri-hncfree-sportstribal-rb7j8.amagi.tv/playlist/sportstri-hncfree-sportstribal/playlist.m3u8",
-        "id": "mixerhorsecountry-366"
+        "id": "mixerhorsecountry-366",
+        "no_proxy": true
     },
     {
         "name": "MIXER | Hunt Fish TV",
         "logo": "https://media.unreel.me/prod/sportsplus/logo/3b03051b-d5ae-4e42-b41d-b2d338db5a91",
         "group": "Sports",
         "url": "https://amg00585-sportstribal-amg00585c3-sportstribal-emea-2177.playouts.now.amagi.tv/playlist/amg00585-sportstribaltvfast-huntfishtv-sportstribalemea/playlist.m3u8",
-        "id": "mixerhuntfishtv-369"
+        "id": "mixerhuntfishtv-369",
+        "no_proxy": true
     },
     {
         "name": "FB | A SPOR",
         "logo": "https://i.ibb.co/xSjB51j/aspor.png",
         "group": "Sports",
         "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
-        "id": "fbaspor-370"
+        "id": "fbaspor-370",
+        "no_proxy": true
     },
     {
         "name": "RACING | FloRacing",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/3ae62aeb-63b4-4f70-966b-16b0c39dd0c2",
         "group": "Sports",
         "url": "https://amg02278-amg02278c1-freelivesports-emea-7535.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg02278-flosports-floracing24x7-freelivesportsemea/playlist.m3u8",
-        "id": "racingfloracing-372"
+        "id": "racingfloracing-372",
+        "no_proxy": true
     },
     {
         "name": "POKER | World Poker Tour",
         "logo": "https://media.unreel.me/prod/sportsplus/logo/c4779d42-4a0d-4a4d-a455-df67f3151d8f",
         "group": "Sports",
         "url": "https://amg00218-wptenterprises-amg00218c1-sportstribal-emea-1900.playouts.now.amagi.tv/playlist/amg00218-wptenterprisesfast-worldpokertour-sportstribalemea/playlist.m3u8",
-        "id": "pokerworldpokertour-375"
+        "id": "pokerworldpokertour-375",
+        "no_proxy": true
     },
     {
         "name": "FB | FIFA+",
         "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN270000230_20250514T004921SQUARE.png",
         "group": "Sports",
         "url": "https://c822c659.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pbl9GSUZBUGx1c0VuZ2xpc2hfSExT/playlist.m3u8",
-        "id": "fbfifa-376"
+        "id": "fbfifa-376",
+        "no_proxy": true
     },
     {
         "name": "TENNIS | Tennis TV Classics",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/ea15b263-636c-4536-9a75-bde70ab88423",
         "group": "Sports",
         "url": "https://amg01470-amg01470c1-freelivesports-emea-9021.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01470-atpmediaoperationsltdfast-tennistvclassics-freelivesportsemea/playlist.m3u8",
-        "id": "tennistennistvclassics-378"
+        "id": "tennistennistvclassics-378",
+        "no_proxy": true
     },
     {
         "name": "MIXER | SportsGrid",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/b/bd/SPORTSGRID_LOGO_BLACK_RED_LOGO.svg",
         "group": "Sports",
         "url": "https://sportsgrid-tribal.amagi.tv/playlistR432p.m3u8",
-        "id": "mixersportsgrid-379"
+        "id": "mixersportsgrid-379",
+        "no_proxy": true
     },
     {
         "name": "RACING | RACER International",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/9fc17fec-6c99-4dc0-9fe5-abe85faeab49",
         "group": "Sports",
         "url": "https://amg00378-mavtv-amg00378c3-sportstribal-emea-1325.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetworkint-sportstribalemea/playlist.m3u8",
-        "id": "racingracerinternational-387"
+        "id": "racingracerinternational-387",
+        "no_proxy": true
     },
     {
         "name": "FIGHT | PFL",
         "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US350000231_20241119T020436SQUARE.png",
         "group": "Sports",
         "url": "https://d2w9b8sam7j3zv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5g55ahrn9ajah/v1/pfl_pflmma_1/samsungheadend_us/latest/main/hls/playlist.m3u8",
-        "id": "fightpfl-390"
+        "id": "fightpfl-390",
+        "no_proxy": true
     },
     {
         "name": "GOLF | GOLFPASS",
         "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB400000145_20240924T225013SQUARE.png",
         "group": "Sports",
         "url": "https://d2icntm6fhxrry.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-egqimi4i6n3rh/master.m3u8",
-        "id": "golfgolfpass-393"
+        "id": "golfgolfpass-393",
+        "no_proxy": true
     },
     {
         "name": "FIGHT | MVMT Culture",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/98403785-3bba-4f7d-bee8-0eada4d790c8",
         "group": "Sports",
         "url": "https://d15g7z5n3epv7t.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/TheGrapplingNetwork-SportsTribal/236.m3u8",
-        "id": "fightmvmtculture-396"
+        "id": "fightmvmtculture-396",
+        "no_proxy": true
     },
     {
         "name": "CR | Cricket Gold",
         "logo": "https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/Cricket-Gold-Channel_black.png",
         "group": "Sports",
         "url": "https://d1nj4u39ja4cn0.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/FLS-MuxIP-CricketGold/418.m3u8",
-        "id": "crcricketgold-398"
+        "id": "crcricketgold-398",
+        "no_proxy": true
     },
     {
         "name": "MIXER | Sports First TV",
         "logo": "http://dds.oncast.me/img/logo/sp6.png",
         "group": "Sports",
         "url": "https://d2396zb8liu8hs.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/DistroTV-MuxIP-SportsFirstTV/409.m3u8",
-        "id": "mixersportsfirsttv-407"
+        "id": "mixersportsfirsttv-407",
+        "no_proxy": true
     },
     {
         "name": "POKER | Poker Night In America",
         "logo": "https://media.unreel.me/prod/sportsplus/logo/1d91fc37-a75c-4490-8739-f9c79a8f9432",
         "group": "Sports",
         "url": "https://e8d2c508ef1e469db82ceacd3c2685bc.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1068-Poker-Night-in-America-FREELIVESPORTS/mt/freelivesports/1068/hls/master/playlist.m3u8",
-        "id": "pokerpokernightinamerica-409"
+        "id": "pokerpokernightinamerica-409",
+        "no_proxy": true
     },
     {
         "name": "POKER | FanDuel TV Extra",
         "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US1400012RF_20250318T021027SQUARE.png",
         "group": "Sports",
         "url": "https://d1x2mlky5ieruz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0lsgd252lenx0/v1/fanduelgroup_fandueltv_01/samsungheadend_us/latest/main/hls/playlist.m3u8",
-        "id": "pokerfandueltvextra-411"
+        "id": "pokerfandueltvextra-411",
+        "no_proxy": true
     },
     {
         "name": "RACING | Hagerty",
         "logo": "https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD4200011W4_20240709T002126SQUARE.png",
         "group": "Sports",
         "url": "https://dqw6u0upa8l21.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-0etl87ne2tj77/Hagerty.m3u8",
-        "id": "racinghagerty-412"
+        "id": "racinghagerty-412",
+        "no_proxy": true
     },
     {
         "name": "MIXER | Strongman Champions League",
         "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBC90001089_20250107T153921SQUARE.png",
         "group": "Sports",
         "url": "https://3f4b9dde8740443b9b90459fc7b67cdd.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-gb_StrongmanChampionsLeague/playlist.m3u8?ads.wurl_channel=1102&ads.wurl_name=StrongmanChampionsLeague&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D",
-        "id": "mixerstrongmanchampionsleague-415"
+        "id": "mixerstrongmanchampionsleague-415",
+        "no_proxy": true
     },
     {
         "name": "MIXER | H20 TV",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/59987eb6-cbd7-4a38-b59f-597fc0f8ca45",
         "group": "Sports",
         "url": "https://1261a78709344810a5b834d397509879.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-738-H2OTV-SPORTSTRIBALTV/mt/sportstribaltv/738/hls/master/playlist.m3u8",
-        "id": "mixerh20tv-416"
+        "id": "mixerh20tv-416",
+        "no_proxy": true
     },
     {
         "name": "RugbyPass TV",
         "logo": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GB330000144_20250624T020553SQUARE.png",
         "group": "Sports",
         "url": "https://97bf7b92.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9SdWdieVBhc3NUVl9ITFM/playlist.m3u8?ads.wurl_channel=1872&ads.wurl_name=RugbyPassTV&ads.coppa=0&ads.psid=%7BPSID%7D&ads.targetopt=%7BTARGETOPT%7D&ads.app_domain=%7BAPP_DOMAIN%7D&ads.app_name=%7BAPP_NAME%7D&ads.consent=%7BTC_STRING%7D",
-        "id": "rugbypasstv-425"
+        "id": "rugbypasstv-425",
+        "no_proxy": true
     },
     {
         "name": "TANNIS | Pickle TV",
         "logo": "https://media.unreel.me/prod/freelivesports/logo/63fba2fd-ea9b-485f-bc45-44b1eef221a5",
         "group": "Sports",
         "url": "https://fce26776.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U3BvcnRzVHJpYmFsLWV1X1BpY2tsZVRWX0hMUw/playlist.m3u8",
-        "id": "tannispickletv-430"
+        "id": "tannispickletv-430",
+        "no_proxy": true
     },
     {
         "name": "Star Sports 1 HD",
         "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%201%40.jpeg",
         "group": "Sports",
         "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
-        "id": "starsports1hd-536"
+        "id": "starsports1hd-536",
+        "no_proxy": true
     }
 ]

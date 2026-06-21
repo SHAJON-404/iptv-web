@@ -5,17 +5,21 @@
         "group": "FIFA",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
         "type": "dash",
-        "no_proxy": true,
         "kid": "f6564ec2aee819046328a0e153be574d",
         "key": "ff46a8a1031eb27ef22576a077c98ab7"
+    },
+    {
+        "name": "FOX (ENG)",
+        "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
+        "group": "FIFA",
+        "url": "https://34366344.ccjdgvtt.pages.dev/1782066158/bb8f60de820c444db593d815c4848f17/rfon4UmEvl4I8rQhq83BId3uEFE45jirHR5vUQjnBaw/fox-usa.m3u8"
     },
     {
         "name": "TSN Sports 4 - English",
         "logo": "https://i.imgur.com/qJyAWU8.png",
         "group": "FIFA",
-        "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?Null",
         "type": "dash",
-        "no_proxy": true,
         "kid": "14eeabf30c14b7fbf3008c03099ce011",
         "key": "17d2ac8dbc5429bd70af3433aa12158d"
     },
@@ -23,14 +27,12 @@
         "name": "TVP Sport",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_TVP_Sport.jpg/1280px-Logo_TVP_Sport.jpg",
         "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
-        "no_proxy": true,
         "group": "FIFA"
     },
     {
         "name": "D Sports HLS",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
         "group": "FIFA",
-        "no_proxy": true,
         "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8"
     },
     {
@@ -50,12 +52,6 @@
         "logo": "https://images.seeklogo.com/logo-png/61/1/cazetv-logo-png_seeklogo-619708.png",
         "group": "FIFA",
         "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8"
-    },
-    {
-        "name": "Somoy TV",
-        "logo": "https://upload.wikimedia.org/wikipedia/bn/thumb/f/f6/%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/960px-%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg.png?_=20250102083708",
-        "group": "FIFA",
-        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
     },
     {
         "name": "Bein Sports 1",
@@ -179,12 +175,6 @@
         "key": "a4a0df04b2d28f2160cead2ecdeb7203"
     },
     {
-        "name": "ARABIC LIVE",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
-        "group": "FIFA"
-    },
-    {
         "name": "SKY SPORTS HD",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
         "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
@@ -227,12 +217,6 @@
         "key": "7b2322a273843921a43e2c61dac7cae3"
     },
     {
-        "name": "TRT 1",
-        "logo": "https://images.seeklogo.com/logo-png/26/2/trt-1-logo-png_seeklogo-260967.png",
-        "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-        "group": "FIFA"
-    },
-    {
         "name": "D Sports (Alt)",
         "logo": "https://images.seeklogo.com/logo-png/62/1/dsports-logo-png_seeklogo-626310.png",
         "url": "http://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
@@ -267,15 +251,6 @@
         "type": "dash",
         "kid": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
         "key": "103ae55c7948ca1d159d6743619d26c4"
-    },
-    {
-        "name": "Sky Sports La Liga 1",
-        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
-        "url": "https://aca-live-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd",
-        "group": "FIFA",
-        "type": "dash",
-        "kid": "95b52d16d344af539ce9c2c9ff95571a",
-        "key": "5f035d9c4a178221f89d2439426b2e9a"
     },
     {
         "name": "WILLOW HD",
@@ -337,11 +312,36 @@
         "group": "FIFA"
     },
     {
+        "name": "TSN 1",
+        "logo": "https://images.seeklogo.com/logo-png/31/1/tsn-1-logo-png_seeklogo-314693.png",
+        "group": "FIFA",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "type": "dash",
+        "kid": "14eeabf30c14b7fbf3008c03099ce011",
+        "key": "17d2ac8dbc5429bd70af3433aa12158d"
+    },
+    {
         "name": "iOS",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "url": "https://live05.msdht.app/live/24561735.m3u8",
         "referer": "https://kick.yagaverse.net/",
         "group": "FIFA"
+    },
+    {
+        "name": "RU LIVE",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "group": "FIFA",
+        "type": "dash",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114"
+    },
+    {
+        "name": "JAPAN SERVER",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
+        "url": "https://live.wxinxi.com/live/84600906_46n5rq10l0bmsj8e2aovavl914psvggx.m3u8",
+        "group": "Football",
+        "referer": "http://www.fawanews.sc/"
     },
     {
         "name": "WILLOW FHD",
@@ -362,7 +362,7 @@
         "name": "Toffee",
         "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/43/Toffee_logo.png",
         "group": "FIFA",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-5/0/master_2000.m3u8?hdntl=Expires=1782058273~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AduQTZ94447t2DC_K66ychc1mbhcQTmL5ywLCqndlaxkaG8TvPRHuTXJ7T1HmUuc6Xdjb-jQ6sNsTrvE7wYQK-W0JasG",
+        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-4/0/master_2000.m3u8?hdntl=Expires=1782131769~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AduQTZ_HfwTejFgmS6WY7BzJBc4A8U8ZkNxJHYKpKAsjnLgGy0BYXc-SyHOjdxFYRfHoF8507i1oe1VE_ZBnI0J_s2oH",
         "no_proxy": true
     },
     {

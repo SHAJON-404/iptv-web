@@ -301,16 +301,6 @@
         "no_proxy": true
     },
     {
-        "name": "RTE SPORTS",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
-        "url": "https://dai.google.com/linear/dash/event/antwa0EiQm2PoHtx4rBtVw/manifest.mpd",
-        "group": "FIFA",
-        "type": "dash",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
-        "no_proxy": true
-    },
-    {
         "name": "SPO TV",
         "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
         "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",

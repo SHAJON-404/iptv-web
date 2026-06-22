@@ -96,13 +96,6 @@
         "no_proxy": true
     },
     {
-        "name": "D Sports HLS",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
-        "group": "D Sports",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
-        "no_proxy": true
-    },
-    {
         "name": "FOX 1080p [No VPN]",
         "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
         "group": "FOX",
@@ -135,14 +128,6 @@
         "kid": "290e09c837da78d5cd961978d390515c",
         "key": "b748836c71e6a4ca68ef5b5652db6247",
         "no_proxy": true
-    },
-    {
-        "name": "SD LIVE",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
-        "url": "http://193.47.62.41/hls/EEEEDDD.m3u8",
-        "group": "SD Live",
-        "referer": "http://www.fawanews.sc/",
-        "no_proxy": false
     },
     {
         "name": "SD LIVE",

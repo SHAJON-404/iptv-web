@@ -3,8 +3,6 @@
 http://starhub.pro/live/farhat-3379/67897-913379/744527.ts
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6720.png" group-title="BeIN",BeIN MAX 1
 https://tmaxapp.site/beinmax1.m3u8
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6719.png" group-title="BeIN",BeIN MAX 2
-https://tmaxapp.site/beinmax2.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="BeIN",BeIN MAX SD
 https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/dpXv_Bj52CxsfzkpeY2HfAG9GNFBl7qI6s8HSUWcyRO-cjXHZqH9jkGzhEIgwNcw6R5ZRRUbA8ZV7S0DXKMrkQ/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live
 #EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="BeIN",BeIN Sports 1
@@ -13,6 +11,8 @@ http://41.205.70.146/BEINSPORT1/index.m3u8
 http://41.205.70.146/BEINSPORT2/index.m3u8
 #EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="BeIN",BeIN Sports 5
 http://41.205.70.146/BEINSPORT5/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png" group-title="BeIN",Bein Sports 1
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg" group-title="FOX",FS1 [No VPN]
 https://vizio.kuvuslov.cymru/fs1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://roams.es/images/post/es_ES_news/categoria-telefonia/1200x675/logo-de-fifa-plus.webp" group-title="FOX",FIFA +

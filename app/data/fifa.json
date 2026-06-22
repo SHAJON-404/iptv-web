@@ -56,16 +56,6 @@
         "no_proxy": true
     },
     {
-        "name": "D SPORTS",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-        "group": "D Sports",
-        "type": "dash",
-        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
-        "key": "afad49d20eb39670e93e371c1d669921",
-        "no_proxy": true
-    },
-    {
         "name": "D SPORTS FHD +",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
@@ -83,16 +73,6 @@
         "type": "dash",
         "kid": "03f12d6a3dbfd3a6fa7dd7f6417e0c11",
         "key": "ea07b87acdf2e45be824cde4a1cf3504",
-        "no_proxy": true
-    },
-    {
-        "name": "D Sports HD",
-        "logo": "https://i.imgur.com/12yqgbL.png",
-        "group": "D Sports",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-        "type": "dash",
-        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
-        "key": "afad49d20eb39670e93e371c1d669921",
         "no_proxy": true
     },
     {

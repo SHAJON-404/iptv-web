@@ -140,14 +140,6 @@
         "no_proxy": true
     },
     {
-        "name": "SERVER 1",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
-        "url": "https://live.wxinxi.com/live/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8",
-        "group": "Server",
-        "referer": "http://www.fawanews.sc/",
-        "no_proxy": false
-    },
-    {
         "name": "SKY SPORTS HD [No VPN]",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
         "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
@@ -172,16 +164,6 @@
         "type": "dash",
         "kid": "95b52d16d344af539ce9c2c9ff95571a",
         "key": "5f035d9c4a178221f89d2439426b2e9a",
-        "no_proxy": true
-    },
-    {
-        "name": "SporTV 3",
-        "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
-        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
-        "group": "Sport TV",
-        "type": "dash",
-        "kid": "902e5ec0e3d05e665daa32fc23f4f59e",
-        "key": "7b2322a273843921a43e2c61dac7cae3",
         "no_proxy": true
     },
     {
@@ -369,13 +351,6 @@
         "type": "dash",
         "kid": "c1a0ac1044a433d0856ccdc08f245084",
         "key": "7f0e8800a6d63d7915ac181bb88ce813",
-        "no_proxy": true
-    },
-    {
-        "name": "iOS 2",
-        "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
-        "url": "https://hugh.cdn.rumble.cloud/live/y16rq9u0/slot-13/2rvn-cv3b_360p/chunklist_DVR.m3u8",
-        "group": "FIFA",
         "no_proxy": true
     },
     {

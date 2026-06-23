@@ -8,7 +8,7 @@
         "verified_at": "2026-06-04T15:06:07.595445",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "no_proxy": true
+        "no_proxy": false
     },
     {
         "name": "CAZE TV (1080p)",
@@ -19,7 +19,7 @@
         "verified_at": "2026-06-04T15:06:07.595445",
         "status_code": 200,
         "content_type": "application/vnd.apple.mpegurl",
-        "no_proxy": true
+        "no_proxy": false
     },
     {
         "name": "BEIN Sports 5",
@@ -50,6 +50,13 @@
         "no_proxy": true
     },
     {
+        "name": "BeIN Sports 1",
+        "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
+        "url": "http://41.205.70.146/BEINSPORT1/index.m3u8",
+        "group": "BeIN",
+        "no_proxy": true
+    },
+    {
         "name": "BeIN Sports 2",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT2/index.m3u8",
@@ -64,10 +71,13 @@
         "no_proxy": true
     },
     {
-        "name": "Bein Sports 1",
-        "logo": "https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png",
-        "group": "BeIN",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+        "name": "D SPORTS",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+        "group": "D Sports",
+        "type": "dash",
+        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
+        "key": "afad49d20eb39670e93e371c1d669921",
         "no_proxy": true
     },
     {
@@ -88,6 +98,16 @@
         "type": "dash",
         "kid": "03f12d6a3dbfd3a6fa7dd7f6417e0c11",
         "key": "ea07b87acdf2e45be824cde4a1cf3504",
+        "no_proxy": true
+    },
+    {
+        "name": "D Sports HD",
+        "logo": "https://i.imgur.com/12yqgbL.png",
+        "group": "D Sports",
+        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+        "type": "dash",
+        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
+        "key": "afad49d20eb39670e93e371c1d669921",
         "no_proxy": true
     },
     {
@@ -139,6 +159,16 @@
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
         "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
         "group": "Sky Sports",
+        "no_proxy": true
+    },
+    {
+        "name": "Sky Sports La Liga",
+        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
+        "url": "https://aca-live4-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
+        "group": "Sky Sports",
+        "type": "dash",
+        "kid": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+        "key": "103ae55c7948ca1d159d6743619d26c4",
         "no_proxy": true
     },
     {
@@ -212,6 +242,23 @@
         "no_proxy": true
     },
     {
+        "name": "CTV",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+        "group": "FIFA",
+        "type": "dash",
+        "kid": "d185684e2330de5bea436daa094a5e86",
+        "key": "014f0116154f5bf0050e03a6b0a23157",
+        "no_proxy": true
+    },
+    {
+        "name": "DAZN FIFA",
+        "logo": "https://i.postimg.cc/Kc3mP7Qt/cbimage.png",
+        "group": "FIFA",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "no_proxy": true
+    },
+    {
         "name": "FANCODE  HD",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
@@ -277,16 +324,6 @@
         "no_proxy": true
     },
     {
-        "name": "TIPIK HD",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
-        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-        "group": "FIFA",
-        "type": "dash",
-        "kid": "adca25b8779e4168a0cd710f59f61ccf",
-        "key": "be5383ed3cd8079f4ffe78ad067f476a",
-        "no_proxy": true
-    },
-    {
         "name": "ZDF (USE GERMAN VPN)",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
         "url": "https://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpdhttps://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpd",
@@ -301,16 +338,6 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/500px-Win_Sports_nuevo_logo.svg.png",
         "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
         "group": "FIFA",
-        "no_proxy": true
-    },
-    {
-        "name": "RTE SPORTS FHD",
-        "logo": "https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2020/03/RT%C3%89-2-Watch-online-live.png",
-        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/f96c00e2-8d18-475e-a5a5-3faa64d7819a:BRU/manifest.mpd",
-        "type": "dash",
-        "group": "RTE",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
         "no_proxy": true
     },
     {
@@ -329,6 +356,13 @@
         "url": "https://rxne77juptdeyke3tytvgqwyh.medya.trt.com.tr/master.m3u8",
         "group": "TRT",
         "no_proxy": false
+    },
+    {
+        "name": "IRIB 4K",
+        "logo": "",
+        "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+        "group": "IRIB",
+        "no_proxy": true
     },
     {
         "name": "TVP SPORTS FHD",

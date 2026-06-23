@@ -56,16 +56,6 @@
         "no_proxy": true
     },
     {
-        "name": "D SPORTS",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-        "group": "D Sports",
-        "type": "dash",
-        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
-        "key": "afad49d20eb39670e93e371c1d669921",
-        "no_proxy": true
-    },
-    {
         "name": "D SPORTS FHD +",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
@@ -218,6 +208,16 @@
         "logo": "https://images.seeklogo.com/logo-png/61/1/cazetv-logo-png_seeklogo-619708.png",
         "group": "FIFA",
         "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8",
+        "no_proxy": true
+    },
+    {
+        "name": "CTV",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+        "group": "FIFA",
+        "type": "dash",
+        "kid": "d185684e2330de5bea436daa094a5e86",
+        "key": "014f0116154f5bf0050e03a6b0a23157",
         "no_proxy": true
     },
     {

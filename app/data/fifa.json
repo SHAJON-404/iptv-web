@@ -211,6 +211,16 @@
         "no_proxy": true
     },
     {
+        "name": "CTV",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+        "group": "FIFA",
+        "type": "dash",
+        "kid": "d185684e2330de5bea436daa094a5e86",
+        "key": "014f0116154f5bf0050e03a6b0a23157",
+        "no_proxy": true
+    },
+    {
         "name": "DAZN FIFA",
         "logo": "https://i.postimg.cc/Kc3mP7Qt/cbimage.png",
         "group": "FIFA",

@@ -207,6 +207,16 @@
         "no_proxy": true
     },
     {
+        "name": "TSN Sports 4 - English",
+        "logo": "https://i.imgur.com/qJyAWU8.png",
+        "group": "TSN",
+        "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?Null",
+        "type": "dash",
+        "kid": "14eeabf30c14b7fbf3008c03099ce011",
+        "key": "17d2ac8dbc5429bd70af3433aa12158d",
+        "no_proxy": true
+    },
+    {
         "name": "ARABIC LIVE",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",

@@ -56,6 +56,16 @@
         "no_proxy": true
     },
     {
+        "name": "D SPORTS",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+        "group": "D Sports",
+        "type": "dash",
+        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
+        "key": "afad49d20eb39670e93e371c1d669921",
+        "no_proxy": true
+    },
+    {
         "name": "D SPORTS FHD +",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ud6bnhthpj/out/v1/2639a2f4480f4269953de466d5f46463/cenc.mpd",
@@ -194,6 +204,13 @@
         "type": "dash",
         "kid": "14eeabf30c14b7fbf3008c03099ce011",
         "key": "17d2ac8dbc5429bd70af3433aa12158d",
+        "no_proxy": true
+    },
+    {
+        "name": "ARABIC LIVE",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
+        "group": "FIFA",
         "no_proxy": true
     },
     {

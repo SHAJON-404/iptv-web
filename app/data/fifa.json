@@ -248,6 +248,14 @@
         "no_proxy": true
     },
     {
+        "name": "LVE  1",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "https://pullsgp.yyzb456.top/live/stream-506605_lhd.m3u8",
+        "group": "FIFA",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
         "name": "M6 Direct TV",
         "logo": "https://i.imgur.com/7GVp3fW.png",
         "group": "FIFA",

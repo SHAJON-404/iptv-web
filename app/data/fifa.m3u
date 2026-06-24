@@ -17,6 +17,8 @@ http://41.205.70.146/BEINSPORT1/index.m3u8
 http://41.205.70.146/BEINSPORT2/index.m3u8
 #EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="BeIN",BeIN Sports 5
 http://41.205.70.146/BEINSPORT5/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png" group-title="BeIN",Bein Sports 1
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg" group-title="FOX",FS1 [No VPN]
 https://vizio.kuvuslov.cymru/fs1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg" group-title="FOX",FS2 [No VPN]
@@ -27,6 +29,8 @@ https://stream.ultraedge.live/fox-4k/main.m3u8
 https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="FIFA",ARABIC LIVE
 https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Kc3mP7Qt/cbimage.png" group-title="FIFA",DAZN FIFA
+https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="FIFA",LVE  1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -41,6 +45,10 @@ https://ncdn.telewebion.ir/faratar/live/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/EU/HDWC1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="FOX",FOX ONE HD
+#EXTVLCOPT:http-referrer=https://xyzstreams.shop/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://lb.xyzcloud3.xyz/FOX/index.m3u8
 #EXTINF:-1 group-title="ISCREEN",ISCREEN BD FHD
 #EXTVLCOPT:http-referrer=https://iscreen.com.bd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -49,10 +57,6 @@ https://pastebin.com/raw/AFnPnGzQ?e=.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/NFLHD3/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="FOX",FOX ONE 4K
-#EXTVLCOPT:http-referrer=https://xyzstreams.shop/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://lb.xyzcloud3.xyz/fox4k/index.m3u8
 #EXTINF:-1 group-title="HD",HD SERVER ENG
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36

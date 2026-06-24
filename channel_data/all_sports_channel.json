@@ -4,7 +4,7 @@
         "url": "https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8",
         "group": "FIFA",
         "logo": "https://images.seeklogo.com/logo-png/64/1/t-sports-logo-png_seeklogo-640172.png",
-        "useProxy": false
+        "useProxy": true
     },
     {
         "name": "CAZE TV",
@@ -590,14 +590,6 @@
         "useProxy": true
     },
     {
-        "name": "BBC SPORTS HD",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/52461/load-playlist?",
-        "group": "BBC",
-        "referer": "https://gooz.aapmains.net",
-        "useProxy": true
-    },
-    {
         "name": "TVE La1 SPANISH",
         "logo": "",
         "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
@@ -692,14 +684,6 @@
         "useProxy": false
     },
     {
-        "name": "TSN SPORTS HD",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/52457/load-playlist?",
-        "group": "TSN",
-        "referer": "https://gooz.aapmains.net",
-        "useProxy": true
-    },
-    {
         "name": "HD SERVER ENG",
         "logo": "",
         "url": "https://mainstreams.pro/hls/b0h5fNwDKH.m3u8?",
@@ -788,14 +772,6 @@
         "kid": "95620bdd974041409d4674ab629e22d4",
         "key": "c6c226ca1689f528a6f91e86da618f64",
         "useProxy": false
-    },
-    {
-        "name": "BBC SPORTS HD",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/52460/load-playlist?",
-        "group": "BBC",
-        "referer": "https://gooz.aapmains.net",
-        "useProxy": true
     },
     {
         "name": "FOX SPORTS HD",
@@ -902,30 +878,6 @@
         "useProxy": false
     },
     {
-        "name": "BBC SPORTS HD",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/52368/load-playlist?",
-        "group": "BBC",
-        "referer": "https://gooz.aapmains.net",
-        "useProxy": true
-    },
-    {
-        "name": "FOX SPORTS HD",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://chatgpt.hereisman.net/playlist/52367/load-playlist?",
-        "group": "FOX",
-        "referer": "https://gooz.aapmains.net",
-        "useProxy": true
-    },
-    {
-        "name": "TSN SPORTS HD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://chatgpt.hereisman.net/playlist/52369/load-playlist?",
-        "group": "TSN",
-        "referer": "https://gooz.aapmains.net",
-        "useProxy": true
-    },
-    {
         "name": "ISCREEN BD FHD",
         "logo": "",
         "url": "https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8",
@@ -968,9 +920,16 @@
         "useProxy": true
     },
     {
+        "name": "TSN 3",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://storage.googleapis.com/hunhfkegrsjn1/mux_video_ts/index-1.m3u8",
+        "group": "TSN",
+        "useProxy": true
+    },
+    {
         "name": "TSN SPORTS",
         "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://soccerball.st/s1.php",
+        "url": "https://storage.googleapis.com/hunhfkegrsjn1/mux_video_ts1/index-1.m3u8",
         "group": "TSN",
         "useProxy": true
     },

@@ -57,10 +57,6 @@ https://pastebin.com/raw/AFnPnGzQ?e=.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/NFLHD3/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="FOX",FOX ONE 4K
-#EXTVLCOPT:http-referrer=https://xyzstreams.shop/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://lb.xyzcloud3.xyz/fox4k/index.m3u8
 #EXTINF:-1 group-title="HD",HD SERVER ENG
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -69,10 +65,10 @@ https://mainstreams.pro/hls/b0h5fNwDKH.m3u8?
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://edgestreams.pro/hls/sqdahach1ax.m3u8?
-#EXTINF:-1 group-title="FOX",FOX SPORTS HD
+#EXTINF:-1 group-title="TSN",TSN SPORTS HD
 #EXTVLCOPT:http-referrer=https://xyzstreams.shop/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://lb.xyzcloud3.xyz/FS1/index.m3u8?
+https://lb.xyzcloud3.xyz/tsn2/index.m3u8?
 #EXTINF:-1 tvg-logo="https://duckduckgo.com/i/2e3815a5b7ddd3c9.png" group-title="TELEMUNDO",TELEMUNDO HD
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36

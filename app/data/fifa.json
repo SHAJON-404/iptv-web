@@ -232,6 +232,13 @@
         "useProxy": false
     },
     {
+        "name": "DAZN FIFA",
+        "logo": "https://i.postimg.cc/Kc3mP7Qt/cbimage.png",
+        "group": "FIFA",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "useProxy": false
+    },
+    {
         "name": "FANCODE  HD",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
@@ -382,17 +389,6 @@
         "useProxy": false
     },
     {
-        "name": "D Sports FHD",
-        "logo": "",
-        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd",
-        "type": "dash",
-        "group": "D",
-        "kid": "4f4c3a9912ea752e88f4497864a1bc8b",
-        "key": "278128004fe8c6ffb2cd2a0c154a241a",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "useProxy": false
-    },
-    {
         "name": "CAZE TV FHD",
         "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
         "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
@@ -488,6 +484,14 @@
         "group": "TELEMUNDO",
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
+        "useProxy": true
+    },
+    {
+        "name": "ISCREEN BD FHD",
+        "logo": "",
+        "url": "https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8",
+        "group": "ISCREEN",
+        "referer": "https://iscreen.com.bd/",
         "useProxy": true
     },
     {

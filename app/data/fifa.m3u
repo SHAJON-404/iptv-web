@@ -27,6 +27,8 @@ https://vizio.kuvuslov.cymru/fs1/tracks-v1a1/mono.m3u8
 https://stream.ultraedge.live/fox-4k/main.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/6/38.png" group-title="Sky Sports",SKY SPORTS HD [No VPN]
 https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Kc3mP7Qt/cbimage.png" group-title="FIFA",DAZN FIFA
+https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="FIFA",LVE  1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -61,6 +63,10 @@ https://edgestreams.pro/hls/sqdahach1ax.m3u8?
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://edge2caster.pro/hls/eJmauBDCIf.m3u8?
+#EXTINF:-1 group-title="ISCREEN",ISCREEN BD FHD
+#EXTVLCOPT:http-referrer=https://iscreen.com.bd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8
 #EXTINF:-1 group-title="HD",HD SERVER ENG
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36

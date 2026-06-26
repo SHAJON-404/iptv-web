@@ -256,6 +256,14 @@
         "useProxy": false
     },
     {
+        "name": "LVE  1",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
+        "url": "https://pullsgp.yyzb456.top/live/stream-506605_lhd.m3u8",
+        "group": "FIFA",
+        "referer": "http://www.fawanews.sc/",
+        "useProxy": true
+    },
+    {
         "name": "M6 Direct TV",
         "logo": "https://i.imgur.com/7GVp3fW.png",
         "group": "FIFA",
@@ -317,16 +325,6 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/500px-Win_Sports_nuevo_logo.svg.png",
         "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
         "group": "FIFA",
-        "useProxy": false
-    },
-    {
-        "name": "TELEMUNDO FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
-        "type": "dash",
-        "group": "TELEMUNDO",
-        "kid": "1efe4add8fdf327c5f8d2a1c195e5c71",
-        "key": "4f50e6f011e60ca01ee561f27187e78f",
         "useProxy": false
     },
     {

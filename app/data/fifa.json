@@ -56,6 +56,16 @@
         "useProxy": false
     },
     {
+        "name": "D SPORTS",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+        "group": "D Sports",
+        "type": "dash",
+        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
+        "key": "afad49d20eb39670e93e371c1d669921",
+        "useProxy": false
+    },
+    {
         "name": "FOX 1080p [No VPN]",
         "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
         "group": "FOX",
@@ -118,6 +128,26 @@
         "useProxy": false
     },
     {
+        "name": "Sky Sports La Liga 1",
+        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
+        "url": "https://aca-live-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd",
+        "group": "Sky Sports",
+        "type": "dash",
+        "kid": "95b52d16d344af539ce9c2c9ff95571a",
+        "key": "5f035d9c4a178221f89d2439426b2e9a",
+        "useProxy": false
+    },
+    {
+        "name": "SporTV 3",
+        "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
+        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+        "group": "Sport TV",
+        "type": "dash",
+        "kid": "902e5ec0e3d05e665daa32fc23f4f59e",
+        "key": "7b2322a273843921a43e2c61dac7cae3",
+        "useProxy": false
+    },
+    {
         "name": "TNT",
         "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
         "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd",
@@ -125,6 +155,16 @@
         "type": "dash",
         "kid": "0b59ce06de74ed84f2eda5e81dadba13",
         "key": "48e4ba4ad6c2a60d2bda5d71a0050844",
+        "useProxy": false
+    },
+    {
+        "name": "TNT Sports 3",
+        "logo": "https://www.pitch.co.uk/wp-content/uploads/2023/12/TNT-Sports-Logo.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd",
+        "group": "TNT Sports",
+        "type": "dash",
+        "kid": "12413e2c2855cfc59ce0fe6b20cc71ca",
+        "key": "08d55a8f5fc93a9375f9b0cb2e1739ca",
         "useProxy": false
     },
     {
@@ -142,6 +182,16 @@
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
         "group": "FIFA",
+        "useProxy": false
+    },
+    {
+        "name": "CTV",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+        "group": "FIFA",
+        "type": "dash",
+        "kid": "d185684e2330de5bea436daa094a5e86",
+        "key": "014f0116154f5bf0050e03a6b0a23157",
         "useProxy": false
     },
     {
@@ -210,6 +260,13 @@
         "useProxy": false
     },
     {
+        "name": "TRT 1",
+        "logo": "https://images.seeklogo.com/logo-png/26/2/trt-1-logo-png_seeklogo-260967.png",
+        "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+        "group": "FIFA",
+        "useProxy": false
+    },
+    {
         "name": "ZDF (USE GERMAN VPN)",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
         "url": "https://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpdhttps://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpd",
@@ -224,6 +281,16 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/500px-Win_Sports_nuevo_logo.svg.png",
         "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
         "group": "FIFA",
+        "useProxy": false
+    },
+    {
+        "name": "TELEMUNDO FHD",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
+        "type": "dash",
+        "group": "TELEMUNDO",
+        "kid": "1efe4add8fdf327c5f8d2a1c195e5c71",
+        "key": "4f50e6f011e60ca01ee561f27187e78f",
         "useProxy": false
     },
     {
@@ -307,6 +374,27 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "useProxy": true
+    },
+    {
+        "name": "Match Football FHD",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "Match",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": false
+    },
+    {
+        "name": "TSN SPORTS FHD",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
+        "type": "dash",
+        "group": "TSN",
+        "kid": "85b277daf5aae05833fe43a68f587968",
+        "key": "d52d7e9bc0bcd98787efd547ac91eca0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "useProxy": false
     },
     {
         "name": "FOX SPORTS HD",

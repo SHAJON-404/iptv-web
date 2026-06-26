@@ -162,6 +162,16 @@
         "useProxy": false
     },
     {
+        "name": "Sky Sports La Liga 1",
+        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
+        "url": "https://aca-live-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd",
+        "group": "Sky Sports",
+        "type": "dash",
+        "kid": "95b52d16d344af539ce9c2c9ff95571a",
+        "key": "5f035d9c4a178221f89d2439426b2e9a",
+        "useProxy": false
+    },
+    {
         "name": "SporTV 3",
         "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
         "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
@@ -328,16 +338,6 @@
         "useProxy": false
     },
     {
-        "name": "TELEMUNDO FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
-        "type": "dash",
-        "group": "TELEMUNDO",
-        "kid": "1efe4add8fdf327c5f8d2a1c195e5c71",
-        "key": "4f50e6f011e60ca01ee561f27187e78f",
-        "useProxy": false
-    },
-    {
         "name": "IRIB 4K",
         "logo": "",
         "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
@@ -443,6 +443,16 @@
         "useProxy": true
     },
     {
+        "name": "Match Football FHD",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "Match",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": false
+    },
+    {
         "name": "TSN SPORTS FHD",
         "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
         "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
@@ -473,16 +483,6 @@
         "kid": "ac7abaa9c9481aacfbdac64fc3ec3312",
         "key": "c0c504a2ed2e70b879a650b8770a38c6",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "useProxy": false
-    },
-    {
-        "name": "ViX MUNDIAL FHD",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/ViX_Logo.svg/500px-ViX_Logo.svg.png",
-        "url": "https://cun-live1-ott.izzigo.tv/11/out/u/dash/VIX-MUNDIAL-90-HD/default.mpd",
-        "type": "dash",
-        "group": "ViX",
-        "kid": "052aba8b4944541841db862526bbe6b6",
-        "key": "b785276874581a60b8e95b668b7c0d2b",
         "useProxy": false
     },
     {

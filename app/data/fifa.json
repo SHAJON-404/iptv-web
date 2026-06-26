@@ -35,6 +35,13 @@
         "useProxy": false
     },
     {
+        "name": "BeIN MAX SD",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/dpXv_Bj52CxsfzkpeY2HfAG9GNFBl7qI6s8HSUWcyRO-cjXHZqH9jkGzhEIgwNcw6R5ZRRUbA8ZV7S0DXKMrkQ/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live",
+        "group": "BeIN",
+        "useProxy": false
+    },
+    {
         "name": "BeIN Sports 1",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT1/index.m3u8",
@@ -145,13 +152,13 @@
         "useProxy": false
     },
     {
-        "name": "Sky Sports La Liga 1",
+        "name": "Sky Sports La Liga",
         "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
-        "url": "https://aca-live-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd",
+        "url": "https://aca-live4-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
         "group": "Sky Sports",
         "type": "dash",
-        "kid": "95b52d16d344af539ce9c2c9ff95571a",
-        "key": "5f035d9c4a178221f89d2439426b2e9a",
+        "kid": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+        "key": "103ae55c7948ca1d159d6743619d26c4",
         "useProxy": false
     },
     {
@@ -434,6 +441,16 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "useProxy": true
+    },
+    {
+        "name": "Match Football FHD",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "Match",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": false
     },
     {
         "name": "TSN SPORTS FHD",

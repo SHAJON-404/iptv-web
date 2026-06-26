@@ -135,6 +135,13 @@
         "useProxy": false
     },
     {
+        "name": "ARABIC LIVE",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
+        "group": "FIFA",
+        "useProxy": false
+    },
+    {
         "name": "FUSSBALL TV (USE GERMAN VPN)",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
         "url": "https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_hd/DASH/index.mpd",
@@ -297,16 +304,6 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "useProxy": true
-    },
-    {
-        "name": "Match Football FHD",
-        "logo": "",
-        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
-        "type": "dash",
-        "group": "Match",
-        "kid": "9145a6e0f778e61866f573d4944dd533",
-        "key": "d02173d40515fea5c83944f21d0f3114",
-        "useProxy": false
     },
     {
         "name": "ViX MUNDIAL FHD",

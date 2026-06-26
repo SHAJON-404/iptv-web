@@ -56,6 +56,16 @@
         "useProxy": false
     },
     {
+        "name": "D SPORTS",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+        "group": "D Sports",
+        "type": "dash",
+        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
+        "key": "afad49d20eb39670e93e371c1d669921",
+        "useProxy": false
+    },
+    {
         "name": "FOX 1080p [No VPN]",
         "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
         "group": "FOX",
@@ -91,6 +101,16 @@
         "useProxy": true
     },
     {
+        "name": "LIVE 1",
+        "logo": "https://cdn.sportmonks.com/images/cricket/teams/8/72.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "group": "Live",
+        "type": "dash",
+        "kid": "290e09c837da78d5cd961978d390515c",
+        "key": "b748836c71e6a4ca68ef5b5652db6247",
+        "useProxy": false
+    },
+    {
         "name": "SKY SPORTS HD [No VPN]",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
         "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
@@ -115,16 +135,6 @@
         "type": "dash",
         "kid": "95b52d16d344af539ce9c2c9ff95571a",
         "key": "5f035d9c4a178221f89d2439426b2e9a",
-        "useProxy": false
-    },
-    {
-        "name": "SporTV 3",
-        "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
-        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
-        "group": "Sport TV",
-        "type": "dash",
-        "kid": "902e5ec0e3d05e665daa32fc23f4f59e",
-        "key": "7b2322a273843921a43e2c61dac7cae3",
         "useProxy": false
     },
     {
@@ -193,6 +203,13 @@
         "useProxy": false
     },
     {
+        "name": "Match! Football 1",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
+        "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
+        "group": "FIFA",
+        "useProxy": false
+    },
+    {
         "name": "SPO TV",
         "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
         "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
@@ -237,6 +254,16 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/500px-Win_Sports_nuevo_logo.svg.png",
         "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
         "group": "FIFA",
+        "useProxy": false
+    },
+    {
+        "name": "TELEMUNDO FHD",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
+        "type": "dash",
+        "group": "TELEMUNDO",
+        "kid": "1efe4add8fdf327c5f8d2a1c195e5c71",
+        "key": "4f50e6f011e60ca01ee561f27187e78f",
         "useProxy": false
     },
     {
@@ -397,20 +424,22 @@
         "useProxy": false
     },
     {
+        "name": "ViX MUNDIAL FHD",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/ViX_Logo.svg/500px-ViX_Logo.svg.png",
+        "url": "https://cun-live1-ott.izzigo.tv/11/out/u/dash/VIX-MUNDIAL-90-HD/default.mpd",
+        "type": "dash",
+        "group": "ViX",
+        "kid": "052aba8b4944541841db862526bbe6b6",
+        "key": "b785276874581a60b8e95b668b7c0d2b",
+        "useProxy": false
+    },
+    {
         "name": "TELEMUNDO HD",
         "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
         "url": "https://edge2caster.pro/hls/eJmauBDCIf.m3u8?",
         "group": "TELEMUNDO",
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
-        "useProxy": true
-    },
-    {
-        "name": "ISCREEN BD FHD",
-        "logo": "",
-        "url": "https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8",
-        "group": "ISCREEN",
-        "referer": "https://iscreen.com.bd/",
         "useProxy": true
     },
     {

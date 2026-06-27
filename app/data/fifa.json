@@ -135,16 +135,6 @@
         "useProxy": false
     },
     {
-        "name": "TNT",
-        "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
-        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd",
-        "group": "TNT Sports",
-        "type": "dash",
-        "kid": "0b59ce06de74ed84f2eda5e81dadba13",
-        "key": "48e4ba4ad6c2a60d2bda5d71a0050844",
-        "useProxy": false
-    },
-    {
         "name": "TNT Sports 3",
         "logo": "https://www.pitch.co.uk/wp-content/uploads/2023/12/TNT-Sports-Logo.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd",
@@ -311,6 +301,28 @@
         "useProxy": false
     },
     {
+        "name": "TVE La1 SPANISH",
+        "logo": "",
+        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
+        "type": "dash",
+        "group": "TVE",
+        "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
+        "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "useProxy": false
+    },
+    {
+        "name": "D Sports FHD",
+        "logo": "",
+        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd",
+        "type": "dash",
+        "group": "D",
+        "kid": "4f4c3a9912ea752e88f4497864a1bc8b",
+        "key": "278128004fe8c6ffb2cd2a0c154a241a",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "useProxy": false
+    },
+    {
         "name": "ISCREEN BD FHD",
         "logo": "",
         "url": "https://pastebin.com/raw/AFnPnGzQ?e=.m3u8",
@@ -326,6 +338,27 @@
         "referer": "https://instream.click/",
         "origin": "https://instream.click",
         "useProxy": true
+    },
+    {
+        "name": "Match Football FHD",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "Match",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": false
+    },
+    {
+        "name": "FOX SPORTS HD",
+        "logo": "",
+        "url": "https://otte-qw.live.pv-cdn.net/gru-nitro/live/clients/dash/enc/cizlveblk4/out/v1/e5c36c41621e4384b80427d87199433a/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "d7d78ea2021a29541136bd5dc8352fe7",
+        "key": "6425ac4c0cdf906fe0cce5cf40dc8933",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "useProxy": false
     },
     {
         "name": "ViX MUNDIAL FHD",

@@ -280,6 +280,17 @@
         "useProxy": false
     },
     {
+        "name": "TVE La1 SPANISH",
+        "logo": "",
+        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
+        "type": "dash",
+        "group": "TVE",
+        "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
+        "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "useProxy": false
+    },
+    {
         "name": "ISCREEN BD FHD",
         "logo": "",
         "url": "https://pastebin.com/raw/AFnPnGzQ?e=.m3u8",

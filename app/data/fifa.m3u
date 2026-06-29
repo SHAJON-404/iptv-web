@@ -235,10 +235,6 @@ https://instreams.pro/EU/HDWC3/tracks-v1a1/mono.m3u8?
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://edgestreams.pro/hls/24SDAZFcsqnj24.m3u8?
-#EXTINF:-1 group-title="ISCREEN",ISCREEN BD FHD
-#EXTVLCOPT:http-referrer=https://iscreen.com.bd/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8
 #EXTINF:-1 group-title="D Sports",D SPORTS 1080p
 https://pub-4d2103f8af8641e2974e9590622c3264.r2.dev/d-sports/d-sports.m3u8
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg" group-title="BeIN",BEIN Sports 5
@@ -293,3 +289,5 @@ https://tmaxapp.site/foxcricket.m3u8
 #EXTVLCOPT:http-referrer=https://www.tapmad.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://pastebin.com/raw/U2LaqQne?&.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph" group-title="SKY",SKY CRICKET FHD
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141

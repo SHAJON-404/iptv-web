@@ -43,8 +43,6 @@ https://instreams.pro/US/NFLHD2/tracks-v1a1/mono.m3u8?
 https://inproviszon.st/fox4k-usa.m3u8
 #EXTINF:-1 group-title="TELEMUNDO",TELEMUNDO FHD
 https://inproviszon.st/telemundo-usa.m3u8
-#EXTINF:-1 group-title="FUSSBALL",FUSSBALL TV UHD
-https://inproviszon.st/fussballtv1uhd-de.m3u8
 #EXTINF:-1 group-title="IRIB",IRIB 4K
 https://ncdn.telewebion.ir/faratar/live/playlist.m3u8
 #EXTINF:-1 group-title="SportzX",SportzX Live
@@ -127,6 +125,10 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi2606/KAN/master.m
 #EXTVLCOPT:http-referrer=https://iscreen.com.bd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://pastebin.com/raw/AFnPnGzQ?e=.m3u8
+#EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="TSN",TSN SPORTS HD
+#EXTVLCOPT:http-referrer=https://xyzstreams.st/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://lb.xyzcloud3.xyz/tsn1/index.m3u8?
 #EXTINF:-1 group-title="FOX",FOX ONE HD
 #EXTVLCOPT:http-referrer=https://xyzstreams.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -215,8 +217,6 @@ https://tmaxapp.site/foxcricket.m3u8
 #EXTVLCOPT:http-referrer=https://www.tapmad.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://pastebin.com/raw/U2LaqQne?&.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph" group-title="SKY",SKY CRICKET FHD
-https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141
 #EXTINF:-1 tvg-logo="https://cdn.livesoccertv.com/images/channels/thumbnails/toffee-live.png" group-title="TOFFEE",TOFFEE AQ (BDIX)
 https://pastebin.com/raw/nJ3WYKnG?e=.m3u8
 #EXTINF:-1 group-title="NOW",NOW TV 4K

@@ -43,8 +43,34 @@ https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8?
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://mainstreams.pro/hls/b0h5fNwDKH.m3u8?
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph" group-title="SKY",SKY CRICKET FHD
-https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
+#EXTINF:-1 group-title="BBC",BBC SPORTS
+#EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://inproviszon.st/bbc-xyz-waUvqaAACr.m3u8?
+#EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="TSN",TSN SPORTS FHD
+#EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://inproviszon.st/tsn1-xyz-waUvqaAACr.m3u8?
+#EXTINF:-1 group-title="FOX",FOX ONE HD
+#EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://inproviszon.st/fox-usa.m3u8?
+#EXTINF:-1 group-title="FOX",FOX ONE 4K
+#EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://inproviszon.st/fox4k-usa.m3u8?
+#EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="TSN",TSN SPORTS 4K
+#EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://inproviszon.st/tsn4k-xyz-waUvqaAACr.m3u8?
+#EXTINF:-1 group-title="DAZN",DAZN MUNDIAL
+#EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://inproviszon.st/telemundo-xyz-waUvqaAACr.m3u8?
+#EXTINF:-1 group-title="FUSSBALL",FUSSBALL TV UHD
+#EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://inproviszon.st/fussballtv1uhd-de.m3u8?
 #EXTINF:-1 group-title="HD",HD SERVER AR
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36

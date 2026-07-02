@@ -54,17 +54,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "FOX ONE - AQ",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "f6564ec2aee819046328a0e153be574d",
-        "key": "ff46a8a1031eb27ef22576a077c98ab7",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "WC TV FHD",
         "logo": "",
         "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
@@ -72,16 +61,6 @@
         "group": "WC",
         "kid": "2c338a117d434ce4bbe3569231af90f1",
         "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
-        "useProxy": true
-    },
-    {
-        "name": "RTE SPORTS FHD",
-        "logo": "",
-        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/a15f395f-f7d2-4728-8db4-ee96e5643dcb:GRQ/manifest.mpd",
-        "type": "dash",
-        "group": "RTE",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
         "useProxy": true
     },
     {
@@ -165,35 +144,6 @@
         "useProxy": true
     },
     {
-        "name": "SKY CRICKET FHD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "SKY",
-        "useProxy": false,
-        "user-agent": "Mozilla"
-    },
-    {
-        "name": "WILLOW HD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "290e09c837da78d5cd961978d390515c",
-        "key": "b748836c71e6a4ca68ef5b5652db6247",
-        "useProxy": true
-    },
-    {
-        "name": "TVE La 1 FHD",
-        "logo": "https://r2.thesportsdb.com/images/media/channel/logo/p19tzj1781340041.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
-        "type": "dash",
-        "group": "TVE",
-        "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
-        "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "TUDN MEXICO",
         "logo": "https://r2.thesportsdb.com/images/media/channel/logo/sonnfj1629403437.png",
         "url": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
@@ -205,26 +155,12 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "CANAL5 FHD",
-        "logo": "https://r2.thesportsdb.com/images/media/channel/logo/sonnfj1629403437.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
-        "type": "dash",
-        "group": "CANAL5",
-        "kid": "d695093ea3e66d75a4d213a3e2cbf360",
-        "key": "01be3f645e89a067d2786c295f68dde4",
+        "name": "BBC SPORTS",
+        "logo": "",
+        "url": "https://inproviszon.st/bbc-xyz-waUvqaAACr.m3u8?",
+        "group": "BBC",
         "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "SporTV BR FHD",
-        "logo": "https://iili.io/CFFRvqJ.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd",
-        "type": "dash",
-        "group": "SporTV",
-        "kid": "51c0ef23b17297e5c01cd7f36dd0a6ce",
-        "key": "8823f713ba6fdb9bbe0a2ad82d309a4b",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+        "referer": "https://vileembeds.pages.dev/"
     },
     {
         "name": "M6 FRANCE (USA)",
@@ -235,6 +171,54 @@
         "kid": "0182ed7af02734ecb17a2f55eec98f99",
         "key": "60346785b1095596de621031e9daf3ec",
         "useProxy": true
+    },
+    {
+        "name": "TSN SPORTS FHD",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://inproviszon.st/tsn1-xyz-waUvqaAACr.m3u8?",
+        "group": "TSN",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
+    },
+    {
+        "name": "FOX ONE HD",
+        "logo": "",
+        "url": "https://inproviszon.st/fox-usa.m3u8?",
+        "group": "FOX",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
+    },
+    {
+        "name": "FOX ONE 4K",
+        "logo": "",
+        "url": "https://inproviszon.st/fox4k-usa.m3u8?",
+        "group": "FOX",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
+    },
+    {
+        "name": "TSN SPORTS 4K",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://inproviszon.st/tsn4k-xyz-waUvqaAACr.m3u8?",
+        "group": "TSN",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
+    },
+    {
+        "name": "DAZN MUNDIAL",
+        "logo": "",
+        "url": "https://inproviszon.st/telemundo-xyz-waUvqaAACr.m3u8?",
+        "group": "DAZN",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
+    },
+    {
+        "name": "FUSSBALL TV UHD",
+        "logo": "",
+        "url": "https://inproviszon.st/fussballtv1uhd-de.m3u8?",
+        "group": "FUSSBALL",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
     },
     {
         "name": "HD SERVER AR",
@@ -368,16 +352,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "FANCODE - SD",
-        "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
-        "url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
-        "type": "dash",
-        "group": "FANCODE",
-        "kid": "709c812e1b4174002605df1d17d34a4c",
-        "key": "0bbee6c9c20a0f065bf8369d54cbf83e",
-        "useProxy": true
     },
     {
         "name": "SP0TV HD",

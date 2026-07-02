@@ -16,13 +16,13 @@ const C = {
 
 // ─── Status Tags ────────────────────────────────────────────────────────────
 const TAG = {
-  VALID: `${C.green}[✅ VALID]${C.reset}`,
-  DEAD: `${C.red}[❌ DEAD]${C.reset}`,
-  VPN: `${C.yellow}[⚠️  VPN]${C.reset}`,
-  SKIP: `${C.dim}[⏭️  SKIP]${C.reset}`,
-  DUP: `${C.dim}[🔄 DUP]${C.reset}`,
-  INFO: `${C.cyan}[ℹ️  INFO]${C.reset}`,
-  PROBE: `${C.magenta}[🔍 PROBE]${C.reset}`,
+  VALID: `${C.green}[+] VALID${C.reset}`,
+  DEAD: `${C.red}[-] DEAD${C.reset}`,
+  VPN: `${C.yellow}[!] VPN${C.reset}`,
+  SKIP: `${C.dim}[>] SKIP${C.reset}`,
+  DUP: `${C.dim}[~] DUP${C.reset}`,
+  INFO: `${C.cyan}[i] INFO${C.reset}`,
+  PROBE: `${C.magenta}[*] PROBE${C.reset}`,
 };
 
 // ─── Constants ──────────────────────────────────────────────────────────────
@@ -289,53 +289,357 @@ function validateDashBody(text, manifestUrl) {
   return { valid: true, initSegmentUrl, reason: null };
 }
 
-/**
- * Probes a segment URL with HEAD request to verify it's reachable.
- * Returns { reachable, status, reason }
- */
-async function probeSegment(url, headers) {
-  try {
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), SEGMENT_PROBE_TIMEOUT_MS);
+class BitReader {
+  constructor(buffer) {
+    this.buffer = buffer;
+    this.byteOffset = 0;
+    this.bitOffset = 0;
+  }
+  
+  readBit() {
+    if (this.byteOffset >= this.buffer.length) return 0;
+    const byte = this.buffer[this.byteOffset];
+    const bit = (byte >> (7 - this.bitOffset)) & 1;
+    this.bitOffset++;
+    if (this.bitOffset === 8) {
+      this.bitOffset = 0;
+      this.byteOffset++;
+    }
+    return bit;
+  }
+  
+  readBits(n) {
+    let value = 0;
+    for (let i = 0; i < n; i++) {
+      value = (value << 1) | this.readBit();
+    }
+    return value;
+  }
+  
+  readUE() {
+    let leadingZeros = 0;
+    while (this.readBit() === 0 && leadingZeros < 32) {
+      leadingZeros++;
+    }
+    if (leadingZeros === 0) return 0;
+    return ((1 << leadingZeros) - 1) + this.readBits(leadingZeros);
+  }
+}
 
+function parseSPS(spsBuffer) {
+  const rbsp = [];
+  for (let i = 0; i < spsBuffer.length; i++) {
+    if (i + 2 < spsBuffer.length && spsBuffer[i] === 0x00 && spsBuffer[i + 1] === 0x00 && spsBuffer[i + 2] === 0x03) {
+      rbsp.push(0x00);
+      rbsp.push(0x00);
+      i += 2;
+    } else {
+      rbsp.push(spsBuffer[i]);
+    }
+  }
+
+  const reader = new BitReader(new Uint8Array(rbsp));
+  
+  reader.readBit(); // forbidden_zero_bit
+  reader.readBits(2); // nal_ref_idc
+  const nal_unit_type = reader.readBits(5);
+  
+  if (nal_unit_type !== 7) return null;
+
+  const profile_idc = reader.readBits(8);
+  reader.readBits(8); // constraint_set_flags
+  reader.readBits(8); // level_idc
+  reader.readUE(); // seq_parameter_set_id
+
+  if ([100, 110, 122, 244, 44, 83, 86, 118, 128, 138, 139, 134].includes(profile_idc)) {
+    const chroma_format_idc = reader.readUE();
+    if (chroma_format_idc === 3) {
+      reader.readBit(); // separate_colour_plane_flag
+    }
+    reader.readUE(); // bit_depth_luma_minus8
+    reader.readUE(); // bit_depth_chroma_minus8
+    reader.readBit(); // qpprime_y_zero_transform_bypass_flag
+    const seq_scaling_matrix_present_flag = reader.readBit();
+    if (seq_scaling_matrix_present_flag) {
+      const limit = (chroma_format_idc !== 3) ? 8 : 12;
+      for (let i = 0; i < limit; i++) {
+        const seq_scaling_list_present_flag = reader.readBit();
+        if (seq_scaling_list_present_flag) {
+          let lastScale = 8;
+          let nextScale = 8;
+          const sizeOfScalingList = i < 6 ? 16 : 64;
+          for (let j = 0; j < sizeOfScalingList; j++) {
+            if (nextScale !== 0) {
+              const delta_scale = reader.readUE();
+              nextScale = (lastScale + delta_scale + 256) % 256;
+            }
+            lastScale = (nextScale === 0) ? lastScale : nextScale;
+          }
+        }
+      }
+    }
+  }
+
+  reader.readUE(); // log2_max_frame_num_minus4
+  const pic_order_cnt_type = reader.readUE();
+
+  if (pic_order_cnt_type === 0) {
+    reader.readUE(); // log2_max_pic_order_cnt_lsb_minus4
+  } else if (pic_order_cnt_type === 1) {
+    reader.readBit(); // delta_pic_order_always_zero_flag
+    reader.readUE(); // offset_for_non_ref_pic
+    reader.readUE(); // offset_for_top_to_bottom_field
+    const num_ref_frames_in_pic_order_cnt_cycle = reader.readUE();
+    for (let i = 0; i < num_ref_frames_in_pic_order_cnt_cycle; i++) {
+      reader.readUE();
+    }
+  }
+
+  reader.readUE(); // max_num_ref_frames
+  reader.readBit(); // gaps_in_frame_num_value_allowed_flag
+  const pic_width_in_mbs_minus1 = reader.readUE();
+  const pic_height_in_map_units_minus1 = reader.readUE();
+  const frame_mbs_only_flag = reader.readBit();
+  
+  if (!frame_mbs_only_flag) {
+    reader.readBit(); // mb_adaptive_frame_field_flag
+  }
+  reader.readBit(); // direct_8x8_inference_flag
+  const frame_cropping_flag = reader.readBit();
+  
+  let crop_left = 0, crop_right = 0, crop_top = 0, crop_bottom = 0;
+  if (frame_cropping_flag) {
+    crop_left = reader.readUE();
+    crop_right = reader.readUE();
+    crop_top = reader.readUE();
+    crop_bottom = reader.readUE();
+  }
+
+  const width = (pic_width_in_mbs_minus1 + 1) * 16 - (crop_left + crop_right) * 2;
+  const height = (2 - frame_mbs_only_flag) * (pic_height_in_map_units_minus1 + 1) * 16 - (crop_top + crop_bottom) * 2;
+  
+  return { width, height };
+}
+
+function findSPS(buffer) {
+  for (let i = 0; i < buffer.length - 4; i++) {
+    if (buffer[i] === 0x00 && buffer[i + 1] === 0x00 && buffer[i + 2] === 0x00 && buffer[i + 3] === 0x01) {
+      const nalType = buffer[i + 4] & 0x1F;
+      if (nalType === 7) {
+        let end = i + 5;
+        while (end < buffer.length - 3) {
+          if (buffer[end] === 0x00 && buffer[end + 1] === 0x00 && (buffer[end + 2] === 0x01 || (buffer[end + 2] === 0x00 && buffer[end + 3] === 0x01))) {
+            break;
+          }
+          end++;
+        }
+        return buffer.subarray(i + 4, end);
+      }
+    } else if (buffer[i] === 0x00 && buffer[i + 1] === 0x00 && buffer[i + 2] === 0x01) {
+      const nalType = buffer[i + 3] & 0x1F;
+      if (nalType === 7) {
+        let end = i + 4;
+        while (end < buffer.length - 3) {
+          if (buffer[end] === 0x00 && buffer[end + 1] === 0x00 && (buffer[end + 2] === 0x01 || (buffer[end + 2] === 0x00 && buffer[end + 3] === 0x01))) {
+            break;
+          }
+          end++;
+        }
+        return buffer.subarray(i + 3, end);
+      }
+    }
+  }
+  return null;
+}
+
+function findMP4Resolution(buffer) {
+  for (let i = 0; i < buffer.length - 8; i++) {
+    if (buffer[i] === 0x74 && buffer[i + 1] === 0x6B && buffer[i + 2] === 0x68 && buffer[i + 3] === 0x64) {
+      const version = buffer[i + 4];
+      let width, height;
+      if (version === 1) {
+        if (i + 92 + 8 <= buffer.length) {
+          width = (buffer[i + 92] << 8) | buffer[i + 93];
+          height = (buffer[i + 96] << 8) | buffer[i + 97];
+        }
+      } else {
+        if (i + 80 + 8 <= buffer.length) {
+          width = (buffer[i + 80] << 8) | buffer[i + 81];
+          height = (buffer[i + 84] << 8) | buffer[i + 85];
+        }
+      }
+      
+      if (width > 0 && height > 0 && width < 10000 && height < 10000) {
+        return { width, height };
+      }
+    }
+  }
+  return null;
+}
+
+function parseResolution(buffer) {
+  if (!buffer) return null;
+  const mp4Res = findMP4Resolution(buffer);
+  if (mp4Res) return mp4Res;
+  const spsNalu = findSPS(buffer);
+  if (spsNalu) {
+    try {
+      return parseSPS(spsNalu);
+    } catch (e) {
+      // ignore parsing error
+    }
+  }
+  return null;
+}
+
+/**
+ * Fetches a prefix chunk of a segment to probe reachability and extract resolution.
+ */
+async function fetchSegmentPrefix(url, headers, maxBytes = 262144) {
+  let timedOut = false;
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => {
+    timedOut = true;
+    controller.abort();
+  }, SEGMENT_PROBE_TIMEOUT_MS);
+
+  try {
     const response = await fetch(url, {
-      method: 'HEAD',
+      method: 'GET',
       headers,
       signal: controller.signal,
       redirect: 'follow',
     });
     clearTimeout(timeoutId);
 
-    if (response.ok || response.status === 206) {
-      return { reachable: true, status: response.status, reason: null };
+    if (!response.ok) {
+      return { buffer: null, status: response.status, error: `Segment returned HTTP ${response.status}` };
     }
 
-    // Fallback: some servers block HEAD, try GET with Range
-    if (response.status === 405 || response.status === 403) {
-      const controller2 = new AbortController();
-      const timeoutId2 = setTimeout(() => controller2.abort(), SEGMENT_PROBE_TIMEOUT_MS);
-      const getResponse = await fetch(url, {
-        method: 'GET',
-        headers: { ...headers, 'Range': 'bytes=0-0' },
-        signal: controller2.signal,
-        redirect: 'follow',
-      });
-      clearTimeout(timeoutId2);
+    const reader = response.body.getReader();
+    const chunks = [];
+    let receivedBytes = 0;
 
-      // Consume the body to release network resources
-      await getResponse.text().catch(() => {});
-
-      if (getResponse.ok || getResponse.status === 206) {
-        return { reachable: true, status: getResponse.status, reason: null };
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      
+      chunks.push(value);
+      receivedBytes += value.length;
+      
+      if (receivedBytes >= maxBytes) {
+        await reader.cancel().catch(() => {});
+        break;
       }
-      return { reachable: false, status: getResponse.status, reason: `Segment returned HTTP ${getResponse.status}` };
     }
 
-    return { reachable: false, status: response.status, reason: `Segment returned HTTP ${response.status}` };
+    const totalBuffer = new Uint8Array(receivedBytes);
+    let offset = 0;
+    for (const chunk of chunks) {
+      totalBuffer.set(chunk, offset);
+      offset += chunk.length;
+    }
+
+    return { buffer: totalBuffer, status: response.status, error: null };
   } catch (e) {
-    const reason = e.name === 'AbortError' ? 'Segment probe timed out' : `Segment probe error: ${e.message}`;
-    return { reachable: false, status: 0, reason };
+    clearTimeout(timeoutId);
+    const reason = timedOut ? 'Segment probe timed out' : `Segment probe error: ${e.message}`;
+    return { buffer: null, status: 0, error: reason };
   }
+}
+
+/**
+ * Probes a segment URL with GET request to verify it's reachable and parse metadata.
+ * Returns { reachable, status, buffer, reason }
+ */
+async function probeSegment(url, headers) {
+  const { buffer, error, status } = await fetchSegmentPrefix(url, headers);
+  if (buffer) {
+    return { reachable: true, status, buffer, reason: null };
+  }
+  return { reachable: false, status: status || 0, buffer: null, reason: error };
+}
+
+function formatStatus(statusType) {
+  switch (statusType) {
+    case 'VALID': return `${C.green}VALID      ${C.reset}`;
+    case 'DEAD':  return `${C.red}DEAD       ${C.reset}`;
+    case 'VPN':   return `${C.yellow}VPN        ${C.reset}`;
+    case 'DUP':   return `${C.dim}DUP        ${C.reset}`;
+    case 'SKIP':  return `${C.dim}SKIP       ${C.reset}`;
+    default:      return `${C.reset}UNK        ${C.reset}`;
+  }
+}
+
+function wrapDetails(text, limit = 55) {
+  if (text.includes(', ')) {
+    const parts = text.split(', ');
+    const lines = [];
+    let current = '';
+    for (let i = 0; i < parts.length; i++) {
+      const part = parts[i];
+      const segment = i === parts.length - 1 ? part : part + ',';
+      if (current.length === 0) {
+        current = segment;
+      } else if (current.length + 1 + segment.length > limit) {
+        lines.push(current);
+        current = segment;
+      } else {
+        current += ' ' + segment;
+      }
+    }
+    if (current) {
+      lines.push(current);
+    }
+    return lines;
+  } else {
+    const words = text.split(' ');
+    const lines = [];
+    let current = '';
+    for (const word of words) {
+      if (current.length === 0) {
+        current = word;
+      } else if (current.length + 1 + word.length > limit) {
+        lines.push(current);
+        current = word;
+      } else {
+        current += ' ' + word;
+      }
+    }
+    if (current) {
+      lines.push(current);
+    }
+    return lines;
+  }
+}
+
+function printRow(index, type, name, statusType, details) {
+  const padIndex = String(index).padStart(3, '0');
+  const padType = String(type).toUpperCase().padEnd(4, ' ');
+  
+  let cleanName = name || 'Unknown';
+  if (cleanName.length > 20) {
+    cleanName = cleanName.substring(0, 17) + '...';
+  }
+  const padName = cleanName.padEnd(20, ' ');
+  const statusStr = formatStatus(statusType);
+  
+  const detailLines = wrapDetails(details, 60);
+  if (detailLines.length === 0) {
+    detailLines.push('');
+  }
+  
+  console.log(`${padIndex} | ${padType} | ${padName} | ${statusStr} | ${detailLines[0]}`);
+  
+  const emptyIndex = ' '.repeat(padIndex.length);
+  const emptyType = ' '.repeat(padType.length);
+  const emptyName = ' '.repeat(padName.length);
+  const emptyStatus = ' '.repeat(11); // plain text width of status column is 11
+  
+  for (let i = 1; i < detailLines.length; i++) {
+    console.log(`${emptyIndex} | ${emptyType} | ${emptyName} | ${emptyStatus} | ${detailLines[i]}`);
+  }
+  console.log('-'.repeat(110));
 }
 
 /**
@@ -447,10 +751,12 @@ async function getStreamQualities() {
     return;
   }
 
-  console.log('\n' + '═'.repeat(80));
-  console.log(`${C.bold}  IPTV Stream Quality Checker & Playability Validator${C.reset}`);
-  console.log('═'.repeat(80));
-  console.log(`${TAG.INFO} Found ${C.bold}${data.length}${C.reset} total streams in ${path.basename(filePath)}\n`);
+  console.log('-'.repeat(110));
+  console.log(`${C.bold}IPTV Stream Quality Checker & Playability Validator${C.reset}`);
+  console.log(`${TAG.INFO} Found ${C.bold}${data.length}${C.reset} total streams in ${path.basename(filePath)}`);
+  console.log('-'.repeat(110));
+  console.log('Idx | Type | Name                | Status     | Quality');
+  console.log('-'.repeat(110));
 
   // ── Tracking ────────────────────────────────────────────────────────────
   const validStreams = [];
@@ -466,8 +772,10 @@ async function getStreamQualities() {
     deadReasons[reason] = (deadReasons[reason] || 0) + 1;
   }
 
+  let idx = 0;
   // ── Process Streams ─────────────────────────────────────────────────────
   for (const stream of data) {
+    idx++;
     const url = stream.url || stream.link;
     if (!url) continue;
     if (!stream.url) stream.url = url;
@@ -492,16 +800,13 @@ async function getStreamQualities() {
     const isDash = stream.type === 'dash' || cleanUrl.endsWith('.mpd');
     const isHls = !isDash && (stream.type === 'hls' || cleanUrl.endsWith('.m3u8') || cleanUrl.endsWith('.m3u'));
     const isTs = !isDash && !isHls && (cleanUrl.endsWith('.ts') || stream.type === 'ts');
+    const streamTypeStr = isDash ? 'DASH' : isHls ? 'HLS' : 'TS';
 
     // ── Duplicate detection ─────────────────────────────────────────────
-    let uniqueIdentifier = url.trim();
-    if (isDash && stream.kid && stream.key) {
-      uniqueIdentifier = `DASH_${stream.kid.trim()}_${stream.key.trim()}`;
-    }
+    const uniqueIdentifier = url.trim();
 
     if (seenIdentifiers.has(uniqueIdentifier)) {
-      console.log(`${TAG.DUP} ${stream.name}`);
-      console.log('-'.repeat(80));
+      printRow(idx, streamTypeStr, stream.name, 'DUP', 'Duplicate stream URL');
       stats.duplicate++;
       continue;
     }
@@ -510,37 +815,36 @@ async function getStreamQualities() {
 
     // ── Unknown format ──────────────────────────────────────────────────
     if (!isDash && !isHls && !isTs) {
-      console.log(`${TAG.SKIP} Unknown format for ${C.bold}${stream.name}${C.reset}: ${stream.url || 'No URL'}`);
-      console.log('-'.repeat(80));
+      printRow(idx, '???', stream.name, 'SKIP', `Unknown format: ${stream.url || 'No URL'}`);
       stats.skipped++;
       continue;
     }
 
-    const streamTypeStr = isDash ? 'DASH' : isHls ? 'HLS' : 'TS';
-    console.log(`${TAG.INFO} Checking ${C.bold}${streamTypeStr}${C.reset}: ${stream.name}`);
-
     const hasVpn = stream.name && /vpn/i.test(stream.name);
-    if (hasVpn) {
-      console.log(`  ${C.yellow}⚠ VPN Required — will keep even if validation fails${C.reset}`);
-    }
 
     // ── TS streams: probe directly ──────────────────────────────────────
     if (isTs) {
       const headers = buildFetchHeaders(stream);
       const probe = await probeSegment(stream.url, headers);
       if (probe.reachable) {
-        console.log(`${TAG.VALID} Direct TS stream is reachable (HTTP ${probe.status})`);
+        let resInfo = '';
+        const resolution = parseResolution(probe.buffer);
+        if (resolution) {
+          resInfo = `${resolution.width}x${resolution.height}`;
+        } else {
+          resInfo = 'TS stream';
+        }
+        printRow(idx, 'TS', stream.name, 'VALID', resInfo);
         validStreams.push(stream);
         stats.valid++;
       } else if (hasVpn) {
-        console.log(`${TAG.VPN} TS stream unreachable (${probe.reason}) — keeping as VPN stream`);
+        printRow(idx, 'TS', stream.name, 'VPN', `Unreachable (${probe.reason}) - VPN required`);
         validStreams.push(stream);
         stats.vpn++;
       } else {
-        console.log(`${TAG.DEAD} TS stream unreachable: ${probe.reason}`);
+        printRow(idx, 'TS', stream.name, 'DEAD', `TS stream unreachable: ${probe.reason}`);
         trackDead(stream, probe.reason);
       }
-      console.log('-'.repeat(80));
       continue;
     }
 
@@ -551,28 +855,26 @@ async function getStreamQualities() {
     if (fetchError) {
       const reason = fetchError.name === 'AbortError' ? 'Manifest fetch timed out' : `Manifest fetch error: ${fetchError.message}`;
       if (hasVpn) {
-        console.log(`${TAG.VPN} ${reason} — keeping as VPN stream`);
+        printRow(idx, streamTypeStr, stream.name, 'VPN', `${reason} - VPN required`);
         validStreams.push(stream);
         stats.vpn++;
       } else {
-        console.log(`${TAG.DEAD} ${reason}`);
+        printRow(idx, streamTypeStr, stream.name, 'DEAD', reason);
         trackDead(stream, reason);
       }
-      console.log('-'.repeat(80));
       continue;
     }
 
     if (!response.ok) {
       const reason = `Manifest returned HTTP ${response.status} ${response.statusText}`;
       if (hasVpn) {
-        console.log(`${TAG.VPN} ${reason} — keeping as VPN stream`);
+        printRow(idx, streamTypeStr, stream.name, 'VPN', `${reason} - VPN required`);
         validStreams.push(stream);
         stats.vpn++;
       } else {
-        console.log(`${TAG.DEAD} ${reason}`);
+        printRow(idx, streamTypeStr, stream.name, 'DEAD', reason);
         trackDead(stream, reason);
       }
-      console.log('-'.repeat(80));
       continue;
     }
 
@@ -583,14 +885,13 @@ async function getStreamQualities() {
     const ctCheck = validateContentType(contentType, text.substring(0, 500), isDash);
     if (!ctCheck.valid) {
       if (hasVpn) {
-        console.log(`${TAG.VPN} ${ctCheck.reason} — keeping as VPN stream`);
+        printRow(idx, streamTypeStr, stream.name, 'VPN', `${ctCheck.reason} - VPN required`);
         validStreams.push(stream);
         stats.vpn++;
       } else {
-        console.log(`${TAG.DEAD} ${ctCheck.reason}`);
+        printRow(idx, streamTypeStr, stream.name, 'DEAD', ctCheck.reason);
         trackDead(stream, ctCheck.reason);
       }
-      console.log('-'.repeat(80));
       continue;
     }
 
@@ -600,17 +901,16 @@ async function getStreamQualities() {
 
     if (isDash) {
       // DASH body validation
-      const dashResult = validateDashBody(text, stream.url);
+      const dashResult = validateDashBody(text, response.url);
       if (!dashResult.valid) {
         if (hasVpn) {
-          console.log(`${TAG.VPN} ${dashResult.reason} — keeping as VPN stream`);
+          printRow(idx, 'DASH', stream.name, 'VPN', `${dashResult.reason} - VPN required`);
           validStreams.push(stream);
           stats.vpn++;
         } else {
-          console.log(`${TAG.DEAD} ${dashResult.reason}`);
+          printRow(idx, 'DASH', stream.name, 'DEAD', dashResult.reason);
           trackDead(stream, dashResult.reason);
         }
-        console.log('-'.repeat(80));
         continue;
       }
 
@@ -618,26 +918,23 @@ async function getStreamQualities() {
       probeUrl = dashResult.initSegmentUrl;
     } else {
       // HLS body validation
-      const hlsResult = validateHlsBody(text, stream.url);
+      const hlsResult = validateHlsBody(text, response.url);
       if (!hlsResult.valid) {
         if (hasVpn) {
-          console.log(`${TAG.VPN} ${hlsResult.reason} — keeping as VPN stream`);
+          printRow(idx, 'HLS', stream.name, 'VPN', `${hlsResult.reason} - VPN required`);
           validStreams.push(stream);
           stats.vpn++;
         } else {
-          console.log(`${TAG.DEAD} ${hlsResult.reason}`);
+          printRow(idx, 'HLS', stream.name, 'DEAD', hlsResult.reason);
           trackDead(stream, hlsResult.reason);
         }
-        console.log('-'.repeat(80));
         continue;
       }
 
       qualities = extractHlsQualities(text);
 
       if (hlsResult.isMaster && hlsResult.childUrls.length > 0) {
-        // Probe: fetch first child playlist to verify it's reachable and has segments
         const childUrl = hlsResult.childUrls[0];
-        console.log(`${TAG.PROBE} Probing child playlist: ${childUrl.substring(0, 80)}...`);
         const { response: childResponse, error: childError } = await fetchWithTimeout(childUrl, headers, SEGMENT_PROBE_TIMEOUT_MS);
 
         if (childError || !childResponse || !childResponse.ok) {
@@ -646,79 +943,81 @@ async function getStreamQualities() {
             : `Child playlist returned HTTP ${childResponse?.status || 'unknown'}`;
 
           if (hasVpn) {
-            console.log(`${TAG.VPN} ${reason} — keeping as VPN stream`);
+            printRow(idx, 'HLS', stream.name, 'VPN', `${reason} - VPN required`);
             validStreams.push(stream);
             stats.vpn++;
-            console.log('-'.repeat(80));
             continue;
           } else {
-            console.log(`${TAG.DEAD} ${reason}`);
+            printRow(idx, 'HLS', stream.name, 'DEAD', reason);
             trackDead(stream, reason);
-            console.log('-'.repeat(80));
             continue;
           }
         }
 
         const childText = await childResponse.text();
-        const childHlsResult = validateHlsBody(childText, childUrl);
+        const childHlsResult = validateHlsBody(childText, childResponse.url);
 
         if (!childHlsResult.valid) {
           if (hasVpn) {
-            console.log(`${TAG.VPN} Child playlist invalid: ${childHlsResult.reason} — keeping as VPN stream`);
+            printRow(idx, 'HLS', stream.name, 'VPN', `Child playlist invalid: ${childHlsResult.reason} - VPN required`);
             validStreams.push(stream);
             stats.vpn++;
-            console.log('-'.repeat(80));
             continue;
           } else {
-            console.log(`${TAG.DEAD} Child playlist invalid: ${childHlsResult.reason}`);
+            printRow(idx, 'HLS', stream.name, 'DEAD', `Child playlist invalid: ${childHlsResult.reason}`);
             trackDead(stream, `Child playlist invalid: ${childHlsResult.reason}`);
-            console.log('-'.repeat(80));
             continue;
           }
         }
 
-        // Probe the first segment from the child playlist
         if (childHlsResult.segmentUrls.length > 0) {
           probeUrl = childHlsResult.segmentUrls[0];
         }
       } else if (!hlsResult.isMaster && hlsResult.segmentUrls.length > 0) {
-        // Single-quality media playlist — probe first segment directly
         probeUrl = hlsResult.segmentUrls[0];
       }
     }
 
     // ── Segment probe ───────────────────────────────────────────────────
+    let parsedRes = null;
+    let segmentReachable = true;
+    let segmentError = '';
     if (probeUrl) {
-      console.log(`${TAG.PROBE} Probing segment: ${probeUrl.substring(0, 80)}...`);
       const segmentProbe = await probeSegment(probeUrl, headers);
 
       if (!segmentProbe.reachable) {
-        if (hasVpn) {
-          console.log(`${TAG.VPN} Segment unreachable: ${segmentProbe.reason} — keeping as VPN stream`);
-          validStreams.push(stream);
-          stats.vpn++;
-        } else {
-          console.log(`${TAG.DEAD} Segment unreachable: ${segmentProbe.reason}`);
-          trackDead(stream, `Segment unreachable: ${segmentProbe.reason}`);
-        }
-        console.log('-'.repeat(80));
-        continue;
+        segmentReachable = false;
+        segmentError = segmentProbe.reason;
+      } else {
+        parsedRes = parseResolution(segmentProbe.buffer);
       }
-      console.log(`  ${C.green}✓ Segment reachable (HTTP ${segmentProbe.status})${C.reset}`);
+    }
+
+    if (!segmentReachable) {
+      if (hasVpn) {
+        printRow(idx, streamTypeStr, stream.name, 'VPN', `Segment unreachable: ${segmentError} - VPN required`);
+        validStreams.push(stream);
+        stats.vpn++;
+      } else {
+        printRow(idx, streamTypeStr, stream.name, 'DEAD', `Segment unreachable: ${segmentError}`);
+        trackDead(stream, `Segment unreachable: ${segmentError}`);
+      }
+      continue;
     }
 
     // ── Stream is VALID ─────────────────────────────────────────────────
+    let details = '';
     if (qualities.length > 0) {
-      console.log(`${TAG.VALID} Qualities: ${qualities.map(q => q.label).join(', ')}`);
+      details = qualities.map(q => q.label).join(', ');
     } else if (isDash) {
-      console.log(`${TAG.VALID} DASH stream (no height info in MPD)`);
+      details = 'DASH stream (no height info in MPD)';
     } else {
-      console.log(`${TAG.VALID} Single quality stream`);
+      details = parsedRes ? `${parsedRes.width}x${parsedRes.height}` : 'Single quality stream';
     }
 
+    printRow(idx, streamTypeStr, stream.name, 'VALID', details);
     validStreams.push(stream);
     stats.valid++;
-    console.log('-'.repeat(80));
   }
 
   // ── Deduplicate original file ─────────────────────────────────────────
@@ -746,7 +1045,7 @@ async function getStreamQualities() {
   try {
     await fs.mkdir(path.dirname(outputFilePath), { recursive: true });
     await fs.writeFile(outputFilePath, JSON.stringify(validStreams, null, 4), 'utf8');
-    console.log(`\n${TAG.INFO} Saved ${C.bold}${validStreams.length}${C.reset} valid streams to ${outputFilePath}`);
+    console.log(`${TAG.INFO} Saved ${C.bold}${validStreams.length}${C.reset} valid streams to ${outputFilePath}`);
   } catch (err) {
     console.error(`[-] Failed to write valid streams to ${outputFilePath}:`, err);
   }
@@ -754,27 +1053,29 @@ async function getStreamQualities() {
 
 
   // ── Summary Report ────────────────────────────────────────────────────
-  console.log('\n' + '═'.repeat(80));
-  console.log(`${C.bold}  Summary Report${C.reset}`);
-  console.log('═'.repeat(80));
-  console.log(`  ${C.green}✅ VALID:${C.reset}     ${stats.valid}`);
-  console.log(`  ${C.red}❌ DEAD:${C.reset}      ${stats.dead}`);
-  console.log(`  ${C.yellow}⚠️  VPN:${C.reset}       ${stats.vpn}`);
-  console.log(`  ${C.dim}🔄 DUPLICATE:${C.reset} ${stats.duplicate}`);
-  console.log(`  ${C.dim}⏭️  SKIPPED:${C.reset}  ${stats.skipped}`);
-  console.log('─'.repeat(80));
-  console.log(`  ${C.bold}Total Input:${C.reset}  ${data.length}`);
-  console.log(`  ${C.bold}Output:${C.reset}       ${validStreams.length} streams`);
+  console.log('-'.repeat(110));
+  console.log(`${C.bold}Summary Report${C.reset}`);
+  console.log('-'.repeat(110));
+  console.log(`  [+] VALID:     ${stats.valid}`);
+  console.log(`  [-] DEAD:      ${stats.dead}`);
+  console.log(`  [!] VPN:       ${stats.vpn}`);
+  console.log(`  [~] DUPLICATE: ${stats.duplicate}`);
+  console.log(`  [>] SKIPPED:   ${stats.skipped}`);
+  console.log('-'.repeat(110));
+  console.log(`  Total Input:   ${data.length}`);
+  console.log(`  Output:        ${validStreams.length} streams`);
 
   if (Object.keys(deadReasons).length > 0) {
-    console.log(`\n  ${C.red}${C.bold}Dead Stream Reasons:${C.reset}`);
+    console.log('-'.repeat(110));
+    console.log(`${C.red}${C.bold}Dead Stream Reasons:${C.reset}`);
     const sortedReasons = Object.entries(deadReasons).sort((a, b) => b[1] - a[1]);
     for (const [reason, count] of sortedReasons) {
-      console.log(`    ${count}x ${reason}`);
+      console.log(`  ${count}x ${reason}`);
     }
   }
 
-  console.log('═'.repeat(80) + '\n');
+  console.log('-'.repeat(110));
+  process.exit(0);
 }
 
 getStreamQualities();

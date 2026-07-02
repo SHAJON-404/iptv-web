@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import path from 'path';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(
   request: Request,
   { params }: { params: Promise<{ filename: string }> }
@@ -13,7 +15,8 @@ export async function GET(
   }
 
   try {
-    const githubUrl = `https://raw.githubusercontent.com/SHAJON-404/iptv-playlist/refs/heads/main/app/data/${filename}`;
+    // Append a cache-busting timestamp to bypass GitHub's 5-minute CDN raw content caching
+    const githubUrl = `https://raw.githubusercontent.com/SHAJON-404/iptv-playlist/refs/heads/main/app/data/${filename}?t=${Date.now()}`;
     const githubResponse = await fetch(githubUrl, { cache: 'no-store' });
     
     if (!githubResponse.ok) {
@@ -34,7 +37,7 @@ export async function GET(
     const response = new NextResponse(fileBuffer);
     response.headers.set('Content-Type', contentType);
     response.headers.set('Content-Length', fileBuffer.byteLength.toString());
-    response.headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
+    response.headers.set('Cache-Control', 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0');
     response.headers.set('Access-Control-Allow-Origin', '*');
     
     return response;
@@ -43,3 +46,4 @@ export async function GET(
     return new NextResponse('Internal Server Error', { status: 500 });
   }
 }
+

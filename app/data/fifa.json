@@ -9,6 +9,13 @@
         "origin": "https://instream.click"
     },
     {
+        "name": "HIGHLIGHTS [EN]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14567.m3u8",
+        "group": "HIGHLIGHTS",
+        "useProxy": false
+    },
+    {
         "name": "HIGHLIGHTS [RU]",
         "logo": "",
         "url": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/iK2dFmLHvEW6gMl7DiI3lA/il/ojqwdns5/la5p6t/tt/master.m3u8",

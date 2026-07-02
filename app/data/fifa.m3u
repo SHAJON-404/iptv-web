@@ -3,6 +3,8 @@
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?
+#EXTINF:-1 group-title="HIGHLIGHTS",HIGHLIGHTS [EN]
+https://soccerfull.net/hls/14567.m3u8
 #EXTINF:-1 group-title="HIGHLIGHTS",HIGHLIGHTS [RU]
 https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/iK2dFmLHvEW6gMl7DiI3lA/il/ojqwdns5/la5p6t/tt/master.m3u8
 #EXTINF:-1 group-title="FULL",FULL MATCH [EN]

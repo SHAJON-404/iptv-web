@@ -39,38 +39,11 @@
     {
         "name": "HD SERVER",
         "logo": "",
-        "url": "https://instreams.pro/US/MLB13/tracks-v1a1/mono.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
-    },
-    {
-        "name": "HD SERVER",
-        "logo": "",
         "url": "https://instreams.pro/US/MLB14/tracks-v1a1/mono.m3u8?",
         "group": "HD",
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "TSN2 SPORTS FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
-        "type": "dash",
-        "group": "TSN",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "TSN5 SPORTS FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/zbc6muqib6/out/v1/f5774813052f4d5499e7611d0db33b2f/cenc.mpd",
-        "type": "dash",
-        "group": "TSN",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "SP0TV HD",
@@ -103,6 +76,71 @@
         "type": "dash",
         "group": "EUROSPORT2",
         "useProxy": true
+    },
+    {
+        "name": "WC TV FHD",
+        "logo": "",
+        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
+        "type": "dash",
+        "group": "WC",
+        "kid": "2c338a117d434ce4bbe3569231af90f1",
+        "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
+        "useProxy": true
+    },
+    {
+        "name": "TIPIK FR FHD",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
+        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
+        "type": "dash",
+        "group": "TIPIK",
+        "kid": "adca25b8779e4168a0cd710f59f61ccf",
+        "key": "be5383ed3cd8079f4ffe78ad067f476a",
+        "useProxy": true
+    },
+    {
+        "name": "TELEMUNDO HD",
+        "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
+        "url": "https://instreams.pro/EU/HDWC2/tracks-v1a1/mono.m3u8?",
+        "group": "TELEMUNDO",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://instreams.pro/EU/HDWC1/tracks-v1a1/mono.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
+        "name": "beIN SPORTS HD",
+        "logo": "",
+        "url": "https://instreams.pro/EU/HDWC3/tracks-v1a1/mono.m3u8?",
+        "group": "beIN",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
+        "name": "VRT SPORTS HD",
+        "logo": "",
+        "url": "https://instreams.pro/EU/HDWC4/tracks-v1a1/mono.m3u8?",
+        "group": "VRT",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://instreams.pro/EU/HDWC6/tracks-v1a1/mono.m3u8?",
+        "group": "HD",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
     },
     {
         "name": "EX. HIGHLIGHTS [EN]",
@@ -140,26 +178,6 @@
         "useProxy": false
     },
     {
-        "name": "TIPIK FR FHD",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
-        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-        "type": "dash",
-        "group": "TIPIK",
-        "kid": "adca25b8779e4168a0cd710f59f61ccf",
-        "key": "be5383ed3cd8079f4ffe78ad067f476a",
-        "useProxy": true
-    },
-    {
-        "name": "WC TV FHD",
-        "logo": "",
-        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
-        "type": "dash",
-        "group": "WC",
-        "kid": "2c338a117d434ce4bbe3569231af90f1",
-        "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
-        "useProxy": true
-    },
-    {
         "name": "CT SPORTS CZ",
         "logo": "",
         "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
@@ -179,15 +197,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://instreams.pro/EU/HDWC1/tracks-v1a1/mono.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
-    },
-    {
         "name": "Bein Sports 2 Arabic",
         "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
         "url": "https://1nyaler.streamhostingcdn.top/stream/21/index.m3u8",
@@ -199,15 +208,6 @@
         "logo": "",
         "url": "https://instreams.pro/US/NFLHD4/tracks-v1a1/mono.m3u8?",
         "group": "NBC",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://instreams.pro/EU/HDWC3/tracks-v1a1/mono.m3u8?",
-        "group": "SportzX",
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
@@ -257,15 +257,6 @@
         "useProxy": true
     },
     {
-        "name": "TELEMUNDO HD",
-        "logo": "",
-        "url": "https://instreams.pro/EU/HDWC2/tracks-v1a1/mono.m3u8?",
-        "group": "TELEMUNDO",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
-    },
-    {
         "name": "FANCODE - SD",
         "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
         "url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
@@ -274,6 +265,15 @@
         "kid": "709c812e1b4174002605df1d17d34a4c",
         "key": "0bbee6c9c20a0f065bf8369d54cbf83e",
         "useProxy": true
+    },
+    {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://instreams.pro/US/MLB13/tracks-v1a1/mono.m3u8?",
+        "group": "HD",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
     },
     {
         "name": "HD SERVER",

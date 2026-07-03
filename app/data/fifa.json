@@ -18,6 +18,15 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?",
+        "group": "HD",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?",
@@ -254,6 +263,17 @@
         "origin": "https://instream.click"
     },
     {
+        "name": "SKY SPORTS FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/eydwn9gauv/out/v1/c1364545813240c69f1ee7f19f4c8022/cenc.mpd",
+        "type": "dash",
+        "group": "SKY",
+        "kid": "e4b8a499e49c9b01428957e7ad5f1f70",
+        "key": "b732e701f7430995c55bddd46c22ad35",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
         "name": "FANCODE FHD",
         "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
@@ -263,6 +283,34 @@
         "key": "1b8a17598129a3618535c8fb05f103fe",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "APPLE TV+ FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tevjza8kdk/out/v1/e352f4bb82fc4e87b05e2f5dbffd6bd9/cenc.mpd",
+        "type": "dash",
+        "group": "APPLE",
+        "kid": "d0403e43d30f01318493f9b268a569b6",
+        "key": "eb7685f8492f29dc403a901cc585bf70",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "BEIN SPORTS FHD",
+        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
+        "url": "https://co2-bks400-05.starhubgo.com/bpk-token/1ac@afwyawdsycdy4yldk4s5tmrbmpjrfgq3af50phda/bpk-tv/BeINSportsHD/output/manifest.mpd?bkm-query",
+        "type": "dash",
+        "group": "beIN",
+        "kid": "4c4b013320654277a19df8f14b80b6c5",
+        "key": "4751e8a9d798c2a1e1c581f179771f48",
+        "useProxy": true
+    },
+    {
+        "name": "APPLE TV FHD",
+        "logo": "",
+        "url": "https://hugh.cdn.rumble.cloud/live/qt9k24wa/slot-45/9rr2-ntiy/chunklist.m3u8",
+        "group": "APPLE",
+        "useProxy": false
     },
     {
         "name": "APPLE TV FHD",
@@ -403,6 +451,13 @@
         "useProxy": false
     },
     {
+        "name": "NOW TV 4K",
+        "logo": "",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/745270.ts",
+        "group": "NOW",
+        "useProxy": false
+    },
+    {
         "name": "FOX 4k",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/ypwo5fhwov/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
@@ -536,6 +591,14 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
+    },
+    {
+        "name": "SKY CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
     },
     {
         "name": "TSN2 SPORTS FHD",

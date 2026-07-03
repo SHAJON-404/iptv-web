@@ -196,6 +196,15 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?",
+        "group": "HD",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?",
@@ -239,6 +248,13 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
+    },
+    {
+        "name": "NOW TV 4K",
+        "logo": "",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/745270.ts",
+        "group": "NOW",
+        "useProxy": false
     },
     {
         "name": "FOX 4k",
@@ -378,6 +394,14 @@
         "useProxy": true
     },
     {
+        "name": "SKY CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
+    },
+    {
         "name": "SportzX Live",
         "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
         "url": "https://instreams.pro/US/NFLHD1/tracks-v1a1/mono.m3u8?",
@@ -420,6 +444,14 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SKY CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
     },
     {
         "name": "WILLOW HD",
@@ -535,16 +567,6 @@
         "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "VRT SPORTS FHD",
-        "logo": "",
-        "url": "https://live.vrtcdn.be/groupd/live/0761024f-37fe-4254-bc37-e95d7c62b2d1/playout_cgyt8a.isml/.mpd",
-        "type": "dash",
-        "group": "VRT",
-        "kid": "1a55840f87681db7e9e87ebfeecbb316",
-        "key": "e06e221dc1b66687bc2d2fca24f67360",
-        "useProxy": true
     },
     {
         "name": "BBC SPORTS",

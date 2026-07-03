@@ -18,6 +18,15 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?",
+        "group": "HD",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
         "name": "FOX ONE - AQ",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
@@ -58,6 +67,16 @@
         "group": "WC",
         "kid": "2c338a117d434ce4bbe3569231af90f1",
         "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
+        "useProxy": true
+    },
+    {
+        "name": "RTE SPORTS FHD",
+        "logo": "",
+        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/66bcdbbf-5a90-41d5-b332-91c48db07257:BRU/manifest.mpd",
+        "type": "dash",
+        "group": "RTE",
+        "kid": "d816287e21496989eae1312925a423c5",
+        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
         "useProxy": true
     },
     {
@@ -206,6 +225,13 @@
         "referer": "https://vileembeds.pages.dev/"
     },
     {
+        "name": "NOW TV 4K",
+        "logo": "",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/745270.ts",
+        "group": "NOW",
+        "useProxy": false
+    },
+    {
         "name": "DAZN MUNDIAL",
         "logo": "",
         "url": "https://inproviszon.st/daznmundial-es.m3u8?",
@@ -246,19 +272,10 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "SD SERVER [ENG]",
+        "name": "SD SERVER [SWE]",
         "logo": "",
-        "url": "http://193.47.62.42/hls/THXCZzsss.m3u8?",
+        "url": "http://193.47.62.47/hls/THXCZckkkqq.m3u8?",
         "group": "SD",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "ENG SD SERVER",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/THXCZzsssQ.m3u8?",
-        "group": "ENG",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
@@ -362,24 +379,6 @@
         "group": "FOX",
         "useProxy": true,
         "referer": "https://vileembeds.pages.dev/"
-    },
-    {
-        "name": "SD SERVER [ENG]",
-        "logo": "",
-        "url": "http://193.47.62.47/hls/THXCZzsss.m3u8?",
-        "group": "SD",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "ENG SERVER SD",
-        "logo": "",
-        "url": "http://193.47.62.55/hls/THXCZzsssQ.m3u8?",
-        "group": "ENG",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "SD SERVER  [SWE]",
@@ -595,6 +594,14 @@
         "origin": "https://instream.click"
     },
     {
+        "name": "SKY CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
+    },
+    {
         "name": "TSN2 SPORTS FHD",
         "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
@@ -630,13 +637,12 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "HD SERVER",
-        "logo": "",
-        "url": "https://instreams.pro/US/MLB8/tracks-v1a1/mono.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
+        "name": "SKY CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
     },
     {
         "name": "WILLOW HD",
@@ -734,15 +740,6 @@
         "key": "8823f713ba6fdb9bbe0a2ad82d309a4b",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "ENG SD SERVER",
-        "logo": "",
-        "url": "http://193.47.62.47/hls/THXCZzsssQ.m3u8?",
-        "group": "ENG",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "beiN SPORTS FR",

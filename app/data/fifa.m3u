@@ -27,6 +27,34 @@ https://mainstreams.pro/hls/jkzahzadach20.m3u8?
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB6/tracks-v1a1/mono.m3u8?
+#EXTINF:-1 group-title="APPLE",APPLE TV FHD
+#EXTVLCOPT:http-referrer=https://pushembdz.store/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://whioefwhi.sense-scramble-bay.xyz/out/v2/6a181ba834a92654cb39b87270db8153/index.m3u8?
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph" group-title="FOX",FOX SPORTS FHD
+#EXTVLCOPT:http-referrer=https://pushembdz.store/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://whioefwhi.sense-scramble-bay.xyz/out/v2/df43a9bbef8081d59a6454cb54811b35/index.m3u8?
+#EXTINF:-1 group-title="SKY",SKY F1 FHD
+#EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://inproviszon.st/sky-sports-f1.m3u8?
+#EXTINF:-1 group-title="DAZN",DAZN ESPANOL
+#EXTVLCOPT:http-referrer=https://pushembdz.store/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://whioefwhi.sense-scramble-bay.xyz/out/v2/f6ff498a6abd018b2d6c24aa77f6e001/index.m3u8?
+#EXTINF:-1 group-title="SKY",SKY ITALY FHD
+#EXTVLCOPT:http-referrer=https://pushembdz.store/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://whioefwhi.sense-scramble-bay.xyz/out/v2/264a05ba99b8850a8fbc750ae109cc03/index.m3u8?
+#EXTINF:-1 group-title="LOW",LOW RES
+#EXTVLCOPT:http-referrer=https://pushembdz.store/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://whioefwhi.sense-scramble-bay.xyz/out/v2/4839b7fb4a693edb7f595e681bccf101/tracks-v0a0/mono.ts.m3u8?
+#EXTINF:-1 group-title="Sky",Sky F1 DE
+#EXTVLCOPT:http-referrer=https://instream.click/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://instreams.pro/bil2/skyf1de/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="SportzX",SportzX LIVE
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -35,14 +63,6 @@ https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="SportzX",SportzX Live
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://mainstreams.pro/hls/Czajafjihafch18.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
-#EXTVLCOPT:http-referrer=https://instream.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://instreams.pro/US/MLB4/tracks-v1a1/mono.m3u8?
 #EXTINF:-1 group-title="SportzX",SportzX Live
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -183,3 +203,11 @@ https://inproviszon.st/bbc-4k.m3u8?
 #EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://inproviszon.st/daznmundial-es.m3u8?
+#EXTINF:-1 group-title="SportzX",SportzX Live
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://mainstreams.pro/hls/Czajafjihafch18.m3u8?
+#EXTINF:-1 group-title="HD",HD SERVER
+#EXTVLCOPT:http-referrer=https://instream.click/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://instreams.pro/US/MLB4/tracks-v1a1/mono.m3u8?

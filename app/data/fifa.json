@@ -6,6 +6,12 @@
         "useProxy": false
     },
     {
+        "name": "NOW TV 4K [No VPN]",
+        "url": "http://starhub.pro/live/farhat-3379/67897-913379/745270.ts",
+        "useProxy": false,
+        "group": "4K"
+    },
+    {
         "name": "TSN 1",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",

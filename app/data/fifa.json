@@ -18,15 +18,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "HD SERVER",
-        "logo": "",
-        "url": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
-    },
-    {
         "name": "FOX ONE - AQ",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
@@ -67,16 +58,6 @@
         "group": "WC",
         "kid": "2c338a117d434ce4bbe3569231af90f1",
         "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
-        "useProxy": true
-    },
-    {
-        "name": "RTE SPORTS FHD",
-        "logo": "",
-        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/66bcdbbf-5a90-41d5-b332-91c48db07257:BRU/manifest.mpd",
-        "type": "dash",
-        "group": "RTE",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
         "useProxy": true
     },
     {
@@ -274,6 +255,15 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
+        "name": "ENG SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/THXCZzsssQ.m3u8?",
+        "group": "ENG",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
         "name": "beiN SPORTS FR",
         "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
         "url": "http://193.47.62.47/hls/THXCZckkkq.m3u8?",
@@ -324,6 +314,16 @@
         "key": "5306cdc1e410bc6ddb2530608c42b11b",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "RTE SPORTS FHD",
+        "logo": "",
+        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/88fd3886-51db-45b1-a9fd-a6c8db5a50ae:GRQ/manifest.mpd",
+        "type": "dash",
+        "group": "RTE",
+        "kid": "d816287e21496989eae1312925a423c5",
+        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
+        "useProxy": true
     },
     {
         "name": "CAZE TV FHD",
@@ -377,6 +377,15 @@
         "logo": "",
         "url": "http://193.47.62.55/hls/THXCZzsssQ.m3u8?",
         "group": "ENG",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "SD SERVER  [SWE]",
+        "logo": "",
+        "url": "http://193.47.62.55/hls/THXCZckkkqq.m3u8?",
+        "group": "SD",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"

@@ -2,7 +2,16 @@
     {
         "name": "SportzX Live",
         "logo": "",
-        "url": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?",
+        "url": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?",
         "group": "SportzX",
         "useProxy": true,
         "referer": "https://streamscenter.online/",
@@ -11,20 +20,11 @@
     {
         "name": "HD SERVER",
         "logo": "",
-        "url": "https://instreams.pro/US/MLB2/tracks-v1a1/mono.m3u8?",
+        "url": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?",
         "group": "HD",
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "FOX ONE - AQ",
@@ -318,6 +318,15 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
+        "name": "ESPANOL SD",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/THXCZckkkqr.m3u8?",
+        "group": "ESPANOL",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?",
@@ -334,44 +343,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "WILLOW FHD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/slqmxbfik7/out/v1/7712c83009e8420fb34db73f3a1a2151/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "b686f89fa608fc0bb8fc7b21b3c98ffd",
-        "key": "9e87208b1511dcbd6d4b54b89252c3d6",
-        "useProxy": true
-    },
-    {
-        "name": "SKY CRICKET FHD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "SKY",
-        "useProxy": false,
-        "user-agent": "Mozilla"
-    },
-    {
-        "name": "WILLOW ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/slqmxbfik7/out/v1/7712c83009e8420fb34db73f3a1a2151/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "b686f89fa608fc0bb8fc7b21b3c98ffd",
-        "key": "9e87208b1511dcbd6d4b54b89252c3d6",
-        "useProxy": true
-    },
-    {
-        "name": "WILLOW HD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "290e09c837da78d5cd961978d390515c",
-        "key": "b748836c71e6a4ca68ef5b5652db6247",
-        "useProxy": true
     },
     {
         "name": "TVE La 1 FHD",
@@ -486,13 +457,15 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
-        "name": "ESPANOL SD",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/THXCZckkkqqq.m3u8?",
-        "group": "ESPANOL",
+        "name": "FOX SPORTS - AQ",
+        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+        "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "d7d78ea2021a29541136bd5dc8352fe7",
+        "key": "6425ac4c0cdf906fe0cce5cf40dc8933",
         "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "CAZE TV FHD",
@@ -748,22 +721,24 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
+        "name": "WILLOW FHD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/slqmxbfik7/out/v1/7712c83009e8420fb34db73f3a1a2151/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "b686f89fa608fc0bb8fc7b21b3c98ffd",
+        "key": "9e87208b1511dcbd6d4b54b89252c3d6",
+        "useProxy": true
     },
     {
-        "name": "HD SERVER",
-        "logo": "",
-        "url": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
+        "name": "WILLOW HD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "290e09c837da78d5cd961978d390515c",
+        "key": "b748836c71e6a4ca68ef5b5652db6247",
+        "useProxy": true
     },
     {
         "name": "CTV SPORTS FHD",
@@ -805,6 +780,24 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://instreams.pro/US/MLB2/tracks-v1a1/mono.m3u8?",
+        "group": "HD",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
     },
     {
         "name": "HIGHLIGHTS [EN]",

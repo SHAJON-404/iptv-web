@@ -250,13 +250,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "NOW TV 4K",
-        "logo": "",
-        "url": "http://starhub.pro/live/farhat-3379/67897-913379/745270.ts",
-        "group": "NOW",
-        "useProxy": false
-    },
-    {
         "name": "FOX 4k",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/ypwo5fhwov/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
@@ -410,6 +403,14 @@
         "type": "dash",
         "group": "EUROSPORT2",
         "useProxy": true
+    },
+    {
+        "name": "SKY CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
     },
     {
         "name": "SportzX Live",

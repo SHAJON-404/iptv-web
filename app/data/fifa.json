@@ -27,15 +27,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "HD SERVER",
-        "logo": "",
-        "url": "https://instreams.pro/US/MLB15/tracks-v1a1/mono.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/wfazgsqtrezu66.m3u8?",
@@ -372,24 +363,6 @@
         "logo": "",
         "url": "http://193.47.62.42/hls/cdTHXCZzsss.m3u8?",
         "group": "SD",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "SD SERVER [SWE]",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/cdTHXCZckkkqq.m3u8?",
-        "group": "SD",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "beiN SPORTS FR",
-        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
-        "url": "http://193.47.62.59/hls/cdTHXCZckkkq.m3u8?",
-        "group": "beIN",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"

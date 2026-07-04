@@ -710,6 +710,98 @@ function extractDashQualities(text) {
   return qualities;
 }
 
+/**
+ * Determines and normalizes the group title of a channel based on its name and existing group.
+ * @param {string} name Channel name
+ * @param {string} existingGroup Existing group from input
+ * @returns {string} Normalized group title
+ */
+function determineGroup(name, existingGroup) {
+  if (!name) return existingGroup || 'Other';
+
+  // 1. If name contains "4K" (case-insensitive), group is "4K"
+  if (/\b4K\b/i.test(name) || name.toUpperCase().includes('4K')) {
+    return '4K';
+  }
+
+  let clean = name;
+
+  // Remove content in brackets or parentheses, e.g. [No VPN], (BD), [BD]
+  clean = clean.replace(/\[[^\]]*\]/g, '');
+  clean = clean.replace(/\([^)]*\)/g, '');
+
+  // Remove common quality/source/language tags
+  clean = clean.replace(/\b(HD|SD|FHD|UHD|HEVC|RAW|BDIX|BD|LIVE|ONLINE|STREAM|BACKUP|DE|FR|US|UK|CA|IN|BD|ES|IT|PT|AR|BR|MX|ENG|BEN|BD-IX|50FPS|60FPS)\b/gi, '');
+
+  // Remove non-alphanumeric trailing/leading characters and multiple spaces
+  clean = clean.trim();
+
+  // Strip trailing numbers and punctuation (e.g. "TSN 1" -> "TSN", "TSN 2" -> "TSN")
+  clean = clean.replace(/\s*\d+\s*$/g, '');
+  
+  // Clean trailing punctuation or spaces
+  clean = clean.replace(/[-_\s,]+$/g, '').trim();
+
+  // Strip trailing digits/numbers attached to letters (e.g. "SP0TV2" -> "SP0TV", "SportTV1" -> "SportTV")
+  clean = clean.replace(/([a-zA-Z]+)\d+$/g, '$1');
+
+  // Clean trailing punctuation or spaces again after the regex replacement
+  clean = clean.replace(/[-_\s,]+$/g, '').trim();
+
+  if (clean.length < 2) {
+    return existingGroup || 'Sports';
+  }
+
+  // Casing mapping for standard groups
+  const preferredCasing = {
+    'tsn': 'TSN',
+    'eurosport': 'EUROSPORT',
+    'sportv': 'SporTV',
+    'sp0tv': 'SP0TV',
+    'toffe': 'TOFFE',
+    'toffee': 'TOFFE',
+    'fancode': 'FANCODE',
+    'fussball': 'FUSSBALL',
+    'sky': 'Sky',
+    'fox': 'FOX',
+    'telemundo': 'TELEMUNDO',
+    'goltv': 'GOLTV',
+    'somoy': 'SOMOY',
+    'tsports': 'TSports',
+    'btv': 'BTV',
+    'irib': 'IRIB',
+    'caze': 'CAZE',
+    'binge': 'Binge',
+    'eleven': 'ELEVEN',
+    'unite8': 'UNITE8',
+    'dsports': 'DSports',
+    'tipik': 'Tipik'
+  };
+
+  const key = clean.toLowerCase();
+  if (preferredCasing[key]) {
+    return preferredCasing[key];
+  }
+
+  // Fallback to match case of existingGroup if existingGroup starts with key
+  if (existingGroup) {
+    const egLower = existingGroup.toLowerCase();
+    if (egLower.startsWith(key) || key.startsWith(egLower)) {
+      let cleanedEg = existingGroup.replace(/\s*\d+\s*$/g, '');
+      cleanedEg = cleanedEg.replace(/([a-zA-Z]+)\d+$/g, '$1');
+      cleanedEg = cleanedEg.replace(/[-_\s,]+$/g, '').trim();
+      if (cleanedEg) return cleanedEg;
+    }
+  }
+
+  if (clean.length <= 4) {
+    return clean.toUpperCase();
+  }
+
+  return clean.charAt(0).toUpperCase() + clean.slice(1);
+}
+
+
 // ─── Main ───────────────────────────────────────────────────────────────────
 
 async function getStreamQualities() {
@@ -733,13 +825,26 @@ async function getStreamQualities() {
     } else if (ext === '.m3u' || ext === '.m3u8') {
       const lines = fileContent.split(/\r?\n/);
       let currentName = '';
+      let currentLogo = '';
+      let currentGroup = '';
       for (const line of lines) {
         if (line.startsWith('#EXTINF:')) {
+          const logoMatch = line.match(/(?:tvg-logo|logo)="([^"]+)"/i);
+          currentLogo = logoMatch ? logoMatch[1] : '';
+
+          const groupMatch = line.match(/(?:group-title|tvg-group|group)="([^"]+)"/i);
+          currentGroup = groupMatch ? groupMatch[1] : '';
+
           const commaIndex = line.lastIndexOf(',');
           currentName = commaIndex !== -1 ? line.substring(commaIndex + 1).trim() : 'Unknown';
         } else if (line.trim() && !line.startsWith('#')) {
-          data.push({ name: currentName || 'Unknown', url: line.trim() });
+          const channel = { name: currentName || 'Unknown', url: line.trim() };
+          if (currentLogo) channel.logo = currentLogo;
+          if (currentGroup) channel.group = currentGroup;
+          data.push(channel);
           currentName = '';
+          currentLogo = '';
+          currentGroup = '';
         }
       }
     } else {
@@ -779,6 +884,16 @@ async function getStreamQualities() {
     const url = stream.url || stream.link;
     if (!url) continue;
     if (!stream.url) stream.url = url;
+
+    // ── Skip URLs containing 'fullmatchshows' ───────────────────────────
+    if (url.toLowerCase().includes('fullmatchshows')) {
+      printRow(idx, '???', stream.name, 'SKIP', `URL contains fullmatchshows: ${url}`);
+      stats.skipped++;
+      continue;
+    }
+
+    // ── Determine / Normalize Group ─────────────────────────────────────
+    stream.group = determineGroup(stream.name, stream.group);
 
     // ── Normalize proxy flags ───────────────────────────────────────────
     if (stream.no_proxy !== undefined) {
@@ -1030,7 +1145,11 @@ async function getStreamQualities() {
       } else if (ext === '.m3u' || ext === '.m3u8') {
         const m3uContent = ['#EXTM3U'];
         for (const item of uniqueData) {
-          m3uContent.push(`#EXTINF:-1,${item.name}`);
+          let extinf = `#EXTINF:-1`;
+          if (item.logo) extinf += ` tvg-logo="${item.logo}"`;
+          if (item.group) extinf += ` group-title="${item.group}"`;
+          extinf += `,${item.name}`;
+          m3uContent.push(extinf);
           m3uContent.push(item.url);
         }
         await fs.writeFile(filePath, m3uContent.join('\n'), 'utf8');

@@ -3,7 +3,7 @@
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://edgestream3.pro/hls/16yuitzaerghbhc16.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB2/tracks-v1a1/mono.m3u8?
@@ -15,62 +15,54 @@ https://edgestream3.pro/hls/wfazgsqtrezu66.m3u8?
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://edgestream2.pro/hls/mlkijfezag65.m3u8?
-#EXTINF:-1 group-title="UNITE8",UNITE8 HINDI HD
+#EXTINF:-1 group-title="UNITE",UNITE8 HINDI HD
 http://fastshare1.com/live/112233/445566/741567.ts
 #EXTINF:-1 tvg-logo="https://duckduckgo.com/i/2e3815a5b7ddd3c9.png" group-title="TELEMUNDO",TELEMUNDO HD
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/NFLHD2/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="IRIB",IRIB 4K
+#EXTINF:-1 group-title="4K",IRIB 4K
 https://ncdn.telewebion.ir/faratar/live/playlist.m3u8
 #EXTINF:-1 group-title="SportzX",SportzX Live
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/NFLHD1/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="SPX",SPX LIVE ENG
-#EXTVLCOPT:http-referrer=https://instream.click/
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/SPbTC9tI82cpBSS4Nsv6pd-mvQd1lnJU2omTqs-sv4DvIdHVRxvZ9OboJTV5Gy1erWo6H569kZ74ZBg6v6sz=w600-h300-pc0xffffff-pd" group-title="ISCREEN",ISCREEN BD FHD
+#EXTVLCOPT:http-referrer=https://iscreen.com.bd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://instreams.pro/US/NFLHD3/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="FOX",FOX SPORTS FHD
-#EXTVLCOPT:http-referrer=https://pushembdz.store/
+https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8
+#EXTINF:-1 group-title="SERVER",SD SERVER [ENG]
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://whioefwhi.sense-scramble-bay.xyz/out/v2/3edf605f76359af1945252bc61a36f35/index.m3u8?
-#EXTINF:-1 group-title="APPLE",APPLE TV FHD
-#EXTVLCOPT:http-referrer=https://pushembdz.store/
+http://193.47.62.59/hls/cdTHXCZzsss.m3u8?
+#EXTINF:-1 group-title="SERVER",ENG SERVER SD
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://whioefwhi.sense-scramble-bay.xyz/out/v2/35d88f93f6a949926e30b0f9d14a7ebb/index.m3u8?
-#EXTINF:-1 group-title="DAZN",DAZN ESPANOL
-#EXTVLCOPT:http-referrer=https://pushembdz.store/
+http://193.47.62.42/hls/cdTHXCZzsssQ.m3u8?
+#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg" group-title="beIN",beIN SPORTS FR
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://whioefwhi.sense-scramble-bay.xyz/out/v2/07b96148b8dc1bef604185a0d1f97a52/index.m3u8?
-#EXTINF:-1 group-title="SKY",SKY ITALY FHD
-#EXTVLCOPT:http-referrer=https://pushembdz.store/
+http://193.47.62.59/hls/cdTHXCZckkkq.m3u8?
+#EXTINF:-1 group-title="D",D SPORTS ES
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://whioefwhi.sense-scramble-bay.xyz/out/v2/2dc68af4cd6f04dc2c59a236b8291d37/index.m3u8?
-#EXTINF:-1 group-title="LOW",LOW RES
-#EXTVLCOPT:http-referrer=https://pushembdz.store/
+http://193.47.62.47/hls/cdTHXCZckkkqqq.m3u8?
+#EXTINF:-1 group-title="SERVER",SD SERVER [SWE]
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://whioefwhi.sense-scramble-bay.xyz/out/v2/330ebcfbf41a874eabeca5251e64bc9d/index.m3u8?
-#EXTINF:-1 group-title="Sky",Sky F1 DE
-#EXTVLCOPT:http-referrer=https://instream.click/
+http://193.47.62.55/hls/cdTHXCZckkkqq.m3u8?
+#EXTINF:-1 group-title="SportzX",SportzX Live
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://instreams.pro/bil2/skyf1de/tracks-v1a1/mono.m3u8
+https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8?
 #EXTINF:-1 group-title="SportzX",SportzX Live
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://edgestream2.pro/hls/Czajafjihafch18.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB4/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="SportzX",SportzX Live
-#EXTVLCOPT:http-referrer=https://streamscenter.online/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://edgestream2.pro/hls/dazhfiach15.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
-#EXTVLCOPT:http-referrer=https://instream.click/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?
 #EXTINF:-1 group-title="beIN",beIN MAX FHD
 #EXTVLCOPT:http-referrer=https://kora.depoooo.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -79,14 +71,10 @@ https://85cup.s3.eu-north-1.amazonaws.com/max3/max3_1080p/index.m3u8?
 #EXTVLCOPT:http-referrer=https://kora.depoooo.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://85cup.s3.eu-north-1.amazonaws.com/max1/master.m3u8?
-#EXTINF:-1 group-title="SD",SD SERVER [ENG]
+#EXTINF:-1 group-title="SERVER",SD SERVER [ENG]
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://193.47.62.42/hls/cdTHXCZzsss.m3u8?
-#EXTINF:-1 group-title="SD",SD SERVER [SWE]
-#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-http://193.47.62.59/hls/cdTHXCZckkkqq.m3u8?
 #EXTINF:-1 group-title="ESPANOL",ESPANOL SD
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -95,21 +83,81 @@ http://193.47.62.55/hls/cdTHXCZckkkqqq.m3u8?
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://edgestream2.pro/hls/ihfazugfyjcazich17.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB3/tracks-v1a1/mono.m3u8?
+#EXTINF:-1 group-title="SportzX",SportzX Live
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://edgestream3.pro/hls/mlkijfezag65.m3u8?
 #EXTINF:-1 group-title="4K",NOW TV 4K [No VPN]
 http://starhub.pro/live/farhat-3379/67897-913379/745270.ts
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="FOX",Fox 1
+http://fastshare1.com/live/25711345/late8airline/751354.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="FOX",Fox 2
+http://fastshare1.com/live/25711345/late8airline/751355.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="BTV B",BTV B
+http://114.130.57.233:8080/manik-kutta-moharaza-kuttar-baccha-t.me/tvserverhd/video.m3u8?token=manik-kuttar-baccha-t.me/tvserverhd
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Somoy TV",Somoy TV
+http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Somoy TV B",Somoy TV B
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="TSN 1 WC B",TSN 1 WC B
+http://fastshare1.com/live/25711345/late8airline/748388.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Unite Sports A",Unite Sports A
+http://fastshare1.com/live/25711345/late8airline/741567.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Unite Sports B",Unite Sports B
+http://fastshare1.com/live/25711345/late8airline/745202.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 1 HD
+http://fastshare1.com/live/25711345/late8airline/744517.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 2 HD
+http://fastshare1.com/live/25711345/late8airline/744518.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 3 HD
+http://fastshare1.com/live/25711345/late8airline/744519.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 4 HD
+http://fastshare1.com/live/25711345/late8airline/744520.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 5 HD
+http://fastshare1.com/live/25711345/late8airline/744521.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 6 HD
+http://fastshare1.com/live/25711345/late8airline/744522.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 1 FHD
+http://fastshare1.com/live/25711345/late8airline/744523.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 2 FHD
+http://fastshare1.com/live/25711345/late8airline/744524.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 3 FHD
+http://fastshare1.com/live/25711345/late8airline/744525.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 4 FHD
+http://fastshare1.com/live/25711345/late8airline/744526.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 5 FHD
+http://fastshare1.com/live/25711345/late8airline/744527.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports 6 FHD
+http://fastshare1.com/live/25711345/late8airline/744528.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Bein Sports",Bein Sports
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="TVP Sports",TVP Sports
+https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="4K",616 Sports 4K B
+http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/745270.ts
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="T Sports",T Sports
+http://114.130.57.233:8080/TsportHD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="Mahsun Sports",Mahsun Sports
+https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
+#EXTINF:-1 tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="M6 Spports",M6 Spports
+https://tv.beyondtaxconsultants.com/api/robi/lps/http://151.80.18.177:86/M6_HD/index.m3u8
+#EXTINF:-1 group-title="Sky",Sky F1 DE
+#EXTVLCOPT:http-referrer=https://instream.click/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://instreams.pro/bil2/skyf1de/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB11/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB12/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB13/tracks-v1a1/mono.m3u8?
@@ -117,7 +165,7 @@ https://instreams.pro/US/MLB13/tracks-v1a1/mono.m3u8?
 #EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://inproviszon.st/fox-usa.m3u8?
-#EXTINF:-1 group-title="FUSSBALL",FUSSBALL TV 4K
+#EXTINF:-1 group-title="4K",FUSSBALL TV 4K
 #EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://inproviszon.st/fussballtv1uhd-de.m3u8?
@@ -131,21 +179,23 @@ https://1nyaler.streamhostingcdn.top/stream/21/index.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/EU/HDWC3/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png" group-title="BeIN",Bein Sports 1
-https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="FIFA",ARABIC LIVE
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="ARABIC",ARABIC LIVE
 https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6719.png" group-title="FIFA",Match! Football 1
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6719.png" group-title="Match! Football",Match! Football 1
 https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
 #EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="SportzX",SportzX Live
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/EU/HDWC1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="SERVER",HD SERVER
+#EXTVLCOPT:http-referrer=https://instream.click/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://instreams.pro/US/MLB1/tracks-v1a1/mono.m3u8?
 #EXTINF:-1 group-title="TELEMUNDO",TELEMUNDO HD
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/EU/HDWC2/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?
@@ -155,35 +205,19 @@ https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?
 https://inproviszon.st/bbc-xyz-waUvqaAACr.m3u8?
 #EXTINF:-1 group-title="HIGHLIGHTS",HIGHLIGHTS [EN]
 https://soccerfull.net/hls/14567.m3u8
-#EXTINF:-1 group-title="HIGHLIGHTS",HIGHLIGHTS [RU]
-https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/iK2dFmLHvEW6gMl7DiI3lA/il/ojqwdns5/la5p6t/tt/master.m3u8
-#EXTINF:-1 group-title="FULL",FULL MATCH [EN]
-https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/n58ZlN7_G01MM86dFkJvrw/k5/ojqwdns5/pvtp53/tt/master.m3u8
-#EXTINF:-1 group-title="FULL",FULL MATCH [AR]
-https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/NfjGHmrOsZQ0Tt0lJu7YsA/6hf/v1feafng/xnrgya/tt/master.m3u8
-#EXTINF:-1 group-title="EX.",EX. HIGHLIGHTS [EN]
-https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/Vvkc1CjxevzIUqbqymzW6g/urp/ojqwdns5/ic8vvp/tt/master.m3u8
-#EXTINF:-1 group-title="HIGHLIGHTS",HIGHLIGHTS
-https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/ZQCqetWlb7JVFfZ0206nmw/6hf/ojqwdns5/xnr8bf/tt/master.m3u8
-#EXTINF:-1 group-title="FULL",FULL MATCH [RU]
-https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/Ta3NNOj6s1U4FJRtswB_uw/vz1/ojqwdns5/mjncum/tt/master.m3u8?v=1766826492
-#EXTINF:-1 group-title="EX.",EX. HIGHLIGHTS [EN]
-https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/9K7yBwCA9jC1VhEpSb-eug/mf/v1feafng/brdvsd/tt/master.m3u8
-#EXTINF:-1 group-title="ET",ET & PEN [EN]
-https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/ywHb5IMV-m5OdBtUGKxkYg/6hf/v1feafng/mjnapk/tt/master.m3u8
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB5/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB6/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="HD",HD SERVER
+#EXTINF:-1 group-title="SERVER",HD SERVER
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/US/MLB7/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 group-title="BBC",BBC SPORTS 4K
+#EXTINF:-1 group-title="4K",BBC SPORTS 4K
 #EXTVLCOPT:http-referrer=https://vileembeds.pages.dev/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://inproviszon.st/bbc-4k.m3u8?

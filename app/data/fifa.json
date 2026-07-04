@@ -92,13 +92,13 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "WC TV FHD",
+        "name": "RTE SPORTS FHD",
         "logo": "",
-        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
+        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/2a690d5f-7ab5-460e-ba3d-cef6b7a86e29:GRQ/manifest.mpd",
         "type": "dash",
-        "group": "WC",
-        "kid": "2c338a117d434ce4bbe3569231af90f1",
-        "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
+        "group": "RTE",
+        "kid": "d816287e21496989eae1312925a423c5",
+        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
         "useProxy": true
     },
     {
@@ -335,6 +335,15 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
+        "name": "ENG SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/cdTHXCZzsssQ.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
         "name": "SD SERVER [SWE]",
         "logo": "",
         "url": "http://193.47.62.59/hls/cdTHXCZckkkqq.m3u8?",
@@ -538,6 +547,13 @@
         "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
         "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
         "group": "TVP Sports",
+        "useProxy": false
+    },
+    {
+        "name": "616 Sports 4K B",
+        "url": "http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/745270.ts",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "group": "4K",
         "useProxy": false
     },
     {
@@ -834,14 +850,6 @@
         "useProxy": true
     },
     {
-        "name": "SKY CRICKET FHD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141",
-        "group": "SKY",
-        "useProxy": false,
-        "user-agent": "Mozilla"
-    },
-    {
         "name": "HD SERVER",
         "logo": "",
         "url": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?",
@@ -849,14 +857,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "SKY CRICKET FHD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "SKY",
-        "useProxy": false,
-        "user-agent": "Mozilla"
     },
     {
         "name": "WILLOW HD",

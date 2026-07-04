@@ -1,14 +1,5 @@
 [
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/jzabfazkbf27.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "HD SERVER",
         "logo": "",
         "url": "https://instreams.pro/US/MLB13/tracks-v1a1/mono.m3u8?",
@@ -51,15 +42,6 @@
         "url": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/r4iypz1l2qA5okCB5hpfFQ/k5/wybszwqs/ht5z5v/tt/master.m3u8",
         "group": "2nd",
         "useProxy": false
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/fskjanach24.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "HD SERVER",
@@ -286,61 +268,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "HD SERVER ES",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/b0h5fNwDKH.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "HD SERVER ENG",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/24SDAZFcsqnj24.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "HD SERVER AR",
-        "logo": "",
-        "url": "https://edge2caster.pro/hls/eJmauBDCIf.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "Match Football FHD",
-        "logo": "",
-        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
-        "type": "dash",
-        "group": "Match",
-        "kid": "9145a6e0f778e61866f573d4944dd533",
-        "key": "d02173d40515fea5c83944f21d0f3114",
-        "useProxy": true
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX LIVE",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "HD SERVER",
         "logo": "",
         "url": "https://instreams.pro/US/MLB9/tracks-v1a1/mono.m3u8?",
@@ -348,15 +275,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edge2caster.pro/hls/ztyarueaghj71.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "SportzX TV+ HD",
@@ -373,16 +291,6 @@
         "group": "HD",
         "useProxy": true,
         "referer": "https://26hrwgorfcmh.windows-devs.top/"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/mlkijfezag65.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     },
     {
         "name": "NOW TV 4K [No VPN]",
@@ -544,15 +452,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "HD SERVER AR",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/eJmauBDCIf.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "SD SERVER AR",
         "logo": "",
         "url": "http://193.47.62.51/hls/dTHXCZckkkqr.m3u8?",
@@ -685,24 +584,6 @@
         "user-agent": "Mozilla"
     },
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/ijfnakfidch22.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/bvnsqdfvgha70.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "SKY CRICKET FHD",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
         "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
@@ -816,24 +697,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/dazhfiach15.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/16yuitzaerghbhc16.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "HD SERVER",
         "logo": "",
         "url": "https://instreams.pro/US/MLB2/tracks-v1a1/mono.m3u8?",
@@ -841,15 +704,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/ihfazugfyjcazich17.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "HD SERVER",
@@ -924,15 +778,6 @@
         "useProxy": false
     },
     {
-        "name": "SportzX LIVE",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/bzagLHzach19.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "HD SERVER",
         "logo": "",
         "url": "https://instreams.pro/US/MLB5/tracks-v1a1/mono.m3u8?",
@@ -942,15 +787,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/jkzahzadach20.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "HD SERVER",
         "logo": "",
         "url": "https://instreams.pro/US/MLB6/tracks-v1a1/mono.m3u8?",
@@ -958,15 +794,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/ojzkajnach21.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "HD SERVER",
@@ -984,15 +811,6 @@
         "group": "BBC",
         "useProxy": true,
         "referer": "https://vileembeds.pages.dev/"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/Czajafjihafch18.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "HD SERVER",

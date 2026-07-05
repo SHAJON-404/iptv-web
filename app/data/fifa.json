@@ -88,16 +88,6 @@
         "useProxy": true
     },
     {
-        "name": "RTE SPORTS FHD",
-        "logo": "",
-        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/2a690d5f-7ab5-460e-ba3d-cef6b7a86e29:GRQ/manifest.mpd",
-        "type": "dash",
-        "group": "RTE",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
-        "useProxy": true
-    },
-    {
         "name": "TVE La 1 FHD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
@@ -224,16 +214,6 @@
         "key": "014f0116154f5bf0050e03a6b0a23157",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "RTE SPORTS FHD",
-        "logo": "",
-        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/530f2af5-e363-41cd-b42d-ca3abb273fce:GRQ/manifest.mpd",
-        "type": "dash",
-        "group": "RTE",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
-        "useProxy": true
     },
     {
         "name": "CAZE TV FHD",
@@ -456,10 +436,10 @@
         "useProxy": false
     },
     {
-        "name": "616 Sports 4K B",
-        "url": "http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/745270.ts",
+        "name": "T Sports",
+        "url": "http://114.130.57.233:8080/TsportHD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
         "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-        "group": "4K",
+        "group": "T Sports",
         "useProxy": false
     },
     {
@@ -470,17 +450,17 @@
         "useProxy": false
     },
     {
-        "name": "S Live Pass",
-        "url": "http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/745195.ts",
-        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-        "group": "S  Pass",
-        "useProxy": false
-    },
-    {
         "name": "M6 Spports",
         "url": "https://tv.beyondtaxconsultants.com/api/robi/lps/http://151.80.18.177:86/M6_HD/index.m3u8",
         "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
         "group": "M6 Spports",
+        "useProxy": false
+    },
+    {
+        "name": "Win Sports",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "group": "Win Sports",
         "useProxy": false
     },
     {

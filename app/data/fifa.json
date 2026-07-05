@@ -88,16 +88,6 @@
         "useProxy": true
     },
     {
-        "name": "RTE SPORTS FHD",
-        "logo": "",
-        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/2a690d5f-7ab5-460e-ba3d-cef6b7a86e29:GRQ/manifest.mpd",
-        "type": "dash",
-        "group": "RTE",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
-        "useProxy": true
-    },
-    {
         "name": "TVE La 1 FHD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
@@ -175,16 +165,6 @@
         "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
         "group": "4K",
         "useProxy": false
-    },
-    {
-        "name": "Match Football FHD",
-        "logo": "",
-        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
-        "type": "dash",
-        "group": "Match",
-        "kid": "9145a6e0f778e61866f573d4944dd533",
-        "key": "d02173d40515fea5c83944f21d0f3114",
-        "useProxy": true
     },
     {
         "name": "SportzX Live",
@@ -466,13 +446,6 @@
         "useProxy": false
     },
     {
-        "name": "616 Sports 4K B",
-        "url": "http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/745270.ts",
-        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-        "group": "4K",
-        "useProxy": false
-    },
-    {
         "name": "T Sports",
         "url": "http://114.130.57.233:8080/TsportHD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
         "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
@@ -484,6 +457,13 @@
         "url": "https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8",
         "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
         "group": "Mahsun Sports",
+        "useProxy": false
+    },
+    {
+        "name": "S Live Pass",
+        "url": "http://fastshare1.com/live/1Aoen7elp5/IgMJ60tmAa/745195.ts",
+        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
+        "group": "S  Pass",
         "useProxy": false
     },
     {
@@ -773,6 +753,14 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
+    },
+    {
+        "name": "SKY CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
     },
     {
         "name": "WILLOW HD",

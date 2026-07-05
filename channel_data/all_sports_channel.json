@@ -172,6 +172,26 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "WC TV FHD",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
+        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
+        "type": "dash",
+        "group": "WC",
+        "kid": "2c338a117d434ce4bbe3569231af90f1",
+        "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
+        "useProxy": true
+    },
+    {
+        "name": "RTE SPORTS FHD",
+        "logo": "",
+        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/4661fa2a-637f-4a69-bf86-31e73a99d2c2:BRU/manifest.mpd",
+        "type": "dash",
+        "group": "RTE",
+        "kid": "d816287e21496989eae1312925a423c5",
+        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
+        "useProxy": true
+    },
+    {
         "name": "TVE La 1 FHD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
@@ -235,13 +255,6 @@
         "kid": "11223344556677889900112233445566",
         "key": "4b80724d0ef86bcb2c21f7999d67739d",
         "useProxy": true
-    },
-    {
-        "name": "FAST SERVER",
-        "logo": "",
-        "url": "https://pulltx.jdnzrgm.com/live/hd-en-6MvYMRTH6xbyFKVkzJ.m3u8?txSecret=f9607e95612eab37c00e9a7979ccb825&txTime=6A4AD980",
-        "group": "FAST",
-        "useProxy": false
     },
     {
         "name": "GOLTV VIVO",

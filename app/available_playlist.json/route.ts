@@ -30,7 +30,9 @@ export async function GET(request: Request) {
       .filter((file) => file.endsWith('.json'))
       .sort();
 
-    const origin = new URL(request.url).origin;
+    const host = request.headers.get('x-forwarded-host') || request.headers.get('host');
+    const proto = request.headers.get('x-forwarded-proto') || new URL(request.url).protocol.replace(':', '');
+    const origin = host ? `${proto}://${host}` : new URL(request.url).origin;
 
     const availablePlaylists = playlistFiles.map((file) => {
       const name = getPlaylistName(file);

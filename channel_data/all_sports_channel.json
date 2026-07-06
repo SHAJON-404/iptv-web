@@ -246,14 +246,6 @@
         "useProxy": true
     },
     {
-        "name": "STV SPORTS HD",
-        "logo": "",
-        "url": "https://inproviszon.st/itv-xyz-waUvqaAACr.m3u8?",
-        "group": "STV",
-        "useProxy": true,
-        "referer": "https://vileembeds.pages.dev/"
-    },
-    {
         "name": "FOX ONE HD",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/zpfs5hlgya/out/v1/84b1d591a23640178a8e8aa43c6e59a7/cenc.mpd",
@@ -619,14 +611,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "BBC SPORTS 4K",
-        "logo": "",
-        "url": "https://inproviszon.st/bbc-4k.m3u8?",
-        "group": "4K",
-        "useProxy": true,
-        "referer": "https://vileembeds.pages.dev/"
     },
     {
         "name": "HD SERVER",

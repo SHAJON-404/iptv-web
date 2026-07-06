@@ -118,16 +118,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "WC TV FHD",
-        "logo": "",
-        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
-        "type": "dash",
-        "group": "WC",
-        "kid": "2c338a117d434ce4bbe3569231af90f1",
-        "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
-        "useProxy": true
-    },
-    {
         "name": "TUDN MEXICO",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",

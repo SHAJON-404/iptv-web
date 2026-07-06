@@ -74,14 +74,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "BBC SPORTS FHD",
-        "logo": "",
-        "url": "https://inproviszon.st/bbc-xyz-waUvqaAACr.m3u8?",
-        "group": "BBC",
-        "useProxy": true,
-        "referer": "https://vileembeds.pages.dev/"
-    },
-    {
         "name": "FOX SPORTS 4K",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ds6pjm8gzg/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",

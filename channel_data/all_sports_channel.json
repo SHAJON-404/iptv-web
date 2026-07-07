@@ -185,16 +185,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "MATCH TV RU",
-        "logo": "",
-        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
-        "type": "dash",
-        "group": "MATCH",
-        "kid": "9145a6e0f778e61866f573d4944dd533",
-        "key": "d02173d40515fea5c83944f21d0f3114",
-        "useProxy": true
-    },
-    {
         "name": "TIPIK FR FHD",
         "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
         "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
@@ -378,13 +368,6 @@
         "key": "c0c504a2ed2e70b879a650b8770a38c6",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "HIGHLIGHTS",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14623.m3u8",
-        "group": "HIGHLIGHTS",
-        "useProxy": false
     },
     {
         "name": "HD SERVER",
@@ -709,13 +692,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "HIGHLIGHTS [EN]",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14567.m3u8",
-        "group": "HIGHLIGHTS",
-        "useProxy": false
-    },
-    {
         "name": "HD SERVER",
         "logo": "",
         "url": "https://instreams.pro/US/MLB5/tracks-v1a1/mono.m3u8?",
@@ -732,5 +708,40 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
+    },
+    {
+        "name": "Binge BDIX (BD)",
+        "logo": "https://play-lh.googleusercontent.com/SPbTC9tI82cpBSS4Nsv6pd-mvQd1lnJU2omTqs-sv4DvIdHVRxvZ9OboJTV5Gy1erWo6H569kZ74ZBg6v6sz=w600-h300-pc0xffffff-pd",
+        "url": "https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/main.m3u8",
+        "group": "Binge",
+        "useProxy": true,
+        "referer": "https://iscreen.com.bd/"
+    },
+    {
+        "name": "FUSSBALL TV 4K",
+        "logo": "",
+        "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
+        "type": "dash",
+        "group": "4K",
+        "kid": "4f558eae1b005126b2ac6e9eb1a7849e",
+        "key": "17aea325d91b5e66f06a8c574f2f0b03",
+        "useProxy": true
+    },
+    {
+        "name": "FUSSBALL TV2 4K",
+        "logo": "",
+        "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_2_UHD/default/index.mpd",
+        "type": "dash",
+        "group": "4K",
+        "kid": "ccdf9f3d9bbf5c508adf04f81918a285",
+        "key": "66cf0524fcc2eb0c7dab8bbbf8829827",
+        "useProxy": true
+    },
+    {
+        "name": "TOFFEE BDIX (BD)",
+        "logo": "https://sadatinternet.com/wp-content/uploads/2022/05/123229859_100869635171190_9162097040449781294_n.jpg",
+        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/0/master_1500.m3u8?hdntl=Expires=1783447539~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AWIR_5GiNNVcCNPkXZGvw8Su_WsdUhNKXmk8Jyz1gTHbU7UpS659B7KURm3gCi31E7VB2qmKui5wOoLG_8gcgXYbeEQA",
+        "group": "TOFFE",
+        "useProxy": false
     }
 ]

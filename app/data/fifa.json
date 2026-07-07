@@ -303,13 +303,6 @@
         "useProxy": false
     },
     {
-        "name": "T Sports",
-        "url": "http://114.130.57.233:8080/TsportHD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
-        "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",
-        "group": "T Sports",
-        "useProxy": false
-    },
-    {
         "name": "Mahsun Sports",
         "url": "https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8",
         "logo": "https://imglink.cc/cdn/RY7jBwPKAr.jpg",

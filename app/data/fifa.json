@@ -33,6 +33,28 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "CTV SPORTS FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+        "type": "dash",
+        "group": "CTV",
+        "kid": "d185684e2330de5bea436daa094a5e86",
+        "key": "014f0116154f5bf0050e03a6b0a23157",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "CANAL5 FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
+        "type": "dash",
+        "group": "CANAL",
+        "kid": "d695093ea3e66d75a4d213a3e2cbf360",
+        "key": "01be3f645e89a067d2786c295f68dde4",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
         "name": "WC TV FHD",
         "logo": "",
         "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
@@ -40,16 +62,6 @@
         "group": "WC",
         "kid": "2c338a117d434ce4bbe3569231af90f1",
         "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
-        "useProxy": true
-    },
-    {
-        "name": "RTE SPORTS FHD",
-        "logo": "",
-        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/f63170fb-3c13-4829-8e8c-0977ed9011d7:BRU/manifest.mpd",
-        "type": "dash",
-        "group": "RTE",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
         "useProxy": true
     },
     {
@@ -123,6 +135,13 @@
         "useProxy": false
     },
     {
+        "name": "IRIB 4K",
+        "logo": "",
+        "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+        "group": "4K",
+        "useProxy": false
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://instreams.pro/US/NFLHD1/tracks-v1a1/mono.m3u8?",
@@ -132,23 +151,22 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "beiN SPORTS FR",
-        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
-        "url": "http://193.47.62.59/hls/dTHXCZckkkq.m3u8?",
-        "group": "beIN",
+        "name": "SD SERVER [SWE]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/dTHXCZckkkqq.m3u8?",
+        "group": "SERVER",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
     },
     {
-        "name": "TIPIK FR FHD",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
-        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-        "type": "dash",
-        "group": "Tipik",
-        "kid": "adca25b8779e4168a0cd710f59f61ccf",
-        "key": "be5383ed3cd8079f4ffe78ad067f476a",
-        "useProxy": true
+        "name": "ESPANOL SD",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/dTHXCZckkkqqq.m3u8?",
+        "group": "ESPANOL",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "TVE La 1 FHD",
@@ -158,17 +176,6 @@
         "group": "TVE",
         "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
         "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "CANAL5 FHD",
-        "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/televisa.gif",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
-        "type": "dash",
-        "group": "CANAL",
-        "kid": "d695093ea3e66d75a4d213a3e2cbf360",
-        "key": "01be3f645e89a067d2786c295f68dde4",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
@@ -215,6 +222,15 @@
         "key": "6425ac4c0cdf906fe0cce5cf40dc8933",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "SD SERVER [ENG]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/JMMMCZzsss.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "ITV SPORTS FHD",
@@ -278,15 +294,14 @@
         "useProxy": false
     },
     {
-        "name": "CTV SPORTS FHD",
-        "logo": "https://r2.thesportsdb.com/images/media/channel/logo/wwr35d1665918725.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+        "name": "RTE SPORTS FHD",
+        "logo": "",
+        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/4661fa2a-637f-4a69-bf86-31e73a99d2c2:BRU/manifest.mpd",
         "type": "dash",
-        "group": "CTV",
-        "kid": "d185684e2330de5bea436daa094a5e86",
-        "key": "014f0116154f5bf0050e03a6b0a23157",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+        "group": "RTE",
+        "kid": "d816287e21496989eae1312925a423c5",
+        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
+        "useProxy": true
     },
     {
         "name": "SporTV BR FHD",
@@ -319,6 +334,25 @@
         "key": "014f0116154f5bf0050e03a6b0a23157",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "RTE SPORTS FHD",
+        "logo": "",
+        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/530f2af5-e363-41cd-b42d-ca3abb273fce:GRQ/manifest.mpd",
+        "type": "dash",
+        "group": "RTE",
+        "kid": "d816287e21496989eae1312925a423c5",
+        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
+        "useProxy": true
+    },
+    {
+        "name": "ENG SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/cdTHXCZzsssQ.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "SD SERVER [SWE]",

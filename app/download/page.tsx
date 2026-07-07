@@ -16,6 +16,8 @@ interface ReleaseData {
   assets: GitHubAsset[];
 }
 
+export const dynamic = "force-dynamic";
+
 async function getLatestRelease(): Promise<ReleaseData | null> {
   const secret = process.env.GITHUB_SECRETS || process.env.GITHUB_SECREST;
   const headers: Record<string, string> = {
@@ -28,10 +30,10 @@ async function getLatestRelease(): Promise<ReleaseData | null> {
   }
 
   try {
-    // Revalidate once every hour
+    // Fetch dynamically on every request without caching
     const res = await fetch('https://api.github.com/repos/SHAJON-404/iptv/releases/latest', {
       headers,
-      next: { revalidate: 3600 }
+      cache: 'no-store'
     });
 
     if (!res.ok) {

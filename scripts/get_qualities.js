@@ -560,6 +560,84 @@ async function probeSegment(url, headers) {
   return { reachable: false, status: status || 0, buffer: null, reason: error };
 }
 
+/**
+ * Detects stream type and reads content from response body with safety limits.
+ * Returns { type: 'hls'|'dash'|'ts', text: string|null, buffer: Uint8Array|null }
+ */
+async function detectAndReadStream(response, maxManifestBytes = 2097152, maxTsBytes = 262144) {
+  const contentType = (response.headers.get('content-type') || '').toLowerCase();
+  
+  // Quick type check from headers
+  let type = null;
+  if (contentType.includes('mpegurl') || contentType.includes('apple.mpegurl')) {
+    type = 'hls';
+  } else if (contentType.includes('dash+xml')) {
+    type = 'dash';
+  } else if (contentType.includes('video/mp2t')) {
+    type = 'ts';
+  }
+
+  const reader = response.body.getReader();
+  const chunks = [];
+  let totalLength = 0;
+  let detectedType = type;
+
+  try {
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+
+      chunks.push(value);
+      totalLength += value.length;
+
+      // If type not yet detected from headers, try parsing the first chunk
+      if (!detectedType && chunks.length === 1) {
+        const textPrefix = new TextDecoder().decode(value);
+        const trimmed = textPrefix.replace(/^\uFEFF/, '').trim();
+        if (trimmed.startsWith('#EXTM3U') || trimmed.startsWith('#EXT')) {
+          detectedType = 'hls';
+        } else if (trimmed.startsWith('<?xml') || trimmed.startsWith('<MPD') || trimmed.includes('<MPD')) {
+          detectedType = 'dash';
+        } else {
+          detectedType = 'ts';
+        }
+      }
+
+      // Apply safety limits based on detected type
+      if (detectedType === 'ts') {
+        if (totalLength >= maxTsBytes) {
+          await reader.cancel().catch(() => {});
+          break;
+        }
+      } else {
+        // HLS or DASH
+        if (totalLength >= maxManifestBytes) {
+          await reader.cancel().catch(() => {});
+          break;
+        }
+      }
+    }
+  } catch (err) {
+    await reader.cancel().catch(() => {});
+    throw err;
+  }
+
+  // Concatenate chunks
+  const totalBuffer = new Uint8Array(totalLength);
+  let offset = 0;
+  for (const chunk of chunks) {
+    totalBuffer.set(chunk, offset);
+    offset += chunk.length;
+  }
+
+  if (detectedType === 'ts') {
+    return { type: 'ts', text: null, buffer: totalBuffer };
+  } else {
+    const text = new TextDecoder().decode(totalBuffer);
+    return { type: detectedType || 'hls', text, buffer: null };
+  }
+}
+
 function formatStatus(statusType) {
   switch (statusType) {
     case 'VALID': return `${C.green}VALID      ${C.reset}`;
@@ -912,10 +990,10 @@ async function getStreamQualities() {
     // ── Detect stream type ──────────────────────────────────────────────
     // Strip query params for reliable extension detection
     const cleanUrl = (stream.url || '').split(/[?#]/)[0].toLowerCase();
-    const isDash = stream.type === 'dash' || cleanUrl.endsWith('.mpd');
-    const isHls = !isDash && (stream.type === 'hls' || cleanUrl.endsWith('.m3u8') || cleanUrl.endsWith('.m3u'));
-    const isTs = !isDash && !isHls && (cleanUrl.endsWith('.ts') || stream.type === 'ts');
-    const streamTypeStr = isDash ? 'DASH' : isHls ? 'HLS' : 'TS';
+    let isDash = stream.type === 'dash' || cleanUrl.endsWith('.mpd');
+    let isHls = !isDash && (stream.type === 'hls' || cleanUrl.endsWith('.m3u8') || cleanUrl.endsWith('.m3u'));
+    let isTs = !isDash && !isHls && (cleanUrl.endsWith('.ts') || stream.type === 'ts');
+    let streamTypeStr = isDash ? 'DASH' : isHls ? 'HLS' : isTs ? 'TS' : '???';
 
     // ── Duplicate detection ─────────────────────────────────────────────
     const uniqueIdentifier = url.trim();
@@ -927,13 +1005,6 @@ async function getStreamQualities() {
     }
     seenIdentifiers.add(uniqueIdentifier);
     uniqueData.push(stream);
-
-    // ── Unknown format ──────────────────────────────────────────────────
-    if (!isDash && !isHls && !isTs) {
-      printRow(idx, '???', stream.name, 'SKIP', `Unknown format: ${stream.url || 'No URL'}`);
-      stats.skipped++;
-      continue;
-    }
 
     const hasVpn = stream.name && /vpn/i.test(stream.name);
 
@@ -963,7 +1034,7 @@ async function getStreamQualities() {
       continue;
     }
 
-    // ── Fetch manifest (HLS / DASH) ─────────────────────────────────────
+    // ── Fetch manifest or detect stream type ────────────────────────────
     const headers = buildFetchHeaders(stream);
     const { response, error: fetchError } = await fetchWithTimeout(stream.url, headers);
 
@@ -993,7 +1064,52 @@ async function getStreamQualities() {
       continue;
     }
 
-    const text = await response.text();
+    let text = '';
+    let readResult;
+    try {
+      readResult = await detectAndReadStream(response);
+      isDash = (readResult.type === 'dash');
+      isHls = (readResult.type === 'hls');
+      isTs = (readResult.type === 'ts');
+      streamTypeStr = readResult.type.toUpperCase();
+      text = readResult.text || '';
+    } catch (readErr) {
+      const reason = `Failed to read stream content: ${readErr.message}`;
+      if (hasVpn) {
+        printRow(idx, streamTypeStr, stream.name, 'VPN', `${reason} - VPN required`);
+        validStreams.push(stream);
+        stats.vpn++;
+      } else {
+        printRow(idx, streamTypeStr, stream.name, 'DEAD', reason);
+        trackDead(stream, reason);
+      }
+      continue;
+    }
+
+    // If dynamically detected as TS
+    if (isTs) {
+      if (readResult.buffer && readResult.buffer.length > 0) {
+        let resInfo = '';
+        const resolution = parseResolution(readResult.buffer);
+        if (resolution) {
+          resInfo = `${resolution.width}x${resolution.height}`;
+        } else {
+          resInfo = 'TS stream';
+        }
+        printRow(idx, 'TS', stream.name, 'VALID', resInfo);
+        validStreams.push(stream);
+        stats.valid++;
+      } else if (hasVpn) {
+        printRow(idx, 'TS', stream.name, 'VPN', `TS stream unreachable - VPN required`);
+        validStreams.push(stream);
+        stats.vpn++;
+      } else {
+        printRow(idx, 'TS', stream.name, 'DEAD', `TS stream is empty or unreachable`);
+        trackDead(stream, 'TS stream is empty or unreachable');
+      }
+      continue;
+    }
+
     const contentType = response.headers.get('content-type') || '';
 
     // ── Phase 2: Content-Type validation ────────────────────────────────

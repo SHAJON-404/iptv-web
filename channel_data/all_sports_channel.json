@@ -130,17 +130,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "FOX ONE 4K",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/xbfi5dhehl/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
-        "type": "dash",
-        "group": "4K",
-        "kid": "1f68713028d439ec03be07f56c1d6213",
-        "key": "20093db6455160fffed4c394def3193d",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "ITV SPORTS FHD",
         "logo": "https://r2.thesportsdb.com/images/media/channel/logo/ekabsp1680291523.png",
         "url": "https://pacquiao.inproviszon.st/itv1-uk.m3u8?",

@@ -210,6 +210,32 @@
         "useProxy": false
     },
     {
+        "name": "TSN Espanol AQ",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/rhv9vhxjr8/out/v1/a3d68368d1c74ccdab284b9f799fbcc6/2e8c87fa-123b-4477-be26-be97241cd16a-cenc.mpd?",
+        "type": "dash",
+        "group": "TSN",
+        "kid": "9d608811a2aa00a1c17151bf2c85d8c8",
+        "key": "f8be5b2c41d9ab006462044763cd5ea0",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "referer": "primevideo.com",
+        "origin": "primevideo.com"
+    },
+    {
+        "name": "TSN Arabic AQ",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://live-pv-ta.amazon.fastly-edge.com/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/4oyauil6pz/out/v1/53e824228c9d4ff2884cffd2eda4c433/2bb701e9-147c-4e8b-83dd-7003c7a48ab8-cenc.mpd?",
+        "type": "dash",
+        "group": "TSN",
+        "kid": "647d7e5a44751b08641c1de5daa0e398",
+        "key": "c4f950d89e8f3b8ec27f91a75367d650",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "referer": "primevideo.com",
+        "origin": "primevideo.com"
+    },
+    {
         "name": "CTV SPORTS FHD",
         "logo": "https://r2.thesportsdb.com/images/media/channel/logo/wwr35d1665918725.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
@@ -265,15 +291,6 @@
         "name": "ENG SD SERVER",
         "logo": "",
         "url": "http://193.47.62.59/hls/cdTHXCZzsssQ.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "SD SERVER [SWE]",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/cdTHXCZckkkqq.m3u8?",
         "group": "SERVER",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",

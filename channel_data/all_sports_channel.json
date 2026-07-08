@@ -38,6 +38,14 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "SKY CRICKET FHD",
+        "logo": "",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/kjhfzua25.m3u8?",
@@ -199,6 +207,16 @@
         "origin": "https://instream.click"
     },
     {
+        "name": "Match Football FHD",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "Match",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": true
+    },
+    {
         "name": "CTV SPORTS FHD",
         "logo": "https://r2.thesportsdb.com/images/media/channel/logo/cwf4wo1665918379.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
@@ -242,15 +260,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "SD SERVER [ENG]",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/cdTHXCZzsss.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
         "name": "beIN SPORTS FR",
         "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
         "url": "http://193.47.62.59/hls/cdTHXCZckkkq.m3u8?",
@@ -292,15 +301,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "SD SERVER [ENG]",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/JMMMCZzsss.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
         "name": "ITV SPORTS FHD",
         "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
@@ -326,6 +326,15 @@
         "logo": "",
         "url": "http://193.47.62.59/hls/QJMMMCZckkkqq.m3u8?",
         "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "beiN SPORTS FR",
+        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
+        "url": "http://193.47.62.59/hls/QJMMMCZckkkq.m3u8?",
+        "group": "beIN",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
@@ -482,16 +491,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "RTE SPORTS FHD",
-        "logo": "",
-        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/39e74ad9-137f-423c-969d-e7298cf3bf4e:BRU/manifest.mpd",
-        "type": "dash",
-        "group": "RTE",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
-        "useProxy": true
-    },
-    {
         "name": "TUDN MEXICO",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd",
@@ -600,13 +599,6 @@
         "group": "Bein Sports  🇫🇷 France",
         "name": "Bein Sports  🇫🇷 France",
         "url": "http://145.239.5.177:80/559/index.m3u8",
-        "useProxy": false
-    },
-    {
-        "logo": "https://imglink.cc/cdn/kIiut6WBq0.jpg",
-        "group": "Bein Sports 2 🇷🇸 Serbia",
-        "name": "Bein Sports 2 🇷🇸 Serbia",
-        "url": "http://ua.online24.pm/play/1102/350B326FB34F4B8/video.m3u8",
         "useProxy": false
     },
     {
@@ -721,17 +713,6 @@
     },
     {
         "group": "4K",
-        "name": "Fussball TV 1 4K DE",
-        "customHeaders": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "http-reconnect": "true",
-            "input-repeat": "-1"
-        },
-        "url": "http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465825",
-        "useProxy": false
-    },
-    {
-        "group": "4K",
         "name": "Fussball TV 2 4K DE",
         "customHeaders": {
             "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
@@ -799,17 +780,6 @@
         "useProxy": false
     },
     {
-        "group": "4K",
-        "name": "TSN 4K",
-        "customHeaders": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "http-reconnect": "true",
-            "input-repeat": "-1"
-        },
-        "url": "http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465866",
-        "useProxy": false
-    },
-    {
         "group": "Channel",
         "name": "Channel 465856",
         "customHeaders": {
@@ -829,17 +799,6 @@
             "input-repeat": "-1"
         },
         "url": "http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465858",
-        "useProxy": false
-    },
-    {
-        "group": "Channel",
-        "name": "Channel 465859",
-        "customHeaders": {
-            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-            "http-reconnect": "true",
-            "input-repeat": "-1"
-        },
-        "url": "http://10k.lucastv.pro/2c99755ae255/gJnMAT2/465859",
         "useProxy": false
     },
     {

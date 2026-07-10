@@ -172,15 +172,6 @@
         "useProxy": false
     },
     {
-        "name": "SD SERVER [ENG]",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/JMMMCZzsss.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
         "name": "ITV SPORTS FHD",
         "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
@@ -201,6 +192,24 @@
         "key": "a879b1d38ed002d4018bce96f9219b8d",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "SD SERVER  [SWE]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/QJMMMCZckkkqq.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "beiN SPORTS FR",
+        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
+        "url": "http://193.47.62.59/hls/QJMMMCZckkkq.m3u8?",
+        "group": "beIN",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "TSports BDIX",
@@ -388,16 +397,6 @@
         "key": "41611477a72a4b932513c0b824ccae06",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "WILLOW ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/orxueyvu1q/out/v1/4f512a0c1bf2470c875bf8b26b563c80/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "f52a13486b5aa72569ab1e6b45e7ec29",
-        "key": "41611477a72a4b932513c0b824ccae06",
-        "useProxy": true
     },
     {
         "name": "LOW SERVER",

@@ -112,6 +112,17 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "FOX ONE - AQ",
+        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "f6564ec2aee819046328a0e153be574d",
+        "key": "ff46a8a1031eb27ef22576a077c98ab7",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
         "name": "TVE La 1 FHD",
         "logo": "https://r2.thesportsdb.com/images/media/channel/logo/p19tzj1781340041.png",
         "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
@@ -250,10 +261,90 @@
         "useProxy": false
     },
     {
+        "name": "SD SERVER [ENG]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/VVQJMMMCZzsssp.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "SD SERVER [SWE]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkqq.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "beiN SPORTS FR",
+        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
+        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkq.m3u8?",
+        "group": "beIN",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "FOX ONE - AQ",
+        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "f6564ec2aee819046328a0e153be574d",
+        "key": "ff46a8a1031eb27ef22576a077c98ab7",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "ITV SPORTS FHD",
+        "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
+        "type": "dash",
+        "group": "ITV",
+        "kid": "30089c52924f037b225b82c616fee2a5",
+        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "TVE La 1 FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
+        "type": "dash",
+        "group": "TVE",
+        "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
+        "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "FOX SPORTS HD",
+        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/zpfs5hlgya/out/v1/84b1d591a23640178a8e8aa43c6e59a7/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "0cc2f872759c96de70237e6fa6de03d0",
+        "key": "a879b1d38ed002d4018bce96f9219b8d",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
         "name": "SD SERVER  [SWE]",
         "logo": "",
         "url": "http://193.47.62.59/hls/QJMMMCZckkkqq.m3u8?",
         "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "beiN SPORTS FR",
+        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
+        "url": "http://193.47.62.59/hls/QJMMMCZckkkq.m3u8?",
+        "group": "beIN",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
@@ -307,20 +398,15 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "ITV SPORTS HD",
-        "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
-        "url": "https://chatgpt.hereisman.net/playlist/53234/load-playlist?",
-        "group": "ITV",
+        "name": "FOX ONE - AQ",
+        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "f6564ec2aee819046328a0e153be574d",
+        "key": "ff46a8a1031eb27ef22576a077c98ab7",
         "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
-        "name": "TSN SPORTS HD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://chatgpt.hereisman.net/playlist/53221/load-playlist?",
-        "group": "TSN",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "TELEMUNDO HD",
@@ -332,11 +418,37 @@
         "origin": "https://streame.center"
     },
     {
-        "name": "FAST SERVER FR",
+        "name": "CANAL5 FHD",
         "logo": "",
-        "url": "https://pulltx.jdnzrgm.com/live/hd-en-6MvYMRTGwBXzhYMKQz.m3u8?txSecret=423d2b8b7ba4e9954942154b43111e4a&txTime=6A52D108",
-        "group": "FAST",
-        "useProxy": false
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
+        "type": "dash",
+        "group": "CANAL",
+        "kid": "d695093ea3e66d75a4d213a3e2cbf360",
+        "key": "01be3f645e89a067d2786c295f68dde4",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "TSN SPORTS FHD",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "type": "dash",
+        "group": "TSN",
+        "kid": "14eeabf30c14b7fbf3008c03099ce011",
+        "key": "17d2ac8dbc5429bd70af3433aa12158d",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "ITV SPORTS FHD",
+        "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
+        "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
+        "type": "dash",
+        "group": "ITV",
+        "kid": "30089c52924f037b225b82c616fee2a5",
+        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "CTV SPORTS FHD",
@@ -359,13 +471,6 @@
         "key": "0c5e6c0820a1ea28753721db00272411",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "beIN ARABIC HD",
-        "logo": "",
-        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
-        "group": "beIN",
-        "useProxy": false
     },
     {
         "name": "UNITE8 HINDI",
@@ -409,22 +514,6 @@
         "url": "https://me.rwaqify.store/info1.m3u8",
         "group": "beIN",
         "useProxy": false
-    },
-    {
-        "name": "FOX SPORTS HD",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://chatgpt.hereisman.net/playlist/53216/load-playlist?",
-        "group": "FOX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
-        "name": "TSN SPORTS HD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://chatgpt.hereisman.net/playlist/53236/load-playlist?",
-        "group": "TSN",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
     },
     {
         "name": "SD SERVER [ENG]",
@@ -489,6 +578,14 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "SportzX MLB",
+        "logo": "",
+        "url": "https://chatgpt.hereisman.net/playlist/53260/load-playlist?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://gooz.aapmains.net"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/hfzljfahzcax29.m3u8?",
@@ -524,13 +621,6 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "SPX LIVE FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://1a-1791.com/live/e6pv21nm/slot-107/soi7-l8dn_1080p/chunklist_DVR.m3u8",
-        "group": "SPX",
-        "useProxy": false
     },
     {
         "name": "BIOSCOPE LIVE",

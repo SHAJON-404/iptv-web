@@ -61,12 +61,12 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "LOW SERVER",
-        "logo": "",
-        "url": "http://193.47.62.44/hls/MMMMQQ.m3u8?",
-        "group": "LOW",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/"
+        "name": "CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "CRICKET",
+        "useProxy": false,
+        "user-agent": "Mozilla"
     },
     {
         "name": "SportzX Live",
@@ -241,11 +241,22 @@
         "useProxy": false
     },
     {
-        "name": "SOMOY TV HD",
+        "name": "SD SERVER [ENG]",
         "logo": "",
-        "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
-        "group": "SOMOY",
-        "useProxy": false
+        "url": "http://193.47.62.59/hls/VVQJMMMCZzsssp.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "SD SERVER [SWE]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkqq.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "beiN SPORTS FR",
@@ -456,15 +467,6 @@
         "key": "0bbee6c9c20a0f065bf8369d54cbf83e",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "LOW SERVER",
-        "logo": "",
-        "url": "http://193.47.62.41/hls/tatataqQQQQQ.m3u8?",
-        "group": "LOW",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "SportzX Live",

@@ -43,6 +43,14 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "SKY CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
+    },
+    {
         "name": "SKY SPORT NZ",
         "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
         "url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8",
@@ -58,23 +66,6 @@
         "kid": "290e09c837da78d5cd961978d390515c",
         "key": "b748836c71e6a4ca68ef5b5652db6247",
         "useProxy": true
-    },
-    {
-        "name": "LOW SERVER",
-        "logo": "",
-        "url": "http://193.47.62.41/hls/MMMMQQ.m3u8",
-        "group": "LOW",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream1.pro/hls/zayrtezafgvdv68.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "SportzX Live",
@@ -256,10 +247,10 @@
         "useProxy": false
     },
     {
-        "name": "beiN SPORTS FR",
-        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
-        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkq.m3u8?",
-        "group": "beIN",
+        "name": "SD SERVER [SWE]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkqq.m3u8?",
+        "group": "SERVER",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
@@ -319,10 +310,10 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "beiN SPORTS FR",
-        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
-        "url": "http://193.47.62.59/hls/QJMMMCZckkkq.m3u8?",
-        "group": "beIN",
+        "name": "SD SERVER  [SWE]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/QJMMMCZckkkqq.m3u8?",
+        "group": "SERVER",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
@@ -464,10 +455,10 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
-        "name": "beiN SPORTS FR",
-        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
-        "url": "http://193.47.62.59/hls/yyyyCZckkkq.m3u8?",
-        "group": "beIN",
+        "name": "ESPANOL SD",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/yyyyCZckkkqqq.m3u8?",
+        "group": "ESPANOL",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
@@ -496,15 +487,6 @@
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/hfzljfahzcax29.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream1.pro/hls/wfazgsqtrezu66.m3u8?",
         "group": "SportzX",
         "useProxy": true,
         "referer": "https://streamscenter.online/",

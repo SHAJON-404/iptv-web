@@ -28,6 +28,14 @@
         "useProxy": true
     },
     {
+        "name": "CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "CRICKET",
+        "useProxy": false,
+        "user-agent": "Mozilla"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/zeafwqvhfe69.m3u8?",
@@ -169,6 +177,13 @@
         "logo": "",
         "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
         "group": "4K",
+        "useProxy": false
+    },
+    {
+        "name": "TSports HD",
+        "logo": "",
+        "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8",
+        "group": "TSports",
         "useProxy": false
     },
     {

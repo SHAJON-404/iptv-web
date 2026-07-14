@@ -194,13 +194,6 @@
         "useProxy": false
     },
     {
-        "name": "SOMOY TV HD",
-        "logo": "",
-        "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
-        "group": "SOMOY",
-        "useProxy": false
-    },
-    {
         "name": "SD SERVER [ENG]",
         "logo": "",
         "url": "http://193.47.62.59/hls/VVQJMMMCZzsssp.m3u8?",
@@ -214,6 +207,15 @@
         "logo": "",
         "url": "http://193.47.62.59/hls/VVQJMMMCZckkkqq.m3u8?",
         "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "beiN SPORTS FR",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkq.m3u8?",
+        "group": "beIN",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
@@ -318,13 +320,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SKY SPORTS SD",
-        "logo": "",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
-        "group": "SKY",
-        "useProxy": false
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8?",
@@ -332,31 +327,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "FOX SPORTS FHD",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "09453ce820d65fbc675de3185f9e454c",
-        "key": "98cff9600995fa381c76fdacf3c7edae",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "EX & PN [FOX]",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14661.m3u8",
-        "group": "EX",
-        "useProxy": false
-    },
-    {
-        "name": "ET & PN [ITV]",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14664.m3u8",
-        "group": "ET",
-        "useProxy": false
     },
     {
         "name": "SportzX RAW",
@@ -391,6 +361,73 @@
         "kid": "eabd2d95c89e42f2b0b0b40ce4179ea0",
         "key": "0e7e35a07e2c12822316c0dc4873903f",
         "useProxy": true
+    },
+    {
+        "name": "SportzX TV+ HD",
+        "logo": "",
+        "url": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://26hrwgorfcmh.windows-devs.top/"
+    },
+    {
+        "name": "HD QUALITY",
+        "logo": "",
+        "url": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8",
+        "group": "QUALITY",
+        "useProxy": true,
+        "referer": "https://26hrwgorfcmh.windows-devs.top/"
+    },
+    {
+        "name": "SportzX SD",
+        "logo": "",
+        "url": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream3.pro/hls/zayrtezafgvdv68.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SKY SPORTS SD",
+        "logo": "",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
+        "group": "SKY",
+        "useProxy": false
+    },
+    {
+        "name": "FOX SPORTS FHD",
+        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "09453ce820d65fbc675de3185f9e454c",
+        "key": "98cff9600995fa381c76fdacf3c7edae",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "EX & PN [FOX]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14661.m3u8",
+        "group": "EX",
+        "useProxy": false
+    },
+    {
+        "name": "ET & PN [ITV]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14664.m3u8",
+        "group": "ET",
+        "useProxy": false
     },
     {
         "name": "FANCODE FHD",
@@ -429,41 +466,6 @@
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "SportzX TV+ HD",
-        "logo": "",
-        "url": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/83_FHD/apache.m3u8",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://26hrwgorfcmh.windows-devs.top/"
-    },
-    {
-        "name": "HD QUALITY",
-        "logo": "",
-        "url": "https://26hrwgorfcmh.windows-devs.top/AccessLog2/108085_HD/apache.m3u8",
-        "group": "QUALITY",
-        "useProxy": true,
-        "referer": "https://26hrwgorfcmh.windows-devs.top/"
-    },
-    {
-        "name": "SportzX SD",
-        "logo": "",
-        "url": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream3.pro/hls/zayrtezafgvdv68.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "TVE La 1 FHD",

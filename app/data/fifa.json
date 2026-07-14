@@ -283,15 +283,6 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
-        "name": "ENG SD SERVER",
-        "logo": "",
-        "url": "http://193.47.62.47/hls/EVVVFEREHTRHF.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
         "name": "SD SERVER [SWE]",
         "logo": "",
         "url": "http://193.47.62.47/hls/ECZckkkqq.m3u8?",
@@ -319,13 +310,6 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
-        "name": "beIN ARABIC HD",
-        "logo": "",
-        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
-        "group": "beIN",
-        "useProxy": false
-    },
-    {
         "name": "FOX ONE - AQ",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
@@ -335,15 +319,6 @@
         "key": "ff46a8a1031eb27ef22576a077c98ab7",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "TELEMUNDO HD",
-        "logo": "",
-        "url": "https://edgestream3.pro/hls/b0h5fNwDKH.m3u8?",
-        "group": "TELEMUNDO",
-        "useProxy": true,
-        "referer": "https://streame.center/",
-        "origin": "https://streame.center"
     },
     {
         "name": "ITV SPORTS FHD",

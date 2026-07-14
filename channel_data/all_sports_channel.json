@@ -89,6 +89,14 @@
         "useProxy": false
     },
     {
+        "name": "ITV SPORTS HD",
+        "logo": "https://r2.thesportsdb.com/images/media/channel/logo/mcoywh1678355150.png",
+        "url": "https://chatgpt.hereisman.net/playlist/53352/load-playlist?",
+        "group": "ITV",
+        "useProxy": true,
+        "referer": "https://gooz.aapmains.net"
+    },
+    {
         "name": "FOX ONE - AQ",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
@@ -111,20 +119,20 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "ITV SPORTS HD",
-        "logo": "https://r2.thesportsdb.com/images/media/channel/logo/mcoywh1678355150.png",
-        "url": "https://chatgpt.hereisman.net/playlist/53352/load-playlist?",
-        "group": "ITV",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "TSN SPORTS HD",
         "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
         "url": "https://chatgpt.hereisman.net/playlist/53354/load-playlist?",
         "group": "TSN",
         "useProxy": true,
         "referer": "https://gooz.aapmains.net"
+    },
+    {
+        "name": "FAST [NO Comment]",
+        "logo": "",
+        "url": "https://live.vivo200.com/live/sd-1-4459812.m3u8?txSecret=1e5b51b62faebb8786d1c1d97dd29dfb&txTime=6A5694C8",
+        "group": "FAST",
+        "useProxy": true,
+        "referer": "https://player.online909.com/"
     },
     {
         "name": "FAST SERVER",
@@ -219,6 +227,17 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "FOX ONE HDR",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rgmw19qjux/out/v1/c6ac7e638a9d4998891ae85aba377c59/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "48afc63fa0ecccc3a71f46d3fda20249",
+        "key": "c7cd8801e238a263fe4349a95682b83b",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
         "name": "FOX SPORTS 4K",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/xperu6ixu9/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
@@ -226,6 +245,17 @@
         "group": "4K",
         "kid": "1f68713028d439ec03be07f56c1d6213",
         "key": "20093db6455160fffed4c394def3193d",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "FOX ONE HD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/bc3y4t1rpk/out/v1/df2b71a9487a4c369c9742e7ea62a2e2/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "d0f2e537aa6d576e355c271b22caeaca",
+        "key": "d5869f84abacfe205c524c59e62d3803",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
@@ -246,13 +276,28 @@
         "referer": "https://gooz.aapmains.net"
     },
     {
-        "name": "beiN SPORTS FR",
-        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
-        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkq.m3u8?",
-        "group": "beIN",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
+        "name": "Match Football FHD",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "Match",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": true
+    },
+    {
+        "name": "BTV BDIX HD",
+        "logo": "https://www.btvlive.gov.bd/_next/image?url=https%3A%2F%2Fd38ll44lbmt52p.cloudfront.net%2Fcms%2Fchannel_poster%2F1677040358634_BTVogo.png&w=2048&q=75",
+        "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
+        "group": "BTV",
+        "useProxy": false
+    },
+    {
+        "name": "SOMOY TV HD",
+        "logo": "",
+        "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
+        "group": "SOMOY",
+        "useProxy": false
     },
     {
         "name": "ESPANOL SD",
@@ -262,6 +307,16 @@
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "SPANISH FHD",
+        "logo": "",
+        "url": "https://teleamazonasb.cdn.mdstrm.com/live-stream-mp/dfzu2jckcs3he/a5e7a2777ea24b8ca49b326b536f87b2/6a0cd90eb3852427fcded197/manifest.mpd",
+        "type": "dash",
+        "group": "SPANISH",
+        "kid": "aa78205160ef4b5c972d5e815a8fe6e4",
+        "key": "338b545591e45469e71dae3a8fb8dbb0",
+        "useProxy": true
     },
     {
         "name": "FOX ONE - AQ",
@@ -454,15 +509,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream3.pro/hls/zeafwqvhfe69.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "SportzX",
         "logo": "",
         "url": "https://edgestream3.pro/hls/pllmazjkdzajh72.m3u8?",
@@ -498,16 +544,6 @@
         "kid": "eabd2d95c89e42f2b0b0b40ce4179ea0",
         "key": "0e7e35a07e2c12822316c0dc4873903f",
         "useProxy": true
-    },
-    {
-        "name": "SportzX SD",
-        "logo": "",
-        "url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     },
     {
         "name": "SportzX Live",

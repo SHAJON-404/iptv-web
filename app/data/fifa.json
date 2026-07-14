@@ -28,6 +28,14 @@
         "useProxy": true
     },
     {
+        "name": "CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "CRICKET",
+        "useProxy": false,
+        "user-agent": "Mozilla"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/zeafwqvhfe69.m3u8?",
@@ -125,17 +133,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "FOX ONE HDR",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rgmw19qjux/out/v1/c6ac7e638a9d4998891ae85aba377c59/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "48afc63fa0ecccc3a71f46d3fda20249",
-        "key": "c7cd8801e238a263fe4349a95682b83b",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "FOX SPORTS 4K",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/lsilniwjf7/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
@@ -152,17 +149,6 @@
         "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
         "group": "TRT",
         "useProxy": false
-    },
-    {
-        "name": "FOX ONE HD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cizlveblk4/out/v1/e5c36c41621e4384b80427d87199433a/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "d7d78ea2021a29541136bd5dc8352fe7",
-        "key": "6425ac4c0cdf906fe0cce5cf40dc8933",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "IRIB 4K",
@@ -191,6 +177,24 @@
         "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
         "group": "SOMOY",
         "useProxy": false
+    },
+    {
+        "name": "SD SERVER [ENG]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/VVQJMMMCZzsssp.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "SD SERVER [SWE]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkqq.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "beiN SPORTS FR",
@@ -241,17 +245,6 @@
         "group": "CTV",
         "kid": "d185684e2330de5bea436daa094a5e86",
         "key": "014f0116154f5bf0050e03a6b0a23157",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "FOX FHD HDR",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rgmw19qjux/out/v1/c6ac7e638a9d4998891ae85aba377c59/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "48afc63fa0ecccc3a71f46d3fda20249",
-        "key": "c7cd8801e238a263fe4349a95682b83b",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
@@ -494,17 +487,6 @@
         "group": "TSN",
         "kid": "14eeabf30c14b7fbf3008c03099ce011",
         "key": "17d2ac8dbc5429bd70af3433aa12158d",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "ITV SPORTS FHD",
-        "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
-        "url": "https://otte.cache.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
-        "type": "dash",
-        "group": "ITV",
-        "kid": "30089c52924f037b225b82c616fee2a5",
-        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },

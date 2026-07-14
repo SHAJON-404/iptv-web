@@ -1,117 +1,81 @@
 [
     {
-        "name": "SportzX Live",
+        "name": "EP 1",
         "logo": "",
-        "url": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream3.pro/hls/ztyarueaghj71.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream2.pro/hls/mlkijfezag65.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream1.pro/hls/bvnsqdfvgha70.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "WILLOW FHD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cc53mv1f5j/out/v1/5a8e934d90344844ab860c36adb3b615/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "63ff5bd50a863114f9d5fe0d18aff544",
-        "key": "319760d139c5af680bab44664fd833ad",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "WILLOW ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cc53mv1f5j/out/v1/5a8e934d90344844ab860c36adb3b615/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "63ff5bd50a863114f9d5fe0d18aff544",
-        "key": "319760d139c5af680bab44664fd833ad",
-        "useProxy": true
-    },
-    {
-        "name": "LOW SERVER",
-        "logo": "",
-        "url": "http://193.47.62.44/hls/zzzz.m3u8",
-        "group": "LOW",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "SONY TEN 1 - IN",
-        "logo": "",
-        "url": "https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1784062296~acl=/*~id=50631058332994174048547819394841~hmac=f76b01c8711269e15159856f7c4d88130f7ff9e9dab308e4626cd4344e7b34c4",
-        "group": "SONY",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151812",
+        "group": "EP",
         "useProxy": false
     },
     {
-        "name": "SONY TEN 3 - IN",
+        "name": "EP 2",
         "logo": "",
-        "url": "https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1784062296~acl=/*~id=50631058332994174048547819394841~hmac=f76b01c8711269e15159856f7c4d88130f7ff9e9dab308e4626cd4344e7b34c4",
-        "group": "SONY",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151813",
+        "group": "EP",
         "useProxy": false
     },
     {
-        "name": "SONY TEN 4 - IN",
+        "name": "EP 3",
         "logo": "",
-        "url": "https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/master.m3u8?hdnea=exp=1784062296~acl=/*~id=50631058332994174048547819394841~hmac=f76b01c8711269e15159856f7c4d88130f7ff9e9dab308e4626cd4344e7b34c4",
-        "group": "SONY",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151814",
+        "group": "EP",
         "useProxy": false
     },
     {
-        "name": "SportzX Live",
+        "name": "EP 4",
         "logo": "",
-        "url": "https://edgestream3.pro/hls/wfazgsqtrezu66.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151815",
+        "group": "EP",
+        "useProxy": false
     },
     {
-        "name": "WILLOW HD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "290e09c837da78d5cd961978d390515c",
-        "key": "b748836c71e6a4ca68ef5b5652db6247",
-        "useProxy": true
+        "name": "EP 5",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151816",
+        "group": "EP",
+        "useProxy": false
     },
     {
-        "name": "SportzX Live",
+        "name": "EP 6",
         "logo": "",
-        "url": "https://edgestream3.pro/hls/zeafwqvhfe69.m3u8?",
-        "group": "SportzX",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151817",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 7",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151818",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 8",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151819",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 9",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151820",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "SERVER 1",
+        "logo": "",
+        "url": "https://moonkerala.xyz/jcinema/stream.m3u8?id=3774155",
+        "group": "SERVER",
         "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
+        "referer": "https://moonkerala.xyz/jcinema/stream.m3u8?id=3774155"
+    },
+    {
+        "name": "Server 1",
+        "logo": "",
+        "url": "http://alvetv.com/moviebanglatv/8080/index.m3u8",
+        "group": "Server",
+        "useProxy": false
     },
     {
         "name": "FOX ONE - AQ",
@@ -240,13 +204,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "TRT SPORTS UHD",
-        "logo": "",
-        "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-        "group": "TRT",
-        "useProxy": false
-    },
-    {
         "name": "FOX ONE HD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cizlveblk4/out/v1/e5c36c41621e4384b80427d87199433a/cenc.mpd",
@@ -263,16 +220,6 @@
         "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
         "group": "4K",
         "useProxy": false
-    },
-    {
-        "name": "Match Football FHD",
-        "logo": "",
-        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
-        "type": "dash",
-        "group": "Match",
-        "kid": "9145a6e0f778e61866f573d4944dd533",
-        "key": "d02173d40515fea5c83944f21d0f3114",
-        "useProxy": true
     },
     {
         "name": "TSports HD",
@@ -305,10 +252,10 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
-        "name": "beiN SPORTS FR",
-        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
-        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkq.m3u8?",
-        "group": "beIN",
+        "name": "SD SERVER [SWE]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkqq.m3u8?",
+        "group": "SERVER",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
@@ -411,6 +358,126 @@
         "url": "http://103.165.93.31:8095/somoyTv/index.m3u8",
         "group": "SOMOY",
         "useProxy": false
+    },
+    {
+        "name": "Server ",
+        "logo": "",
+        "url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
+        "group": "Server",
+        "useProxy": false
+    },
+    {
+        "name": "server 2",
+        "logo": "",
+        "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8",
+        "group": "server",
+        "useProxy": false
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream3.pro/hls/ztyarueaghj71.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream2.pro/hls/mlkijfezag65.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/bvnsqdfvgha70.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "WILLOW FHD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/cc53mv1f5j/out/v1/5a8e934d90344844ab860c36adb3b615/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "63ff5bd50a863114f9d5fe0d18aff544",
+        "key": "319760d139c5af680bab44664fd833ad",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "WILLOW ALT",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/cc53mv1f5j/out/v1/5a8e934d90344844ab860c36adb3b615/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "63ff5bd50a863114f9d5fe0d18aff544",
+        "key": "319760d139c5af680bab44664fd833ad",
+        "useProxy": true
+    },
+    {
+        "name": "SONY TEN 1 - IN",
+        "logo": "",
+        "url": "https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8?hdnea=exp=1784062296~acl=/*~id=50631058332994174048547819394841~hmac=f76b01c8711269e15159856f7c4d88130f7ff9e9dab308e4626cd4344e7b34c4",
+        "group": "SONY",
+        "useProxy": false
+    },
+    {
+        "name": "SONY TEN 3 - IN",
+        "logo": "",
+        "url": "https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1784062296~acl=/*~id=50631058332994174048547819394841~hmac=f76b01c8711269e15159856f7c4d88130f7ff9e9dab308e4626cd4344e7b34c4",
+        "group": "SONY",
+        "useProxy": false
+    },
+    {
+        "name": "SONY TEN 4 - IN",
+        "logo": "",
+        "url": "https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/master.m3u8?hdnea=exp=1784062296~acl=/*~id=50631058332994174048547819394841~hmac=f76b01c8711269e15159856f7c4d88130f7ff9e9dab308e4626cd4344e7b34c4",
+        "group": "SONY",
+        "useProxy": false
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream3.pro/hls/wfazgsqtrezu66.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "WILLOW HD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "290e09c837da78d5cd961978d390515c",
+        "key": "b748836c71e6a4ca68ef5b5652db6247",
+        "useProxy": true
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream3.pro/hls/zeafwqvhfe69.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
     },
     {
         "name": "SportzX",

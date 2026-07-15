@@ -35,6 +35,14 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "SportzX NBA",
+        "logo": "",
+        "url": "https://chatgpt.hereisman.net/playlist/53382/load-playlist?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://gooz.aapmains.net"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8?",

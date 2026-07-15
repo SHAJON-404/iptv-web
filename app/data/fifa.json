@@ -1,65 +1,9 @@
 [
     {
-        "name": "EP 1",
+        "name": "FULL MATCH",
         "logo": "",
-        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151812",
-        "group": "EP",
-        "useProxy": false
-    },
-    {
-        "name": "EP 2",
-        "logo": "",
-        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151813",
-        "group": "EP",
-        "useProxy": false
-    },
-    {
-        "name": "EP 3",
-        "logo": "",
-        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151814",
-        "group": "EP",
-        "useProxy": false
-    },
-    {
-        "name": "EP 4",
-        "logo": "",
-        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151815",
-        "group": "EP",
-        "useProxy": false
-    },
-    {
-        "name": "EP 5",
-        "logo": "",
-        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151816",
-        "group": "EP",
-        "useProxy": false
-    },
-    {
-        "name": "EP 6",
-        "logo": "",
-        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151817",
-        "group": "EP",
-        "useProxy": false
-    },
-    {
-        "name": "EP 7",
-        "logo": "",
-        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151818",
-        "group": "EP",
-        "useProxy": false
-    },
-    {
-        "name": "EP 8",
-        "logo": "",
-        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151819",
-        "group": "EP",
-        "useProxy": false
-    },
-    {
-        "name": "EP 9",
-        "logo": "",
-        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151820",
-        "group": "EP",
+        "url": "https://soccerfull.net/hls/14626.m3u8",
+        "group": "FULL",
         "useProxy": false
     },
     {
@@ -70,6 +14,51 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "EXTENDED HIG.",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14263.m3u8",
+        "group": "EXTENDED",
+        "useProxy": false
+    },
+    {
+        "name": "FULL MATCH [RU]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14264.m3u8",
+        "group": "FULL",
+        "useProxy": false
+    },
+    {
+        "name": "FULL MATCH",
+        "logo": "",
+        "url": "https://hgcloud.to/e/us7kdjgtzcka",
+        "group": "FULL",
+        "useProxy": false
+    },
+    {
+        "name": "1st HALF",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14645.m3u8",
+        "group": "1st",
+        "useProxy": false
+    },
+    {
+        "name": "2nd HALF",
+        "logo": "",
+        "url": "https://hgcloud.to/e/vo1x8pseaklb",
+        "group": "2nd",
+        "useProxy": false
+    },
+    {
+        "name": "FULL MATCH PARAMOUNT",
+        "logo": "",
+        "url": "https://abdfyr5aaaaaaaamblknqqdakgoyf.bia-cf.live.pv-cdn.net/iad-nitro/jab-assets/jab-prod-iad/live/dash/out/v1/3ee18fe6099c4ab1a985bd8034e5fac2/ipztczhdhupw/cenc-44e61c.mpd",
+        "type": "dash",
+        "group": "FULL",
+        "kid": "6a71d7af70eaeb1b018ded7640a26562",
+        "key": "5d7f73b42c19d3bb68c55d6ee2676b7d",
+        "useProxy": true
     },
     {
         "name": "WC TV FHD",
@@ -276,15 +265,6 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
-        "name": "ESPANOL SD",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/ECZckkkqqq.m3u8?",
-        "group": "ESPANOL",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
         "name": "beIN ARABIC HD",
         "logo": "",
         "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
@@ -361,6 +341,115 @@
         "useProxy": false
     },
     {
+        "name": "SKY SPORTS SD",
+        "logo": "",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8",
+        "group": "SKY",
+        "useProxy": false
+    },
+    {
+        "name": "EX & PN [FOX]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14661.m3u8",
+        "group": "EX",
+        "useProxy": false
+    },
+    {
+        "name": "ET & PN [ITV]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14664.m3u8",
+        "group": "ET",
+        "useProxy": false
+    },
+    {
+        "name": "MINI MATCH",
+        "logo": "",
+        "url": "https://file-eu-par-2.gofile.io/download/web/06e84223-ef03-42b0-983b-eb385a717ca1/FIFA%20World%20Cup%202026%20Mini%20Matches%20Jordan%20v%20Argentina%20Group%20J.mp4?",
+        "group": "MINI",
+        "useProxy": false,
+        "cookie": "accountToken=F3ASCSURszwbIVdHXTrYWlKymCFK61oc"
+    },
+    {
+        "name": "FULL MATCH [RU]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14630.m3u8",
+        "group": "FULL",
+        "useProxy": false
+    },
+    {
+        "name": "SportzX SD",
+        "logo": "",
+        "url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "EP 1",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151812",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 2",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151813",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 3",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151814",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 4",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151815",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 5",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151816",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 6",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151817",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 7",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151818",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 8",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151819",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
+        "name": "EP 9",
+        "logo": "",
+        "url": "http://himel-op.top/sportzx-stream/star-series2.mkv?id=151820",
+        "group": "EP",
+        "useProxy": false
+    },
+    {
         "name": "Server ",
         "logo": "",
         "url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
@@ -373,16 +462,6 @@
         "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8",
         "group": "server",
         "useProxy": false
-    },
-    {
-        "name": "SportzX SD",
-        "logo": "",
-        "url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     },
     {
         "name": "SERVER 1",
@@ -463,20 +542,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     },
     {
-        "name": "EX & PN [FOX]",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14661.m3u8",
-        "group": "EX",
-        "useProxy": false
-    },
-    {
-        "name": "ET & PN [ITV]",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14664.m3u8",
-        "group": "ET",
-        "useProxy": false
-    },
-    {
         "name": "EXTRA TIME",
         "logo": "",
         "url": "https://hgcloud.to/e/v33e6fy12o30",
@@ -518,27 +583,6 @@
         "kid": "11223344556677889900112233445566",
         "key": "4b80724d0ef86bcb2c21f7999d67739d",
         "useProxy": true
-    },
-    {
-        "name": "FULL MATCH",
-        "logo": "",
-        "url": "https://hgcloud.to/e/us7kdjgtzcka",
-        "group": "FULL",
-        "useProxy": false
-    },
-    {
-        "name": "1st HALF",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14645.m3u8",
-        "group": "1st",
-        "useProxy": false
-    },
-    {
-        "name": "2nd HALF",
-        "logo": "",
-        "url": "https://hgcloud.to/e/vo1x8pseaklb",
-        "group": "2nd",
-        "useProxy": false
     },
     {
         "name": "ELEVEN SPORTS",

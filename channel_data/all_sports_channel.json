@@ -61,6 +61,53 @@
         "useProxy": true
     },
     {
+        "name": "ITV SPORTS FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
+        "type": "dash",
+        "group": "ITV",
+        "kid": "30089c52924f037b225b82c616fee2a5",
+        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "SKY SPORTS SD",
+        "logo": "",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8",
+        "group": "SKY",
+        "useProxy": false
+    },
+    {
+        "name": "EX & PN [FOX]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14661.m3u8",
+        "group": "EX",
+        "useProxy": false
+    },
+    {
+        "name": "ET & PN [ITV]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14664.m3u8",
+        "group": "ET",
+        "useProxy": false
+    },
+    {
+        "name": "MINI MATCH",
+        "logo": "",
+        "url": "https://file-eu-par-2.gofile.io/download/web/06e84223-ef03-42b0-983b-eb385a717ca1/FIFA%20World%20Cup%202026%20Mini%20Matches%20Jordan%20v%20Argentina%20Group%20J.mp4?",
+        "group": "MINI",
+        "useProxy": false,
+        "cookie": "accountToken=F3ASCSURszwbIVdHXTrYWlKymCFK61oc"
+    },
+    {
+        "name": "FULL MATCH [RU]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14630.m3u8",
+        "group": "FULL",
+        "useProxy": false
+    },
+    {
         "name": "WC TV FHD",
         "logo": "https://img.sofascore.com/api/v1/unique-tournament/16/image",
         "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
@@ -243,16 +290,6 @@
         "useProxy": false
     },
     {
-        "name": "Match Football FHD",
-        "logo": "",
-        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
-        "type": "dash",
-        "group": "Match",
-        "kid": "9145a6e0f778e61866f573d4944dd533",
-        "key": "d02173d40515fea5c83944f21d0f3114",
-        "useProxy": true
-    },
-    {
         "name": "TSports HD",
         "logo": "",
         "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8",
@@ -312,17 +349,6 @@
         "origin": "https://streame.center"
     },
     {
-        "name": "ITV SPORTS FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
-        "type": "dash",
-        "group": "ITV",
-        "kid": "30089c52924f037b225b82c616fee2a5",
-        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "CTV SPORTS FHD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
@@ -367,42 +393,6 @@
         "logo": "",
         "url": "http://103.165.93.31:8095/somoyTv/index.m3u8",
         "group": "SOMOY",
-        "useProxy": false
-    },
-    {
-        "name": "SKY SPORTS SD",
-        "logo": "",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8",
-        "group": "SKY",
-        "useProxy": false
-    },
-    {
-        "name": "EX & PN [FOX]",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14661.m3u8",
-        "group": "EX",
-        "useProxy": false
-    },
-    {
-        "name": "ET & PN [ITV]",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14664.m3u8",
-        "group": "ET",
-        "useProxy": false
-    },
-    {
-        "name": "MINI MATCH",
-        "logo": "",
-        "url": "https://file-eu-par-2.gofile.io/download/web/06e84223-ef03-42b0-983b-eb385a717ca1/FIFA%20World%20Cup%202026%20Mini%20Matches%20Jordan%20v%20Argentina%20Group%20J.mp4?",
-        "group": "MINI",
-        "useProxy": false,
-        "cookie": "accountToken=F3ASCSURszwbIVdHXTrYWlKymCFK61oc"
-    },
-    {
-        "name": "FULL MATCH [RU]",
-        "logo": "",
-        "url": "https://soccerfull.net/hls/14630.m3u8",
-        "group": "FULL",
         "useProxy": false
     },
     {

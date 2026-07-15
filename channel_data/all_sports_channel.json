@@ -87,14 +87,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "ISCREEN BD FHD",
-        "logo": "https://play-lh.googleusercontent.com/SPbTC9tI82cpBSS4Nsv6pd-mvQd1lnJU2omTqs-sv4DvIdHVRxvZ9OboJTV5Gy1erWo6H569kZ74ZBg6v6sz=w600-h300-pc0xffffff-pd",
-        "url": "https://ld58dqz8ajj8.rockstreamer.com/isc_ssai/isc_ssai_ads/main2/isc_ssai_1080p/chunks.m3u8",
-        "group": "ISCREEN",
-        "useProxy": true,
-        "referer": "https://iscreen.com.bd/"
-    },
-    {
         "name": "CANAL5 FHD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
@@ -449,13 +441,6 @@
         "group": "Bein Sports  - 🇫🇷 France",
         "name": "Bein Sports  - 🇫🇷 France",
         "url": "http://145.239.5.177/559/mpegts",
-        "useProxy": false
-    },
-    {
-        "logo": "https://imglink.cc/cdn/kIiut6WBq0.jpg",
-        "group": "Bein Sports  🇫🇷 France",
-        "name": "Bein Sports  🇫🇷 France",
-        "url": "http://145.239.5.177:80/559/index.m3u8",
         "useProxy": false
     },
     {

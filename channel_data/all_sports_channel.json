@@ -264,24 +264,6 @@
         "useProxy": false
     },
     {
-        "name": "beiN SPORTS FR",
-        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
-        "url": "http://193.47.62.59/hls/VVQJMMMCZckkkq.m3u8?",
-        "group": "beIN",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "ESPANOL SD",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/ECZckkkqqq.m3u8?",
-        "group": "ESPANOL",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
         "name": "FOX ONE - AQ",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
@@ -387,6 +369,13 @@
         "group": "MINI",
         "useProxy": false,
         "cookie": "accountToken=F3ASCSURszwbIVdHXTrYWlKymCFK61oc"
+    },
+    {
+        "name": "FULL MATCH [RU]",
+        "logo": "",
+        "url": "https://soccerfull.net/hls/14630.m3u8",
+        "group": "FULL",
+        "useProxy": false
     },
     {
         "name": "SportzX SD",

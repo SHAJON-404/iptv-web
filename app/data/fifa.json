@@ -21,6 +21,15 @@
         "useProxy": false
     },
     {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/sqhdghzavbxu75.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
         "name": "FULL MATCH",
         "logo": "",
         "url": "https://hgcloud.to/e/us7kdjgtzcka",
@@ -284,6 +293,15 @@
         "key": "ff46a8a1031eb27ef22576a077c98ab7",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "TELEMUNDO HD",
+        "logo": "",
+        "url": "https://edgestream3.pro/hls/b0h5fNwDKH.m3u8?",
+        "group": "TELEMUNDO",
+        "useProxy": true,
+        "referer": "https://streame.center/",
+        "origin": "https://streame.center"
     },
     {
         "name": "ITV SPORTS FHD",

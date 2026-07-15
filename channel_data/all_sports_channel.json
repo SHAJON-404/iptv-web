@@ -273,11 +273,13 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
-        "name": "beIN ARABIC HD",
+        "name": "ESPANOL SD",
         "logo": "",
-        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
-        "group": "beIN",
-        "useProxy": false
+        "url": "http://193.47.62.59/hls/ECZckkkqqq.m3u8?",
+        "group": "ESPANOL",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "FOX ONE - AQ",

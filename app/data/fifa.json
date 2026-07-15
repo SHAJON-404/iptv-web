@@ -7,15 +7,6 @@
         "useProxy": false
     },
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream1.pro/hls/bvnsqdfvgha70.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "EXTENDED HIG.",
         "logo": "",
         "url": "https://soccerfull.net/hls/14263.m3u8",
@@ -265,6 +256,15 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
+        "name": "ESPANOL SD",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/ECZckkkqqq.m3u8?",
+        "group": "ESPANOL",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
         "name": "beIN ARABIC HD",
         "logo": "",
         "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
@@ -375,6 +375,15 @@
         "url": "https://soccerfull.net/hls/14630.m3u8",
         "group": "FULL",
         "useProxy": false
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/bvnsqdfvgha70.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
     },
     {
         "name": "SportzX SD",

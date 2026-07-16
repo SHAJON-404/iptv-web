@@ -37,6 +37,13 @@
         "useProxy": true
     },
     {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://live1.streambylivepulse.com/live/channel1/playlist.m3u8",
+        "group": "SportzX",
+        "useProxy": false
+    },
+    {
         "name": "FOX ONE - AQ",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/9jiie2ephv/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd",

@@ -1,17 +1,15 @@
 [
     {
-        "name": "SportzX Live",
+        "name": "TNT SPORTS HD",
         "logo": "",
-        "url": "https://edgestream3.pro/hls/zayrtezafgvdv68.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
+        "url": "https://tmaxapp.site/8wirwjs76erftg/tntsports2.m3u8",
+        "group": "TNT",
+        "useProxy": false
     },
     {
         "name": "SportzX Live",
         "logo": "",
-        "url": "https://edgestream3.pro/hls/pllmazjkdzajh72.m3u8?",
+        "url": "https://edgestream3.pro/hls/zayrtezafgvdv68.m3u8?",
         "group": "SportzX",
         "useProxy": true,
         "referer": "https://streamscenter.online/",

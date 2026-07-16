@@ -18,14 +18,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX WNBA",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53385/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/sqhdghzavbxu75.m3u8?",
@@ -43,14 +35,6 @@
         "kid": "6a71d7af70eaeb1b018ded7640a26562",
         "key": "5d7f73b42c19d3bb68c55d6ee2676b7d",
         "useProxy": true
-    },
-    {
-        "name": "SportzX NBA",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53383/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
     },
     {
         "name": "SportzX Live",

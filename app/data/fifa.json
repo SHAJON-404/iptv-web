@@ -198,13 +198,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "IRIB 4K",
-        "logo": "",
-        "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
-        "group": "4K",
-        "useProxy": false
-    },
-    {
         "name": "TSports HD",
         "logo": "",
         "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8",

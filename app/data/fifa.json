@@ -1,12 +1,5 @@
 [
     {
-        "name": "TNT SPORTS HD",
-        "logo": "",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/tntsports2.m3u8",
-        "group": "TNT",
-        "useProxy": false
-    },
-    {
         "name": "WILLOW FHD",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2hqonq2js6/out/v1/3204a1c65a534f6eb946841ead683f29/cenc.mpd",
@@ -239,13 +232,6 @@
         "useProxy": false
     },
     {
-        "name": "BTV BDIX HD",
-        "logo": "https://www.btvlive.gov.bd/_next/image?url=https%3A%2F%2Fd38ll44lbmt52p.cloudfront.net%2Fcms%2Fchannel_poster%2F1677040358634_BTVogo.png&w=2048&q=75",
-        "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
-        "group": "BTV",
-        "useProxy": false
-    },
-    {
         "name": "SOMOY TV HD",
         "logo": "",
         "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
@@ -331,6 +317,13 @@
         "key": "98cff9600995fa381c76fdacf3c7edae",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "TNT SPORTS HD",
+        "logo": "",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/tntsports2.m3u8",
+        "group": "TNT",
+        "useProxy": false
     },
     {
         "name": "SportzX Live",

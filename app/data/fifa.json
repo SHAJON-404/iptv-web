@@ -464,6 +464,15 @@
     {
         "name": "SportzX Live",
         "logo": "",
+        "url": "https://edgestream1.pro/hls/yjtzafghvjza74.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
         "url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8?",
         "group": "SportzX",
         "useProxy": true,

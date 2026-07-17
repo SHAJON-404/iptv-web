@@ -11,16 +11,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "PREMIERER BR",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
-        "type": "dash",
-        "group": "PREMIERER",
-        "kid": "d23f7433798a652a7d4f6791d9e1036c",
-        "key": "4942eebd598b5727c5cc484cc62b52e8",
-        "useProxy": true
-    },
-    {
         "name": "PREMIERER 1",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
@@ -38,6 +28,16 @@
         "group": "PREMIERER",
         "kid": "9dc40460c93087aea84d6315f08ecb64",
         "key": "f69c8d4624fddff4ca89bd0b31bdc4a7",
+        "useProxy": true
+    },
+    {
+        "name": "PREMIERER 3",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
+        "type": "dash",
+        "group": "PREMIERER",
+        "kid": "d23f7433798a652a7d4f6791d9e1036c",
+        "key": "4942eebd598b5727c5cc484cc62b52e8",
         "useProxy": true
     },
     {
@@ -103,6 +103,15 @@
     {
         "name": "SportzX Live",
         "logo": "",
+        "url": "https://edgestream3.pro/hls/ihfazugfyjcazich17.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
         "url": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8?",
         "group": "SportzX",
         "useProxy": true,
@@ -123,9 +132,11 @@
     {
         "name": "SportzX Live",
         "logo": "",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8",
+        "url": "https://edgestream1.pro/hls/Czajafjihafch18.m3u8?",
         "group": "SportzX",
-        "useProxy": false
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
     },
     {
         "name": "TSN SPORTS FHD",
@@ -139,42 +150,11 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "WILLOW FHD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0omm36jeyc/out/v1/1650c48dbdfc441586b9349a300d608e/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "543b86e80285d5c13b9ee30e1673964f",
-        "key": "cc6adf6600ef70ad3282c9c719832d04",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "WILLOW ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0omm36jeyc/out/v1/1650c48dbdfc441586b9349a300d608e/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "543b86e80285d5c13b9ee30e1673964f",
-        "key": "cc6adf6600ef70ad3282c9c719832d04",
-        "useProxy": true
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://tmaxapp.site/8wirwjs76erftg/fox506.m3u8",
         "group": "SportzX",
         "useProxy": false
-    },
-    {
-        "name": "Fox Sports Premium",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "9f327d24c66fbd84e15ab5c9ead7c7a4",
-        "key": "83837185529c0c4048f81386c2d36426",
-        "useProxy": true
     },
     {
         "name": "FOX ONE - AQ",
@@ -415,6 +395,99 @@
     {
         "name": "SportzX Live",
         "logo": "",
+        "url": "https://edgestream3.pro/hls/16yuitzaerghbhc16.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "Azteca 7",
+        "logo": "",
+        "url": "https://dish-arg.akamaized.net/Content/DASH/Live/channel(azteca7hd)/variant.mpd",
+        "type": "dash",
+        "group": "Azteca",
+        "kid": "a5717e2dda7fc0fead005059e5536b6c",
+        "key": "04243a2f2c5237efd969213e36f1ec77",
+        "useProxy": true
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/bzagLHzach19.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX MLB",
+        "logo": "",
+        "url": "https://chatgpt.hereisman.net/playlist/53418/load-playlist?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://gooz.aapmains.net"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream3.pro/hls/dazhfiach15.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX SD",
+        "logo": "",
+        "url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8",
+        "group": "SportzX",
+        "useProxy": false
+    },
+    {
+        "name": "WILLOW FHD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0omm36jeyc/out/v1/1650c48dbdfc441586b9349a300d608e/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "543b86e80285d5c13b9ee30e1673964f",
+        "key": "cc6adf6600ef70ad3282c9c719832d04",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "WILLOW ALT",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0omm36jeyc/out/v1/1650c48dbdfc441586b9349a300d608e/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "543b86e80285d5c13b9ee30e1673964f",
+        "key": "cc6adf6600ef70ad3282c9c719832d04",
+        "useProxy": true
+    },
+    {
+        "name": "Fox Sports Premium",
+        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "9f327d24c66fbd84e15ab5c9ead7c7a4",
+        "key": "83837185529c0c4048f81386c2d36426",
+        "useProxy": true
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
         "url": "https://pul-tenm.nbs3g.com/live/sd-1-4581738.m3u8?txSecret=dbea950a9df80f179fce4764e0797c28&txTime=6A5BB110",
         "group": "SportzX",
         "useProxy": false
@@ -517,26 +590,6 @@
         "kid": "69021095220f3c0eae9bc24215fd692b",
         "key": "eb58cfe0458ed0b48f7351fa3393ad59",
         "useProxy": true
-    },
-    {
-        "name": "Azteca 7",
-        "logo": "",
-        "url": "https://dish-arg.akamaized.net/Content/DASH/Live/channel(azteca7hd)/variant.mpd",
-        "type": "dash",
-        "group": "Azteca",
-        "kid": "a5717e2dda7fc0fead005059e5536b6c",
-        "key": "04243a2f2c5237efd969213e36f1ec77",
-        "useProxy": true
-    },
-    {
-        "name": "SportzX SD",
-        "logo": "",
-        "url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     },
     {
         "name": "TEST",

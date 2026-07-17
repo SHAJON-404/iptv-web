@@ -86,15 +86,11 @@
         "useProxy": true
     },
     {
-        "name": "SPX FHD LIVE",
+        "name": "SportzX Live",
         "logo": "",
-        "url": "https://dice-live-oc.akamaized.net/hdntl=exp=1784350368~acl=*dash%2flive%2f2093742%2f219026-322453%2f*!*dash%2flive%2f2093742-b%2f219026-322453-b%2f*!%2fv1%2fdashsegment%2f*~id=d80f77e4-469c-4474-9bd4-484e0f8d52c9~data=hdntl,dWlkPWpuS2Fldnw1ODZjMjFiNy1kY2MxLTQzOWMtYWFmMS1lMThkZjJkZjE5YjMmc3JjPWRnZSZpcD04NS4yOC41NC4yMzUmZXhwPTE3ODQzNTAzOTYmZWlkPTIxOTAyNiZjaWQ9ZGNlLnNreW56Jm9pZD0zMTgmdHlwZT1MSVZF~hmac=bb3dfea889a9fe340c3c37ac6a359041e4dafbf1a268afb8e36823cc12514174/dash/live/2093742/219026-322453/manifest-d.mpd",
-        "type": "dash",
-        "group": "SPX",
-        "kid": "aefc2c8d1c8840f1b6981f856c9269ba",
-        "key": "cf8ea114c45b4d6596b2748258ab74d6",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36 OPR/97.0.0.0"
+        "url": "https://live1.streambylivepulse.com/live/channel1/playlist.m3u8",
+        "group": "SportzX",
+        "useProxy": false
     },
     {
         "name": "FOX ONE - AQ",
@@ -372,17 +368,6 @@
         "group": "SportzX",
         "useProxy": true,
         "referer": "https://gooz.aapmains.net"
-    },
-    {
-        "name": "SKY FHD LIVE",
-        "logo": "",
-        "url": "https://dice-live-oc.akamaized.net/hdntl=exp=1784350679~acl=*dash%2flive%2f2093757%2f219028-322691%2f*!*dash%2flive%2f2093757-b%2f219028-322691-b%2f*!%2fv1%2fdashsegment%2f*~id=4ff44426-fabf-4f41-ba17-eda2146d0977~data=hdntl,dWlkPWY3RVJaWnwxNjg2YzEwNC04MTc3LTQ1OGItOWEyYi00YjA2MTE1MmI0MDEmc3JjPWRnZSZpcD04NS4yOC41NC4yMzUmZXhwPTE3ODQzNTA3MDcmZWlkPTIxOTAyOCZjaWQ9ZGNlLnNreW56Jm9pZD0zMTgmdHlwZT1MSVZF~hmac=ed93423a4fb6b9fe39117bce7ae6b26e1aeb13d6d609b4b47b15516119e52f16/dash/live/2093757/219028-322691/manifest-d.mpd",
-        "type": "dash",
-        "group": "Sky",
-        "kid": "2e2636daa74141b68cc14882ea3ff82b",
-        "key": "0961f48287324adbb4b7ff3c9d82b3c9",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36 OPR/97.0.0.0"
     },
     {
         "name": "Tipik FRANCE FHD",

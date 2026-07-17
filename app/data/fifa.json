@@ -70,24 +70,21 @@
         "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36 OPR/97.0.0.0"
     },
     {
-        "name": "SportzX Live",
+        "name": "FOX SPORTS FHD",
         "logo": "",
-        "url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "09453ce820d65fbc675de3185f9e454c",
+        "key": "98cff9600995fa381c76fdacf3c7edae",
+        "useProxy": true
     },
     {
-        "name": "TSN SPORTS FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-        "type": "dash",
-        "group": "TSN",
-        "kid": "14eeabf30c14b7fbf3008c03099ce011",
-        "key": "17d2ac8dbc5429bd70af3433aa12158d",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8",
+        "group": "SportzX",
+        "useProxy": false
     },
     {
         "name": "SportzX Live",
@@ -117,23 +114,6 @@
         "kid": "69a7111079036ea39999d0da6be9f8d9",
         "key": "26f5326bf03cb3467e15a49e4a1fc8c8",
         "useProxy": true
-    },
-    {
-        "name": "FOX DEPORTES",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "d1a163914db8ffad2c3e94f979896a0d",
-        "key": "9728800a3959aafdd5b0bcfbf3768811",
-        "useProxy": true
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://pul-tenm.nbs3g.com/live/sd-1-4553795.m3u8?txSecret=c0efa74e7a7d083e1511b08a1376a29a&txTime=6A5ACE30",
-        "group": "SportzX",
-        "useProxy": false
     },
     {
         "name": "FOX ONE - AQ",
@@ -194,6 +174,17 @@
         "group": "TVE",
         "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
         "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "TSN SPORTS FHD",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "type": "dash",
+        "group": "TSN",
+        "kid": "14eeabf30c14b7fbf3008c03099ce011",
+        "key": "17d2ac8dbc5429bd70af3433aa12158d",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
@@ -457,6 +448,25 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     },
     {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "FOX DEPORTES",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "d1a163914db8ffad2c3e94f979896a0d",
+        "key": "9728800a3959aafdd5b0bcfbf3768811",
+        "useProxy": true
+    },
+    {
         "name": "PREMIERER BR",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
@@ -554,17 +564,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "FOX SPORTS FHD",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "09453ce820d65fbc675de3185f9e454c",
-        "key": "98cff9600995fa381c76fdacf3c7edae",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "FULL MATCH PARAMOUNT",
         "logo": "",
         "url": "https://abdfyr5aaaaaaaamblknqqdakgoyf.bia-cf.live.pv-cdn.net/iad-nitro/jab-assets/jab-prod-iad/live/dash/out/v1/3ee18fe6099c4ab1a985bd8034e5fac2/ipztczhdhupw/cenc-44e61c.mpd",
@@ -583,20 +582,6 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "Server ",
-        "logo": "",
-        "url": "https://live-bangla.akamaized.net/liveabr/playlist.m3u8",
-        "group": "Server",
-        "useProxy": false
-    },
-    {
-        "name": "server 2",
-        "logo": "",
-        "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8",
-        "group": "server",
-        "useProxy": false
     },
     {
         "name": "Tap Sport LQ",

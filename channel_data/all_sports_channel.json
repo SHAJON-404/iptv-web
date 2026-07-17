@@ -73,26 +73,6 @@
         "useProxy": false
     },
     {
-        "name": "WILLOW FHD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tgxt1qnhdq/out/v1/168a6d5649b141dbbc30b408f3f1f083/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "6de3083c1e22cb49d140d846a1535e88",
-        "key": "3aa84e5a5240f125ac292458bcbcd1e8",
-        "useProxy": true
-    },
-    {
-        "name": "WILLOW ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/qeuihkyzy3/out/v1/9ef04a16cfb04fc69c1138f56550bed6/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "69a7111079036ea39999d0da6be9f8d9",
-        "key": "26f5326bf03cb3467e15a49e4a1fc8c8",
-        "useProxy": true
-    },
-    {
         "name": "Fox Sports Premium",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
@@ -275,6 +255,13 @@
         "logo": "",
         "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8",
         "group": "TSports",
+        "useProxy": false
+    },
+    {
+        "name": "BTV BDIX HD",
+        "logo": "https://www.btvlive.gov.bd/_next/image?url=https%3A%2F%2Fd38ll44lbmt52p.cloudfront.net%2Fcms%2Fchannel_poster%2F1677040358634_BTVogo.png&w=2048&q=75",
+        "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
+        "group": "BTV",
         "useProxy": false
     },
     {

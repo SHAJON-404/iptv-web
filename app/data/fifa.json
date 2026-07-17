@@ -35,21 +35,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX NBA",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53412/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
-        "name": "NBA LIVE",
-        "logo": "",
-        "url": "https://pul-tenm.nbs3g.com/live/hd-en-2-3923401.m3u8?txSecret=4b702fa8e611aef9f46dfd3634bf102c&txTime=6A5ADA60",
-        "group": "NBA",
-        "useProxy": false
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/ztyarueaghj71.m3u8?",
@@ -420,6 +405,14 @@
         "useProxy": false
     },
     {
+        "name": "LOW SERVER",
+        "logo": "",
+        "url": "http://193.47.62.41/hls/ZGGGQQ.m3u8",
+        "group": "LOW",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8?",
@@ -446,15 +439,6 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "FOX DEPORTES",

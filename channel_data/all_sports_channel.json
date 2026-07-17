@@ -56,17 +56,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "TEST",
-        "logo": "",
-        "url": "https://dice-live-oc.akamaized.net/hdntl=exp=1784342622~acl=*dash%2flive%2f2093757%2f219028-322691%2f*!*dash%2flive%2f2093757-b%2f219028-322691-b%2f*!%2fv1%2fdashsegment%2f*~id=a5991e09-6fae-478d-aa94-48b6ab504469~data=hdntl,dWlkPVlhVXR0QnwwNjg2YTFmZi0yZjAxLTQzMmEtYmE4Zi0xNGU5ZTEwMjhmYTYmc3JjPWRnZSZpcD04NS4yOC41NC4yMzUmZXhwPTE3ODQzNDI2NDQmZWlkPTIxOTAyOCZjaWQ9ZGNlLnNreW56Jm9pZD0zMTgmdHlwZT1MSVZF~hmac=1ebdf596b2f50e1ae9c75c096e0433ee64fbcd1908a9525d6e6e310f6f1f8016/dash/live/2093757/219028-322691/manifest-d.mpd",
-        "type": "dash",
-        "group": "TEST",
-        "kid": "2e2636daa74141b68cc14882ea3ff82b",
-        "key": "0961f48287324adbb4b7ff3c9d82b3c9",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36 OPR/97.0.0.0"
-    },
-    {
         "name": "FOX SPORTS FHD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
@@ -282,27 +271,10 @@
         "useProxy": false
     },
     {
-        "name": "Match Football FHD",
-        "logo": "",
-        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
-        "type": "dash",
-        "group": "Match",
-        "kid": "9145a6e0f778e61866f573d4944dd533",
-        "key": "d02173d40515fea5c83944f21d0f3114",
-        "useProxy": true
-    },
-    {
         "name": "TSports HD",
         "logo": "",
         "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8",
         "group": "TSports",
-        "useProxy": false
-    },
-    {
-        "name": "BTV BDIX HD",
-        "logo": "https://www.btvlive.gov.bd/_next/image?url=https%3A%2F%2Fd38ll44lbmt52p.cloudfront.net%2Fcms%2Fchannel_poster%2F1677040358634_BTVogo.png&w=2048&q=75",
-        "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
-        "group": "BTV",
         "useProxy": false
     },
     {

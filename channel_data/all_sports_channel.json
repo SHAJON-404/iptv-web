@@ -697,30 +697,6 @@
         "referer": "https://pushembdz.store/"
     },
     {
-        "name": "APPLE TV FHD",
-        "logo": "",
-        "url": "https://g001.sadhoofiton.shop/out/v2/4d292cde43eec080c14da5a832cdcec5/index.m3u8?",
-        "group": "APPLE",
-        "useProxy": true,
-        "referer": "https://pushembdz.store/"
-    },
-    {
-        "name": "DAZN ESPANOL",
-        "logo": "",
-        "url": "https://g001.sadhoofiton.shop/out/v2/c216ca330f7030e8fa28442c968c946f/index.m3u8?",
-        "group": "DAZN",
-        "useProxy": true,
-        "referer": "https://pushembdz.store/"
-    },
-    {
-        "name": "SKY ITALY FHD",
-        "logo": "",
-        "url": "https://g001.sadhoofiton.shop/out/v2/76dfb771cfc8457c8e63072d83a02a0b/index.m3u8?",
-        "group": "SKY",
-        "useProxy": true,
-        "referer": "https://pushembdz.store/"
-    },
-    {
         "name": "LOW RES",
         "logo": "",
         "url": "https://g001.sadhoofiton.shop/out/v2/aae098d403afd7df073bbfb09885afdc/index.m3u8?",

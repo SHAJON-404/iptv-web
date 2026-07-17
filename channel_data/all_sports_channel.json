@@ -810,46 +810,6 @@
         "useProxy": true
     },
     {
-        "name": "FOX SPORTS FHD",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://g001.sadhoofiton.shop/out/v2/f77eb35b1ffef2a18c2ec34f989a7e33/index.m3u8?",
-        "group": "FOX",
-        "useProxy": true,
-        "referer": "https://pushembdz.store/"
-    },
-    {
-        "name": "APPLE TV FHD",
-        "logo": "",
-        "url": "https://g001.sadhoofiton.shop/out/v2/d45bbe10cd959e60d61887d676e9fac1/index.m3u8?",
-        "group": "APPLE",
-        "useProxy": true,
-        "referer": "https://pushembdz.store/"
-    },
-    {
-        "name": "DAZN ESPANOL",
-        "logo": "",
-        "url": "https://g001.sadhoofiton.shop/out/v2/aa2e11f8ad50df999ad7cb0d441883f5/index.m3u8?",
-        "group": "DAZN",
-        "useProxy": true,
-        "referer": "https://pushembdz.store/"
-    },
-    {
-        "name": "SKY ITALY FHD",
-        "logo": "",
-        "url": "https://g001.sadhoofiton.shop/out/v2/572d69403cf7b0acaef9fe81247c2264/index.m3u8?",
-        "group": "SKY",
-        "useProxy": true,
-        "referer": "https://pushembdz.store/"
-    },
-    {
-        "name": "LOW RES",
-        "logo": "",
-        "url": "https://g001.sadhoofiton.shop/out/v2/3a7eacf6b94c36143ad72418eb94420e/index.m3u8?",
-        "group": "LOW",
-        "useProxy": true,
-        "referer": "https://pushembdz.store/"
-    },
-    {
         "name": "TSN SPORTS FHD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",

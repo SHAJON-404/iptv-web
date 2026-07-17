@@ -334,6 +334,16 @@
         "useProxy": false
     },
     {
+        "name": "Match Football FHD",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "Match",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": true
+    },
+    {
         "name": "TSports HD",
         "logo": "",
         "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8",
@@ -421,6 +431,13 @@
         "logo": "",
         "url": "http://103.165.93.31:8095/somoyTv/index.m3u8",
         "group": "SOMOY",
+        "useProxy": false
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://pul-tenm.nbs3g.com/live/sd-1-4581738.m3u8?txSecret=dbea950a9df80f179fce4764e0797c28&txTime=6A5BB110",
+        "group": "SportzX",
         "useProxy": false
     },
     {
@@ -530,13 +547,14 @@
         "useProxy": true
     },
     {
-        "name": "SportzX Live",
+        "name": "Azteca 7",
         "logo": "",
-        "url": "https://edgestream1.pro/hls/yjtzafghvjza74.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
+        "url": "https://dish-arg.akamaized.net/Content/DASH/Live/channel(azteca7hd)/variant.mpd",
+        "type": "dash",
+        "group": "Azteca",
+        "kid": "a5717e2dda7fc0fead005059e5536b6c",
+        "key": "04243a2f2c5237efd969213e36f1ec77",
+        "useProxy": true
     },
     {
         "name": "SportzX SD",
@@ -547,6 +565,15 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/yjtzafghvjza74.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
     },
     {
         "name": "SportzX Live",

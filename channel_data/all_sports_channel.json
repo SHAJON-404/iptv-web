@@ -341,13 +341,6 @@
         "useProxy": false
     },
     {
-        "name": "SomoyTV BDIX",
-        "logo": "",
-        "url": "http://103.165.93.31:8095/somoyTv/index.m3u8",
-        "group": "SOMOY",
-        "useProxy": false
-    },
-    {
         "name": "SportzX LIVE",
         "logo": "",
         "url": "https://edgestream3.pro/hls/kjhfzua25.m3u8?",

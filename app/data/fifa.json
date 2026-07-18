@@ -11,14 +11,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "CRICKET FHD",
-        "logo": "",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "CRICKET",
-        "useProxy": false,
-        "user-agent": "Mozilla"
-    },
-    {
         "name": "WILLOW - ALT",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9uwi1u8pp4/out/v1/e3442a4252344b0493129c4db959dc06/cenc.mpd",
@@ -105,14 +97,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53486/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/kjhfzua25.m3u8?",
@@ -133,14 +117,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53474/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/jkzahzadach20.m3u8?",
@@ -148,14 +124,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX NBA",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53501/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
     },
     {
         "name": "SportzX Live",
@@ -242,15 +210,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "HD SERVER ES",
-        "logo": "",
-        "url": "https://edgestream2.pro/hls/b0h5fNwDKH.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
         "name": "FIFA TV FHD",
         "logo": "https://img.sofascore.com/api/v1/unique-tournament/16/image",
         "url": "https://cdnec02.mediaquest.com.ph/bpk-token/2ab@w544wk5y111knxfbv2itg33nvw2xxxv0wx4e31ca/bpk-tv/fifa_ppv1/default/index.mpd?bkm-query",
@@ -307,6 +266,13 @@
         "logo": "",
         "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
         "group": "FUSSBALL",
+        "useProxy": false
+    },
+    {
+        "name": "QAZ SPORTS HD",
+        "logo": "",
+        "url": "http://stream.mcquack.net/72/index.m3u8",
+        "group": "QAZ",
         "useProxy": false
     },
     {
@@ -1108,12 +1074,6 @@
         "group": "Cricket Gold",
         "name": "Cricket Gold",
         "url": "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/bfc6a36e-c250-4afe-b6c9-2bc57855bb7d/4.m3u8",
-        "useProxy": false
-    },
-    {
-        "group": "FS",
-        "name": "FS1 05",
-        "url": "http://wickediptv.xyz/Randall123/Randall321/53390",
         "useProxy": false
     },
     {

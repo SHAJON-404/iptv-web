@@ -20,11 +20,11 @@
     {
         "name": "WILLOW FHD",
         "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/prn9i8ze4a/out/v1/2bda444a547e4c8787b962c1ba8ae551/cenc.mpd",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iwyh0vj3ac/out/v1/03c3c3439673443d972401e438d1a29a/cenc.mpd",
         "type": "dash",
         "group": "WILLOW",
-        "kid": "9a98a0ff617487177711ccd3529a79d5",
-        "key": "9b42b490dc0075cf94f51b226a779045",
+        "kid": "a3a95de0732808b96c314479df1586b1",
+        "key": "0818f1d8c7c47fcbe543e2435ff44143",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
@@ -39,12 +39,29 @@
     {
         "name": "WILLOW - ALT",
         "logo": "",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/prn9i8ze4a/out/v1/2bda444a547e4c8787b962c1ba8ae551/cenc.mpd",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iwyh0vj3ac/out/v1/03c3c3439673443d972401e438d1a29a/cenc.mpd",
         "type": "dash",
         "group": "WILLOW",
-        "kid": "9a98a0ff617487177711ccd3529a79d5",
-        "key": "9b42b490dc0075cf94f51b226a779045",
+        "kid": "a3a95de0732808b96c314479df1586b1",
+        "key": "0818f1d8c7c47fcbe543e2435ff44143",
         "useProxy": true
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://live.vivo200.com/live/sd-1-4587780.m3u8?txSecret=1d6f9a6c324cb7b62cd7a4b5d810cd78&txTime=6A5B92D8",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://player.online909.com/"
+    },
+    {
+        "name": "SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.49/hls/YNNNQQQQQQ.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "EUROSPORT1 FHD",
@@ -390,6 +407,23 @@
         "useProxy": false
     },
     {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://live.vivo200.com/live/sd-1-4584528.m3u8?txSecret=c60212596bd784119f7687af306e090a&txTime=6A5B92FC",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://player.online909.com/"
+    },
+    {
+        "name": "SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.49/hls/YNNNQQQ.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
         "name": "FANCODE FHD",
         "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
         "url": "https://a204aivottepl-a.akamaihd.net/sin-nitro/live/clients/dash/enc/h35gev6jft/out/v1/c64004e114c245a4ab84bb570275a4a9/cenc.mpd",
@@ -450,6 +484,14 @@
         "referer": "https://pushembdz.store/"
     },
     {
+        "name": "APPLE TV FHD",
+        "logo": "",
+        "url": "https://g001.sadhoofiton.shop/out/v2/11a5c518fbca96b9df9df2935c431836/index.m3u8?",
+        "group": "APPLE",
+        "useProxy": true,
+        "referer": "https://pushembdz.store/"
+    },
+    {
         "name": "SKY SPORTS FHD",
         "logo": "",
         "url": "https://g001.sadhoofiton.shop/out/v2/e032b64cd573b065f58aa4e38a3f19d8/index.m3u8?",
@@ -480,6 +522,15 @@
         "group": "LOW",
         "useProxy": true,
         "referer": "https://pushembdz.store/"
+    },
+    {
+        "name": "SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.57/hls/FRRRE.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "Tipik FRANCE FHD",
@@ -518,6 +569,27 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "WILLOW FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/prn9i8ze4a/out/v1/2bda444a547e4c8787b962c1ba8ae551/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "9a98a0ff617487177711ccd3529a79d5",
+        "key": "9b42b490dc0075cf94f51b226a779045",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "WILLOW - ALT",
+        "logo": "",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/prn9i8ze4a/out/v1/2bda444a547e4c8787b962c1ba8ae551/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "9a98a0ff617487177711ccd3529a79d5",
+        "key": "9b42b490dc0075cf94f51b226a779045",
+        "useProxy": true
     },
     {
         "name": "SportzX Live",

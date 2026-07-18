@@ -466,6 +466,15 @@
         "referer": "https://pushembdz.store/"
     },
     {
+        "name": "SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.41/hls/skkk.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
         "name": "Tipik FRANCE FHD",
         "logo": "",
         "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",

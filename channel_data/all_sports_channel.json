@@ -18,26 +18,20 @@
         "useProxy": false
     },
     {
-        "name": "SportzX NBA",
+        "name": "ITV SPORTS FHD",
         "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53450/load-playlist?",
-        "group": "SportzX",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
+        "type": "dash",
+        "group": "ITV",
+        "kid": "30089c52924f037b225b82c616fee2a5",
+        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
         "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/zayrtezafgvdv68.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8?",
         "group": "SportzX",
         "useProxy": true,
         "referer": "https://streamscenter.online/",
@@ -112,38 +106,25 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX Live",
+        "name": "ITV SPORTS FHD",
         "logo": "",
-        "url": "https://pul-tenm.nbs3g.com/live/sd-1-4553797.m3u8?txSecret=ad813edd2a16e1a69dcfa173ce0ad294&txTime=6A5C2988",
-        "group": "SportzX",
-        "useProxy": false
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://pul-tenm.nbs3g.com/live/sd-1-4553798.m3u8?txSecret=ae5d318935df2c6bb3f3160f6ebe3261&txTime=6A5C2988",
-        "group": "SportzX",
-        "useProxy": false
-    },
-    {
-        "name": "TSN SPORTS FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/ffwqzsa0zr/out/v1/752ac25588ff4607b45f3876a8e89223/cenc.mpd",
         "type": "dash",
-        "group": "TSN",
-        "kid": "abc5b2883121012850ebda05b528c5ec",
-        "key": "e5250924f4b738905f7163a0134587a7",
+        "group": "ITV",
+        "kid": "ea178e28af00ed57e7101255f977c222",
+        "key": "f29602a280f41950d1935f0c6816dc12",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "SportzX Live",
+        "name": "FOX SPORTS 2",
         "logo": "",
-        "url": "https://edgestream1.pro/hls/fdgsqdfawa73.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "09453ce820d65fbc675de3185f9e454c",
+        "key": "98cff9600995fa381c76fdacf3c7edae",
+        "useProxy": true
     },
     {
         "name": "FOX ONE - AQ",
@@ -153,6 +134,17 @@
         "group": "FOX",
         "kid": "f6564ec2aee819046328a0e153be574d",
         "key": "ff46a8a1031eb27ef22576a077c98ab7",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "TSN4 SPORTS FHD",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
+        "type": "dash",
+        "group": "TSN",
+        "kid": "abc5b2883121012850ebda05b528c5ec",
+        "key": "e5250924f4b738905f7163a0134587a7",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
@@ -335,17 +327,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "ITV SPORTS FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
-        "type": "dash",
-        "group": "ITV",
-        "kid": "30089c52924f037b225b82c616fee2a5",
-        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "CTV SPORTS FHD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
@@ -434,11 +415,9 @@
     {
         "name": "SportzX Live",
         "logo": "",
-        "url": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8?",
+        "url": "https://pul-tenm.nbs3g.com/live/sd-1-4553799.m3u8?txSecret=53d61895728083c697a720ccfdc7a9ea&txTime=6A5C2BE1",
         "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
+        "useProxy": false
     },
     {
         "name": "Azteca 7",
@@ -449,15 +428,6 @@
         "kid": "a5717e2dda7fc0fead005059e5536b6c",
         "key": "04243a2f2c5237efd969213e36f1ec77",
         "useProxy": true
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream1.pro/hls/hfsdqtaxvb67.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "SportzX WNBA",
@@ -510,6 +480,42 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream2.pro/hls/pllmazjkdzajh72.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/fdgsqdfawa73.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/hfsdqtaxvb67.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
     },
     {
         "name": "SportzX Live",
@@ -696,13 +702,6 @@
     {
         "name": "SportzX Live",
         "logo": "",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/fox506.m3u8",
-        "group": "SportzX",
-        "useProxy": false
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
         "url": "https://edgestream3.pro/hls/16yuitzaerghbhc16.m3u8?",
         "group": "SportzX",
         "useProxy": true,
@@ -738,13 +737,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     },
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8",
-        "group": "SportzX",
-        "useProxy": false
-    },
-    {
         "name": "Fox Sports Premium",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/fdx74zqzhu/out/v1/7d7a8c6981a842b98a683e9fbfe51d17/cenc.mpd",
@@ -775,14 +767,6 @@
         "key": "1b8a17598129a3618535c8fb05f103fe",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "SportzX F1 HD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://chatgpt.hereisman.net/playlist/53414/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
     },
     {
         "name": "Tipik FRANCE FHD",
@@ -839,16 +823,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "FOX SPORTS FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "09453ce820d65fbc675de3185f9e454c",
-        "key": "98cff9600995fa381c76fdacf3c7edae",
-        "useProxy": true
     },
     {
         "name": "TSN SPORTS FHD",

@@ -436,14 +436,6 @@
         "useProxy": true
     },
     {
-        "name": "SportzX WNBA",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53461/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/yjtzafghvjza74.m3u8?",

@@ -99,24 +99,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "ITV SPORTS FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/ffwqzsa0zr/out/v1/752ac25588ff4607b45f3876a8e89223/cenc.mpd",
-        "type": "dash",
-        "group": "ITV",
-        "kid": "ea178e28af00ed57e7101255f977c222",
-        "key": "f29602a280f41950d1935f0c6816dc12",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "HD SERVER",
-        "logo": "",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport5nz.m3u8",
-        "group": "SERVER",
-        "useProxy": false
-    },
-    {
         "name": "WILLOW - FHD",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oqukmtmmv9/out/v1/c78af2d94a4e4442b3f007b9ee847721/cenc.mpd",
@@ -452,10 +434,18 @@
         "referer": "https://gooz.aapmains.net"
     },
     {
-        "name": "APPLE TV FHD",
+        "name": "FOX SPORTS FHD",
         "logo": "",
-        "url": "https://g001.sadhoofiton.shop/out/v2/6e0780e1a8fac7f0f00eef9a0828f0d0/index.m3u8?",
-        "group": "APPLE",
+        "url": "https://g001.sadhoofiton.shop/out/v2/8d2457f8e8c603fff78a1aa3d8073336/index.m3u8?",
+        "group": "FOX",
+        "useProxy": true,
+        "referer": "https://pushembdz.store/"
+    },
+    {
+        "name": "SKY SPORTS FHD",
+        "logo": "",
+        "url": "https://g001.sadhoofiton.shop/out/v2/e032b64cd573b065f58aa4e38a3f19d8/index.m3u8?",
+        "group": "SKY",
         "useProxy": true,
         "referer": "https://pushembdz.store/"
     },
@@ -472,6 +462,14 @@
         "logo": "",
         "url": "https://g001.sadhoofiton.shop/out/v2/4fed0e7007c6f15306dc3e5bb6f6c23a/index.m3u8?",
         "group": "SKY",
+        "useProxy": true,
+        "referer": "https://pushembdz.store/"
+    },
+    {
+        "name": "LOW RES",
+        "logo": "",
+        "url": "https://g001.sadhoofiton.shop/out/v2/7220d992e5d959db3407b5a41cd54ae1/index.m3u8?",
+        "group": "LOW",
         "useProxy": true,
         "referer": "https://pushembdz.store/"
     },
@@ -522,6 +520,32 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "ITV SPORTS FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/ffwqzsa0zr/out/v1/752ac25588ff4607b45f3876a8e89223/cenc.mpd",
+        "type": "dash",
+        "group": "ITV",
+        "kid": "ea178e28af00ed57e7101255f977c222",
+        "key": "f29602a280f41950d1935f0c6816dc12",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport5nz.m3u8",
+        "group": "SERVER",
+        "useProxy": false
+    },
+    {
+        "name": "APPLE TV FHD",
+        "logo": "",
+        "url": "https://g001.sadhoofiton.shop/out/v2/6e0780e1a8fac7f0f00eef9a0828f0d0/index.m3u8?",
+        "group": "APPLE",
+        "useProxy": true,
+        "referer": "https://pushembdz.store/"
     },
     {
         "name": "TSN SPORTS FHD",

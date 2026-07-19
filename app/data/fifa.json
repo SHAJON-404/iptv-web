@@ -80,14 +80,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53491/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/ojzkajnach21.m3u8?",
@@ -210,6 +202,13 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "IRIB 4K",
+        "logo": "",
+        "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+        "group": "4K",
+        "useProxy": false
+    },
+    {
         "name": "FIFA TV FHD",
         "logo": "https://img.sofascore.com/api/v1/unique-tournament/16/image",
         "url": "https://cdnec02.mediaquest.com.ph/bpk-token/2ab@w544wk5y111knxfbv2itg33nvw2xxxv0wx4e31ca/bpk-tv/fifa_ppv1/default/index.mpd?bkm-query",
@@ -231,22 +230,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "TSN SPORTS FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://chatgpt.hereisman.net/playlist/53497/load-playlist?",
-        "group": "TSN",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
-        "name": "BBC SPORTS HD",
-        "logo": "https://r2.thesportsdb.com/images/media/channel/logo/mcoywh1678355150.png",
-        "url": "https://chatgpt.hereisman.net/playlist/53498/load-playlist?",
-        "group": "BBC",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "CAZE TV HD",
         "logo": "",
         "url": "https://rdcstream.life/live/cazetv/index.m3u8?",
@@ -266,13 +249,6 @@
         "logo": "",
         "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
         "group": "FUSSBALL",
-        "useProxy": false
-    },
-    {
-        "name": "QAZ SPORTS HD",
-        "logo": "",
-        "url": "http://stream.mcquack.net/72/index.m3u8",
-        "group": "QAZ",
         "useProxy": false
     },
     {
@@ -635,27 +611,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "WILLOW FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/iwyh0vj3ac/out/v1/03c3c3439673443d972401e438d1a29a/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "a3a95de0732808b96c314479df1586b1",
-        "key": "0818f1d8c7c47fcbe543e2435ff44143",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "WILLOW - ALT",
-        "logo": "",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/iwyh0vj3ac/out/v1/03c3c3439673443d972401e438d1a29a/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "a3a95de0732808b96c314479df1586b1",
-        "key": "0818f1d8c7c47fcbe543e2435ff44143",
-        "useProxy": true
-    },
-    {
         "name": "HD SERVER",
         "logo": "",
         "url": "https://hls.streamhub.media/hls/thesport-api-076cecf54325a5407fe3/master.m3u8",
@@ -751,14 +706,6 @@
         "group": "SportzX",
         "useProxy": true,
         "referer": "https://gooz.aapmains.net"
-    },
-    {
-        "name": "DAZN ESPANOL",
-        "logo": "",
-        "url": "https://g001.sadhoofiton.shop/out/v2/9e73c23d0346d2c26e34720f5c3b7800/index.m3u8?",
-        "group": "DAZN",
-        "useProxy": true,
-        "referer": "https://pushembdz.store/"
     },
     {
         "name": "ELEVEN SPORTS",

@@ -113,14 +113,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "PARAMOUNT+ HD",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53500/load-playlist?",
-        "group": "PARAMOUNT+",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "PARAMOUNT+ S2",
         "logo": "",
         "url": "https://chatgpt.hereisman.net/playlist/53504/load-playlist?",
@@ -135,16 +127,6 @@
         "group": "PARAMOUNT+",
         "useProxy": true,
         "referer": "https://playerembed.xyz"
-    },
-    {
-        "name": "SD TV (USE VPN)",
-        "logo": "",
-        "url": "http://193.47.62.41/hls/suuu.m3u8?",
-        "group": "TV",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "CANAL 5",
@@ -299,6 +281,16 @@
         "key": "a879b1d38ed002d4018bce96f9219b8d",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "MATCH TV RU",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "MATCH",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": true
     },
     {
         "name": "TSports BDIX",

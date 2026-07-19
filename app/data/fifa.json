@@ -66,14 +66,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "CRICKET FHD",
-        "logo": "",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "CRICKET",
-        "useProxy": false,
-        "user-agent": "Mozilla"
-    },
-    {
         "name": "WILLOW - ALT",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/owszcir0c3/out/v1/6d0979f92dd14691aba85bbe0ac4d449/cenc.mpd",
@@ -111,14 +103,6 @@
         "key": "18071eac168232fc3d45549049c1de6b",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "PARAMOUNT+ S2",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53504/load-playlist?",
-        "group": "PARAMOUNT+",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
     },
     {
         "name": "PARAMOUNT+ BR",

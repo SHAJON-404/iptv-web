@@ -160,6 +160,20 @@
         "referer": "https://playerembed.xyz/"
     },
     {
+        "name": "MUNIDAL HD",
+        "logo": "",
+        "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+        "group": "MUNIDAL",
+        "useProxy": false
+    },
+    {
+        "name": "FUSSBALL TV FHD",
+        "logo": "",
+        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+        "group": "FUSSBALL",
+        "useProxy": false
+    },
+    {
         "name": "TSN4 SPORTS FHD",
         "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
@@ -208,14 +222,11 @@
         "useProxy": false
     },
     {
-        "name": "KAN 11 FHD",
+        "name": "SportzX Live",
         "logo": "",
-        "url": "https://n-121-7.il.cdn-redge.media/livedash/oil/freetv/live/kan11/live.livx?manifest.mpd",
-        "type": "dash",
-        "group": "KAN",
-        "kid": "23fad97468a1338f973d192646df2d19",
-        "key": "27fd56ffd7d70ec6aa9252e713c21190",
-        "useProxy": true
+        "url": "https://live1.streambylivepulse.com/live/channel1/playlist.m3u8?wsSecret=d279c6097dbca555ed36b0233713642d&wsABSTime=1784182720&wsSession=436e9186b699ddc3ed613af6-178448347186941&wsIPSercert=4a098db2100d1784a4dca047bd3f5e4e&wsBindIP=2&wsserid=1168201446953502087",
+        "group": "SportzX",
+        "useProxy": false
     },
     {
         "name": "FAST SERVER FR",
@@ -233,14 +244,6 @@
         "referer": "https://gooz.aapmains.net"
     },
     {
-        "name": "TSN SPORTS HD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://chatgpt.hereisman.net/playlist/53540/load-playlist?",
-        "group": "TSN",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "beIN MAX HD",
         "logo": "",
         "url": "https://cua.atharican.shop/menze1.m3u8",
@@ -248,36 +251,11 @@
         "useProxy": false
     },
     {
-        "name": "TELEMUNDO FHD",
-        "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
-        "url": "https://cast.zlive.st/p/8b7d49cd99094663/index.m3u8?",
-        "group": "TELEMUNDO",
-        "useProxy": true,
-        "referer": "https://zlive.st/"
-    },
-    {
-        "name": "Fox Sports 4K",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://cast.zlive.st/p/b8d12bcd88cf5955/index.m3u8?",
-        "group": "4K",
-        "useProxy": true,
-        "referer": "https://zlive.st/"
-    },
-    {
-        "name": "TSN SPORTS FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://cast.zlive.st/p/d786921a17ec5daf/index.m3u8?",
-        "group": "TSN",
-        "useProxy": true,
-        "referer": "https://zlive.st/"
-    },
-    {
-        "name": "Fusball 4K MULTI",
+        "name": "CCTV SPORTS HD",
         "logo": "",
-        "url": "https://cast.zlive.st/p/a1e123c50c75cf09/index.m3u8?",
-        "group": "4K",
-        "useProxy": true,
-        "referer": "https://zlive.st/"
+        "url": "https://pullsgp.yyzb456.top/live/stream-525132_lhd.m3u8",
+        "group": "CCTV",
+        "useProxy": false
     },
     {
         "name": "CANAL5",
@@ -384,6 +362,14 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "SportzX MLB",
+        "logo": "",
+        "url": "https://chatgpt.hereisman.net/playlist/53556/load-playlist?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://gooz.aapmains.net"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/jnzkdzjfanch23.m3u8?",
@@ -447,6 +433,14 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     },
     {
+        "name": "SportzX MLB",
+        "logo": "",
+        "url": "https://chatgpt.hereisman.net/playlist/53548/load-playlist?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://gooz.aapmains.net"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/jkzahzadach20.m3u8?",
@@ -470,14 +464,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX WNBA",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53541/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net/"
     },
     {
         "name": "SportzX Live",
@@ -519,13 +505,6 @@
         "logo": "",
         "url": "https://hls.streamhub.media/hls/thesport-api-19be5892a432b8ce226c/master.m3u8",
         "group": "LOW",
-        "useProxy": false
-    },
-    {
-        "name": "HD SERVER",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8",
-        "group": "SERVER",
         "useProxy": false
     },
     {
@@ -576,13 +555,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "TNT SPORTS",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI2NSvkyk8Fx2UMBXFdEXS36TNepD6Uy8pMQveJnYRbDnXedcg2tttKHz3&s=10",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/tntsports1.m3u8",
-        "group": "TNT",
-        "useProxy": false
     },
     {
         "name": "WILLOW - ALT",
@@ -707,13 +679,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "TUDN HD",
-        "logo": "",
-        "url": "https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8",
-        "group": "TUDN",
-        "useProxy": false
     },
     {
         "name": "HD SERVER",

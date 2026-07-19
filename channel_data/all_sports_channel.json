@@ -11,14 +11,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "CRICKET FHD",
-        "logo": "",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "CRICKET",
-        "useProxy": false,
-        "user-agent": "Mozilla"
-    },
-    {
         "name": "WILLOW - ALT",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/9uwi1u8pp4/out/v1/e3442a4252344b0493129c4db959dc06/cenc.mpd",
@@ -209,16 +201,6 @@
         "useProxy": false
     },
     {
-        "name": "Match Football FHD",
-        "logo": "",
-        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
-        "type": "dash",
-        "group": "Match",
-        "kid": "9145a6e0f778e61866f573d4944dd533",
-        "key": "d02173d40515fea5c83944f21d0f3114",
-        "useProxy": true
-    },
-    {
         "name": "FIFA TV FHD",
         "logo": "https://img.sofascore.com/api/v1/unique-tournament/16/image",
         "url": "https://cdnec02.mediaquest.com.ph/bpk-token/2ab@w544wk5y111knxfbv2itg33nvw2xxxv0wx4e31ca/bpk-tv/fifa_ppv1/default/index.mpd?bkm-query",
@@ -259,6 +241,13 @@
         "logo": "",
         "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
         "group": "FUSSBALL",
+        "useProxy": false
+    },
+    {
+        "name": "QAZ SPORTS HD",
+        "logo": "",
+        "url": "http://stream.mcquack.net/72/index.m3u8",
+        "group": "QAZ",
         "useProxy": false
     },
     {

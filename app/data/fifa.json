@@ -151,13 +151,6 @@
         "useProxy": false
     },
     {
-        "name": "QAZ SPORTS HD",
-        "logo": "",
-        "url": "http://stream.mcquack.net/72/index.m3u8",
-        "group": "QAZ",
-        "useProxy": false
-    },
-    {
         "name": "TSN4 SPORTS FHD",
         "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
@@ -177,15 +170,6 @@
         "kid": "11223344556677889900112233445566",
         "key": "4b80724d0ef86bcb2c21f7999d67739d",
         "useProxy": true
-    },
-    {
-        "name": "TELEMUNDO HD",
-        "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
-        "url": "https://edgestream2.pro/hls/b0h5fNwDKH.m3u8?",
-        "group": "TELEMUNDO",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "TVE La 1 FHD",
@@ -293,13 +277,6 @@
         "referer": "https://zlive.st/"
     },
     {
-        "name": "Fox Sports UHD [US VPN]",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://foxdtc-video.akamaized.net/ZXhwPTE3ODQ1NjQxODc7YWNsPS8qO3dzaWQ9ZThkZWM0NWJhZDNjN2Y3ODNlYWMxNjYxNDk2NjQyOTVfZm94ZHRjX2FuZHJvaWR0dl9lbi1VUztobWFjPW41QjV5bE90dDdFVkhTei9aVEU4QmlxcjFxWmNmTEJWN1VXK3BLSkhsMWs9/live/uhd-1-b-uw2/index.m3u8",
-        "group": "FOX",
-        "useProxy": false
-    },
-    {
         "name": "TELEMUNDO FHD",
         "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
         "url": "https://cast.zlive.st/p/8b7d49cd99094663/index.m3u8?",
@@ -347,15 +324,6 @@
         "key": "014f0116154f5bf0050e03a6b0a23157",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "TELEMUNDO HD",
-        "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
-        "url": "https://edgestream3.pro/hls/b0h5fNwDKH.m3u8?",
-        "group": "TELEMUNDO",
-        "useProxy": true,
-        "referer": "https://streame.center/",
-        "origin": "https://streame.center"
     },
     {
         "name": "FOX SPORTS 4K",

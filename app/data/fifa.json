@@ -32,24 +32,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "WILLOW - AQ",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uttx59lzmo/out/v1/fe9c404839284110a46313354214c6cb/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "5be2590ab12743d21a1d377d8b5e7900",
-        "key": "ff08faff3b5d2c874b62ec09e2db888c",
-        "useProxy": true
-    },
-    {
-        "name": "CRICKET FHD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "CRICKET",
-        "useProxy": false,
-        "user-agent": "Mozilla"
-    },
-    {
         "name": "WILLOW - ALT",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/uttx59lzmo/out/v1/fe9c404839284110a46313354214c6cb/cenc.mpd",
@@ -58,6 +40,14 @@
         "kid": "5be2590ab12743d21a1d377d8b5e7900",
         "key": "ff08faff3b5d2c874b62ec09e2db888c",
         "useProxy": true
+    },
+    {
+        "name": "LOW SERVER ",
+        "logo": "",
+        "url": "http://193.47.62.41/hls/XAXAXA.m3u8",
+        "group": "LOW",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/"
     },
     {
         "name": "SKY SPORT NZ",
@@ -104,27 +94,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportsNet FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ccupb3gevq/out/v1/d9d54c61efab463981d1a7d04ceeb44c/cenc.mpd",
-        "type": "dash",
-        "group": "SportsNet",
-        "kid": "60de674d9db66df9ba090e06871d3554",
-        "key": "18071eac168232fc3d45549049c1de6b",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "SD TV (USE VPN)",
-        "logo": "",
-        "url": "http://193.47.62.41/hls/suuu.m3u8?",
-        "group": "TV",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "CANAL 5",
@@ -185,6 +154,15 @@
         "key": "ff46a8a1031eb27ef22576a077c98ab7",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "TELEMUNDO HD",
+        "logo": "",
+        "url": "https://edgestream3.pro/hls/b0h5fNwDKH.m3u8?",
+        "group": "TELEMUNDO",
+        "useProxy": true,
+        "referer": "https://streame.center/",
+        "origin": "https://streame.center"
     },
     {
         "name": "TSN SPORTS FHD",
@@ -280,17 +258,6 @@
         "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
         "group": "4K",
         "useProxy": false
-    },
-    {
-        "name": "FOX SPORTS HD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/zpfs5hlgya/out/v1/84b1d591a23640178a8e8aa43c6e59a7/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "0cc2f872759c96de70237e6fa6de03d0",
-        "key": "a879b1d38ed002d4018bce96f9219b8d",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "TSports BDIX",
@@ -460,15 +427,6 @@
         "referer": "https://pushembdz.store/"
     },
     {
-        "name": "SD SERVER",
-        "logo": "",
-        "url": "http://193.47.62.49/hls/RTRTRT.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
         "name": "ELEVEN SPORTS",
         "logo": "",
         "url": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd",
@@ -507,16 +465,6 @@
         "useProxy": true
     },
     {
-        "name": "WILLOW FHD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rypwqp6z3f/out/v1/a10c4ad014a5422b84c91d98f51dd279/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "ecdf2f70c1d0df4187b2be76cce4e63d",
-        "key": "38832d5c9796f7113fbd2ec6ba70f313",
-        "useProxy": true
-    },
-    {
         "name": "WILLOW - ALT",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rypwqp6z3f/out/v1/a10c4ad014a5422b84c91d98f51dd279/cenc.mpd",
@@ -547,16 +495,6 @@
         "useProxy": true
     },
     {
-        "name": "WILLOW - AQ",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/xy7igbvbrw/out/v1/ebd25d8eb3c643858d8dd55d88d677ac/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "287f5d409978b84086c6428b6acb73c1",
-        "key": "bad025076475daec87e62ec1016e8cec",
-        "useProxy": true
-    },
-    {
         "name": "WILLOW - ALT",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/xy7igbvbrw/out/v1/ebd25d8eb3c643858d8dd55d88d677ac/cenc.mpd",
@@ -575,15 +513,6 @@
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream1.pro/hls/hfsdqtaxvb67.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "FUSSBALL TV FHD",
@@ -780,17 +709,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "ITV SPORTS FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/dash/enc/ffwqzsa0zr/out/v1/752ac25588ff4607b45f3876a8e89223/cenc.mpd",
-        "type": "dash",
-        "group": "ITV",
-        "kid": "ea178e28af00ed57e7101255f977c222",
-        "key": "f29602a280f41950d1935f0c6816dc12",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/hefbafbakx28.m3u8?",
@@ -798,17 +716,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "TSN SPORTS FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/5xrogwf1bx/out/v1/d67356c474724ecc9ced667c7630dcab/cenc.mpd",
-        "type": "dash",
-        "group": "TSN",
-        "kid": "66e14add60c30be992503fa9a0ae5e20",
-        "key": "8c736ae52ce3cab1e918d5f9e8ed6c62",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "Azteca 7",

@@ -81,14 +81,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53557/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/fskjanach24.m3u8?",
@@ -98,14 +90,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53553/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/ijfnakfidch22.m3u8?",
@@ -113,14 +97,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53551/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
     },
     {
         "name": "SportzX Live",
@@ -272,13 +248,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "SOMOY TV HD",
-        "logo": "",
-        "url": "http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8",
-        "group": "SOMOY",
-        "useProxy": false
-    },
-    {
         "name": "Fusball 4K MULTI",
         "logo": "",
         "url": "https://cast.zlive.st/p/a1e123c50c75cf09/index.m3u8?",
@@ -311,22 +280,8 @@
     {
         "name": "FAST SERVER FR",
         "logo": "",
-        "url": "https://pulltx.cqsycw.com/live/hd-en-6MvYMRTGwJ8SJyq4sg.m3u8?txSecret=213fa137711e1f1a0acd35aa03cea155&txTime=6A5D4598",
+        "url": "https://pulltx.cqsycw.com/live/hd-en-6MvYMRTGwJ8SJyq4sg.m3u8?txSecret=c082db0e0a70af35d26de09ab7989d11&txTime=6A5D68C0",
         "group": "FAST",
-        "useProxy": false
-    },
-    {
-        "name": "beIN MAX HD",
-        "logo": "",
-        "url": "https://cua.atharican.shop/menze1.m3u8",
-        "group": "beIN",
-        "useProxy": false
-    },
-    {
-        "name": "CCTV SPORTS HD",
-        "logo": "",
-        "url": "https://pullsgp.yyzb456.top/live/stream-525132_lhd.m3u8",
-        "group": "CCTV",
         "useProxy": false
     },
     {
@@ -365,17 +320,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "ITV SPORTS FHD",
-        "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
-        "type": "dash",
-        "group": "ITV",
-        "kid": "30089c52924f037b225b82c616fee2a5",
-        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "CTV SPORTS FHD",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
@@ -401,28 +345,6 @@
         "url": "https://pulltx.cqsycw.com/live/sd-6MvYMRTGwJ8SJyq4sg.m3u8?txSecret=ea15b6f0b73b3745cd552d03749fd528&txTime=6A5D4598",
         "group": "FAST",
         "useProxy": false
-    },
-    {
-        "name": "FOX SPORTS 4K",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/lsilniwjf7/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
-        "type": "dash",
-        "group": "4K",
-        "kid": "1f68713028d439ec03be07f56c1d6213",
-        "key": "20093db6455160fffed4c394def3193d",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "FOX SPORTS HD",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/zpfs5hlgya/out/v1/84b1d591a23640178a8e8aa43c6e59a7/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "0cc2f872759c96de70237e6fa6de03d0",
-        "key": "a879b1d38ed002d4018bce96f9219b8d",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "BBC SPORTS HD",
@@ -488,14 +410,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53556/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
     },
     {
         "name": "SportzX Live",
@@ -578,6 +492,13 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "FAST SERVER FR",
+        "logo": "",
+        "url": "https://pulltx.cqsycw.com/live/hd-en-6MvYMRTGwJ8SJyq4sg.m3u8?txSecret=213fa137711e1f1a0acd35aa03cea155&txTime=6A5D4598",
+        "group": "FAST",
+        "useProxy": false
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/pllmazjkdzajh72.m3u8?",
@@ -629,36 +550,6 @@
         "kid": "5be2590ab12743d21a1d377d8b5e7900",
         "key": "ff08faff3b5d2c874b62ec09e2db888c",
         "useProxy": true
-    },
-    {
-        "name": "SONY TEN 1 - IN",
-        "logo": "",
-        "url": "https://dishmt.slivcdn.com/hls/live/2011747-b/TEN1HD/master.m3u8?hdnea=exp=1784495890~acl=/*~id=1e03fe217581440690708a23c8a3a3ff-2008311105131851914~hmac=95aed93f7bf7e91363a1e0bfc310728563eb31fe943eb257fad43ebc84f55b9f",
-        "group": "SONY",
-        "useProxy": true,
-        "origin": "https://www.sonyliv.com",
-        "referer": "https://www.sonyliv.com/",
-        "x-playback-session-id": "1e03fe217581440690708a23c8a3a3ff-1784452689983"
-    },
-    {
-        "name": "SONY TEN 3 - IN",
-        "logo": "",
-        "url": "https://dishmt.slivcdn.com/hls/live/2020591-b/TEN3HD/master.m3u8?hdnea=exp=1784495890~acl=/*~id=1e03fe217581440690708a23c8a3a3ff-2008311105131851914~hmac=95aed93f7bf7e91363a1e0bfc310728563eb31fe943eb257fad43ebc84f55b9f",
-        "group": "SONY",
-        "useProxy": true,
-        "origin": "https://www.sonyliv.com",
-        "referer": "https://www.sonyliv.com/",
-        "x-playback-session-id": "1e03fe217581440690708a23c8a3a3ff-1784452689983"
-    },
-    {
-        "name": "SONY TEN 4 - IN",
-        "logo": "",
-        "url": "https://dishmt.slivcdn.com/hls/live/2020589-b/ten4hd/master.m3u8?hdnea=exp=1784495890~acl=/*~id=1e03fe217581440690708a23c8a3a3ff-2008311105131851914~hmac=95aed93f7bf7e91363a1e0bfc310728563eb31fe943eb257fad43ebc84f55b9f",
-        "group": "SONY",
-        "useProxy": true,
-        "origin": "https://www.sonyliv.com",
-        "referer": "https://www.sonyliv.com/",
-        "x-playback-session-id": "1e03fe217581440690708a23c8a3a3ff-1784452689983"
     },
     {
         "name": "SportzX Live",

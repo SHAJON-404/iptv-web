@@ -76,6 +76,14 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "CRICKET FHD",
+        "logo": "",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "CRICKET",
+        "useProxy": false,
+        "user-agent": "Mozilla"
+    },
+    {
         "name": "WILLOW - ALT",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/owszcir0c3/out/v1/6d0979f92dd14691aba85bbe0ac4d449/cenc.mpd",
@@ -293,13 +301,6 @@
         "useProxy": false
     },
     {
-        "name": "TSports HD",
-        "logo": "",
-        "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8",
-        "group": "TSports",
-        "useProxy": false
-    },
-    {
         "name": "BTV BDIX HD",
         "logo": "https://www.btvlive.gov.bd/_next/image?url=https%3A%2F%2Fd38ll44lbmt52p.cloudfront.net%2Fcms%2Fchannel_poster%2F1677040358634_BTVogo.png&w=2048&q=75",
         "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
@@ -369,6 +370,13 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "TSports BDIX",
+        "logo": "",
+        "url": "http://103.165.93.31:8095/tsports/video.m3u8",
+        "group": "TSports",
+        "useProxy": false
+    },
+    {
         "name": "SomoyTV BDIX",
         "logo": "",
         "url": "http://103.165.93.31:8095/somoyTv/index.m3u8",
@@ -424,6 +432,16 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "FULL MATCH [TSN]",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/jab-assets/jab-prod-iad/live/dash/out/v1/1caa3b2dfa9e448d8f61209bdfc1acdc/btfjli7ndr1v/cenc-b0c42a.mpd",
+        "type": "dash",
+        "group": "FULL",
+        "kid": "14eeabf30c14b7fbf3008c03099ce011",
+        "key": "17d2ac8dbc5429bd70af3433aa12158d",
+        "useProxy": true
     },
     {
         "name": "SportzX Live",

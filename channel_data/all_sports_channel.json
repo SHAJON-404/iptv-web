@@ -14,6 +14,17 @@
         "useProxy": false
     },
     {
+        "name": "TSN SPORTS",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd",
+        "type": "dash",
+        "group": "TSN",
+        "kid": "385ceb9714b75e0cef61254f80b31002",
+        "key": "18dce92a2891fee68d21ede5173230f8",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/JHDAJBDnjdna30.m3u8?",
@@ -21,6 +32,16 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "WILLOW - AQ",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/uttx59lzmo/out/v1/fe9c404839284110a46313354214c6cb/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "5be2590ab12743d21a1d377d8b5e7900",
+        "key": "ff08faff3b5d2c874b62ec09e2db888c",
+        "useProxy": true
     },
     {
         "name": "WILLOW - ALT",
@@ -39,13 +60,6 @@
         "group": "LOW",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "SKY SPORT NZ",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
-        "group": "SKY",
-        "useProxy": false
     },
     {
         "name": "SONY TEN 1 - IN",
@@ -109,6 +123,16 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "SD TV (USE VPN)",
+        "logo": "",
+        "url": "http://193.47.62.41/hls/suuu.m3u8?",
+        "group": "TV",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
         "name": "FOX SPORTS FHD",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd",
@@ -158,6 +182,37 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "Fox Sports UHD [US VPN]",
+        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+        "url": "https://foxdtc-video.akamaized.net/ZXhwPTE3ODQ1NjQxODc7YWNsPS8qO3dzaWQ9ZThkZWM0NWJhZDNjN2Y3ODNlYWMxNjYxNDk2NjQyOTVfZm94ZHRjX2FuZHJvaWR0dl9lbi1VUztobWFjPW41QjV5bE90dDdFVkhTei9aVEU4QmlxcjFxWmNmTEJWN1VXK3BLSkhsMWs9/live/uhd-1-b-uw2/index.m3u8",
+        "group": "FOX",
+        "useProxy": false
+    },
+    {
+        "name": "Fox Sports 4K",
+        "logo": "",
+        "url": "https://api.zlive.st/p/b8d12bcd88cf5955/index.m3u8?",
+        "group": "4K",
+        "useProxy": true,
+        "referer": "https://zlive.st/"
+    },
+    {
+        "name": "TSN SPORTS FHD",
+        "logo": "",
+        "url": "https://api.zlive.st/p/d786921a17ec5daf/index.m3u8?",
+        "group": "TSN",
+        "useProxy": true,
+        "referer": "https://zlive.st/"
+    },
+    {
+        "name": "Fusball 4K MULTI",
+        "logo": "",
+        "url": "https://api.zlive.st/p/a1e123c50c75cf09/index.m3u8?",
+        "group": "4K",
+        "useProxy": true,
+        "referer": "https://zlive.st/"
+    },
+    {
         "name": "CANAL5",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ntkdl68eob/out/v1/bd5dfb7676994383881bc6e71877d29d/cenc.mpd",
@@ -176,6 +231,47 @@
         "group": "TVE",
         "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
         "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "TELEMUNDO FHD",
+        "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
+        "url": "https://api.zlive.st/p/8b7d49cd99094663/index.m3u8?",
+        "group": "TELEMUNDO",
+        "useProxy": true,
+        "referer": "https://zlive.st/"
+    },
+    {
+        "name": "CAZE TV HD",
+        "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
+        "url": "https://rdcstream.life/live/cazetv/index.m3u8?",
+        "group": "CAZE",
+        "useProxy": true,
+        "referer": "https://playerembed.xyz/"
+    },
+    {
+        "name": "MUNIDAL HD",
+        "logo": "",
+        "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+        "group": "MUNIDAL",
+        "useProxy": false
+    },
+    {
+        "name": "FUSSBALL TV FHD",
+        "logo": "",
+        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
+        "group": "FUSSBALL",
+        "useProxy": false
+    },
+    {
+        "name": "D Sports FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
+        "type": "dash",
+        "group": "D",
+        "kid": "f836853d8eac19446ed9535f5fc568b1",
+        "key": "b3bc5ef00602b29abac7e482d3d9fbf3",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
@@ -202,26 +298,15 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "CAZE TV HD",
-        "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
-        "url": "https://rdcstream.life/live/cazetv/index.m3u8?",
-        "group": "CAZE",
+        "name": "CTV SPORTS FHD",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
+        "type": "dash",
+        "group": "CTV",
+        "kid": "d185684e2330de5bea436daa094a5e86",
+        "key": "014f0116154f5bf0050e03a6b0a23157",
         "useProxy": true,
-        "referer": "https://playerembed.xyz/"
-    },
-    {
-        "name": "MUNIDAL HD",
-        "logo": "",
-        "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
-        "group": "MUNIDAL",
-        "useProxy": false
-    },
-    {
-        "name": "FUSSBALL TV FHD",
-        "logo": "",
-        "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
-        "group": "FUSSBALL",
-        "useProxy": false
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "QAZ SPORTS HD",
@@ -238,28 +323,6 @@
         "useProxy": true,
         "referer": "https://streame.center/",
         "origin": "https://streame.center"
-    },
-    {
-        "name": "CTV SPORTS FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
-        "type": "dash",
-        "group": "CTV",
-        "kid": "d185684e2330de5bea436daa094a5e86",
-        "key": "014f0116154f5bf0050e03a6b0a23157",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "D Sports FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd",
-        "type": "dash",
-        "group": "D",
-        "kid": "f836853d8eac19446ed9535f5fc568b1",
-        "key": "b3bc5ef00602b29abac7e482d3d9fbf3",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "CAZE TV FHD",
@@ -338,13 +401,24 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "FANCODE FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "name": "FANCODE SD",
+        "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/qddnwqthpp/out/v1/6c25cddab58043a6ace0ac64d97983f0/cenc-sd.mpd",
         "type": "dash",
         "group": "FANCODE",
-        "kid": "7e9239c1982d984a002df3ed049d0756",
-        "key": "1b8a17598129a3618535c8fb05f103fe",
+        "kid": "709c812e1b4174002605df1d17d34a4c",
+        "key": "0bbee6c9c20a0f065bf8369d54cbf83e",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "SKY via APPLE TV",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/zl03cuvpb2/out/v1/7c64c4d71fae4ba7b80952ad71ed1e36/cenc.mpd",
+        "type": "dash",
+        "group": "SKY",
+        "kid": "51040efb59bf199bf09bcd79e4af435a",
+        "key": "636de0aecb318b012f47eed0845f96df",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },

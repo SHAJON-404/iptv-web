@@ -233,6 +233,13 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "QAZ SPORTS HD",
+        "logo": "",
+        "url": "http://stream.mcquack.net/72/index.m3u8",
+        "group": "QAZ",
+        "useProxy": false
+    },
+    {
         "name": "CAZE TV FHD",
         "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
         "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd",

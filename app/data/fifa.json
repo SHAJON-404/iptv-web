@@ -137,10 +137,24 @@
         "referer": "https://playerembed.xyz/"
     },
     {
+        "name": "MUNIDAL HD",
+        "logo": "",
+        "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
+        "group": "MUNIDAL",
+        "useProxy": false
+    },
+    {
         "name": "FUSSBALL TV FHD",
         "logo": "",
         "url": "https://cp11.adabmedia.com/hls2/sport.m3u8",
         "group": "FUSSBALL",
+        "useProxy": false
+    },
+    {
+        "name": "QAZ SPORTS HD",
+        "logo": "",
+        "url": "http://stream.mcquack.net/72/index.m3u8",
+        "group": "QAZ",
         "useProxy": false
     },
     {
@@ -238,6 +252,13 @@
         "useProxy": false
     },
     {
+        "name": "TSports HD",
+        "logo": "",
+        "url": "http://103.165.93.31:8095/tsports/tracks-v1a1/mono.m3u8",
+        "group": "TSports",
+        "useProxy": false
+    },
+    {
         "name": "BTV BDIX HD",
         "logo": "https://www.btvlive.gov.bd/_next/image?url=https%3A%2F%2Fd38ll44lbmt52p.cloudfront.net%2Fcms%2Fchannel_poster%2F1677040358634_BTVogo.png&w=2048&q=75",
         "url": "http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8",
@@ -329,6 +350,13 @@
         "key": "a879b1d38ed002d4018bce96f9219b8d",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "TSports BDIX",
+        "logo": "",
+        "url": "http://103.165.93.31:8095/tsports/video.m3u8",
+        "group": "TSports",
+        "useProxy": false
     },
     {
         "name": "SomoyTV BDIX",
@@ -489,16 +517,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "WILLOW - ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/u3ilketteh/out/v1/1ea199d6caf04e81b0ecf7f589cd3c9f/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "c1781b18ef9a3a4455c4ada2bce6c670",
-        "key": "c03d707bc916b280b457013dac5b2954",
-        "useProxy": true
     },
     {
         "name": "FANCODE FHD",

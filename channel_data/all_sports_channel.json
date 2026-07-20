@@ -143,6 +143,13 @@
         "useProxy": false
     },
     {
+        "name": "QAZ SPORTS HD",
+        "logo": "",
+        "url": "http://stream.mcquack.net/72/index.m3u8",
+        "group": "QAZ",
+        "useProxy": false
+    },
+    {
         "name": "TSN4 SPORTS FHD",
         "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
@@ -483,16 +490,6 @@
         "url": "https://hls.streamhub.media/hls/thesport-api-19be5892a432b8ce226c/master.m3u8",
         "group": "LOW",
         "useProxy": false
-    },
-    {
-        "name": "WILLOW - ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/uttx59lzmo/out/v1/fe9c404839284110a46313354214c6cb/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "5be2590ab12743d21a1d377d8b5e7900",
-        "key": "ff08faff3b5d2c874b62ec09e2db888c",
-        "useProxy": true
     },
     {
         "name": "SportzX Live",

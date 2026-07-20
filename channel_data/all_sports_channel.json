@@ -121,6 +121,13 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "CCTV SPORTS HD",
+        "logo": "",
+        "url": "https://pullsgp.yyzb456.top/live/stream-525132_lhd.m3u8",
+        "group": "CCTV",
+        "useProxy": false
+    },
+    {
         "name": "MUNIDAL HD",
         "logo": "",
         "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",

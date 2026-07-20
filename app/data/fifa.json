@@ -121,13 +121,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "MUNIDAL HD",
-        "logo": "",
-        "url": "https://s2.bufaloweb.com/bufalo9/tracks-v4a1/mono.ts.m3u8",
-        "group": "MUNIDAL",
-        "useProxy": false
-    },
-    {
         "name": "CAZE TV HD",
         "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
         "url": "https://rdcstream.life/live/cazetv/index.m3u8?",
@@ -207,6 +200,13 @@
         "key": "014f0116154f5bf0050e03a6b0a23157",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "QAZ SPORTS HD",
+        "logo": "",
+        "url": "http://stream.mcquack.net/72/index.m3u8",
+        "group": "QAZ",
+        "useProxy": false
     },
     {
         "name": "CAZE TV FHD",

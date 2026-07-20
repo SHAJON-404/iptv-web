@@ -267,6 +267,16 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "MATCH TV RU",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "MATCH",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": true
+    },
+    {
         "name": "TSports BDIX",
         "logo": "",
         "url": "http://103.165.93.31:8095/tsports/video.m3u8",
@@ -786,30 +796,6 @@
         "group": "Cricket Gold",
         "name": "Cricket Gold",
         "url": "https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/bfc6a36e-c250-4afe-b6c9-2bc57855bb7d/4.m3u8",
-        "useProxy": false
-    },
-    {
-        "group": "FIFAWC 2026 GAME",
-        "name": "FIFAWC 2026 GAME 01",
-        "url": "http://wickediptv.xyz/Randall123/Randall321/340018",
-        "useProxy": false
-    },
-    {
-        "group": "FIFAWC 2026 GAME",
-        "name": "FIFAWC 2026 GAME 02",
-        "url": "http://wickediptv.xyz/Randall123/Randall321/340019",
-        "useProxy": false
-    },
-    {
-        "group": "FIFAWC 2026 GAME",
-        "name": "FIFAWC 2026 GAME 03",
-        "url": "http://wickediptv.xyz/Randall123/Randall321/340017",
-        "useProxy": false
-    },
-    {
-        "group": "FIFAWC 2026 GAME",
-        "name": "FIFAWC 2026 GAME 04",
-        "url": "http://wickediptv.xyz/Randall123/Randall321/340016",
         "useProxy": false
     },
     {

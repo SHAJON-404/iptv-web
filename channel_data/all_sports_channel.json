@@ -284,16 +284,6 @@
         "referer": "https://zlive.st/"
     },
     {
-        "name": "UNIFY TV FHD",
-        "logo": "",
-        "url": "https://anak-fifuck.donasi-dulu-colong-kemudian.workers.dev/Content/DASH/Live/channel(fifa1)/master.mpd?hdntl=st=1784480346~exp=1784570346~acl=/Content/DASH/Live/channel(fifa1)/*~id=feeywxgMAObNR5wIftrBt2PkP0I4nspAy0b2-z_bEQ8S~hmac=d5a4dad519e21881367b63417ca801a5007c3d726bbbe15b14825b65787c2c89",
-        "type": "dash",
-        "group": "UNIFY",
-        "kid": "10e2114398744f3880cc96653568da55",
-        "key": "d6d40441f9fbebea03ec64c4aea7211f",
-        "useProxy": true
-    },
-    {
         "name": "TELEMUNDO FHD",
         "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
         "url": "https://cast.zlive.st/p/8b7d49cd99094663/index.m3u8?",

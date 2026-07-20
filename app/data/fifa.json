@@ -110,6 +110,13 @@
         "useProxy": false
     },
     {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://live1.streambylivepulse.com/live/channel1/playlist.m3u8?wsSecret=d279c6097dbca555ed36b0233713642d&wsABSTime=1784182720&wsSession=436e9186b699ddc3ed613af6-178448347186941&wsIPSercert=4a098db2100d1784a4dca047bd3f5e4e&wsBindIP=2&wsserid=1168201446953502087",
+        "group": "SportzX",
+        "useProxy": false
+    },
+    {
         "name": "FOX ONE - AQ",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
@@ -216,13 +223,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "QAZ SPORTS HD",
-        "logo": "",
-        "url": "http://stream.mcquack.net/72/index.m3u8",
-        "group": "QAZ",
-        "useProxy": false
-    },
-    {
         "name": "CAZE TV FHD",
         "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
         "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/iayg0kyrof/out/v1/91dc04907f56415b897faccfa9d252da/cenc.mpd",
@@ -272,26 +272,6 @@
         "key": "a879b1d38ed002d4018bce96f9219b8d",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "TELEMUNDO [USA]",
-        "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
-        "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(WSNS)/master.mpd",
-        "type": "dash",
-        "group": "TELEMUNDO",
-        "kid": "7d6bb9f86e133e4cb33440b493b6b672",
-        "key": "584ad285dcb9e7d42cf3e93f1cc3fe11",
-        "useProxy": true
-    },
-    {
-        "name": "TELEMUNDO [ALT]",
-        "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
-        "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
-        "type": "dash",
-        "group": "TELEMUNDO",
-        "kid": "ce7ab3022e753307997f58afe001bac4",
-        "key": "72d631a66e635c60829a0fe7705516c1",
-        "useProxy": true
     },
     {
         "name": "TSports BDIX",

@@ -133,14 +133,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SD SERVER",
-        "logo": "",
-        "url": "http://193.47.62.50/hls/UAAA.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/"
-    },
-    {
         "name": "FANCODE FHD",
         "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
@@ -237,16 +229,6 @@
         "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
         "group": "SKY",
         "useProxy": false
-    },
-    {
-        "name": "LOW SERVER",
-        "logo": "",
-        "url": "http://193.47.62.44/hls/NHHHQQq.m3u8",
-        "group": "LOW",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
     },
     {
         "name": "PREMIERER BR",

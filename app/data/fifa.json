@@ -108,14 +108,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SD SERVER",
-        "logo": "",
-        "url": "http://193.47.62.53/hls/BAAA.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/jzabfazkbf27.m3u8?",

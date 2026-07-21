@@ -71,14 +71,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SD SERVER",
-        "logo": "",
-        "url": "http://193.47.62.50/hls/UAAAQ.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/fskjanach24.m3u8?",

@@ -11,15 +11,6 @@
     {
         "name": "SportzX Live",
         "logo": "",
-        "url": "https://edgestream1.pro/hls/ihfazugfyjcazich17.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
         "url": "https://edgestream2.pro/hls/hefbafbakx28.m3u8?",
         "group": "SportzX",
         "useProxy": true,
@@ -43,6 +34,14 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "CRICKET FHD",
+        "logo": "",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "CRICKET",
+        "useProxy": false,
+        "user-agent": "Mozilla"
     },
     {
         "name": "SportzX Live",
@@ -72,6 +71,27 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "WILLOW FHD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/gjigreak4h/out/v1/3e2e635212094aa5802cf66c1601f8a5/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "70aa90cb5fbc9c681891ffadd144c764",
+        "key": "3f9113c845f44f75058cc38db91cff2b",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "WILLOW - ALT",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/gjigreak4h/out/v1/3e2e635212094aa5802cf66c1601f8a5/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "70aa90cb5fbc9c681891ffadd144c764",
+        "key": "3f9113c845f44f75058cc38db91cff2b",
+        "useProxy": true
+    },
+    {
         "name": "SportzX LIVE",
         "logo": "",
         "url": "https://edgestream3.pro/hls/kjhfzua25.m3u8?",
@@ -99,6 +119,41 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "WILLOW FHD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ynefhymijt/out/v1/02ab74a814ba405d8b749b3497c1b899/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "453c4ba8f7c775a4ef534847bd33b184",
+        "key": "4f14453aaf260377336bb0e6267da4f1",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "BBC SPORTS",
+        "logo": "",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/bbctwo.m3u8",
+        "group": "BBC",
+        "useProxy": false
+    },
+    {
+        "name": "WILLOW - ALT",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ynefhymijt/out/v1/02ab74a814ba405d8b749b3497c1b899/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "453c4ba8f7c775a4ef534847bd33b184",
+        "key": "4f14453aaf260377336bb0e6267da4f1",
+        "useProxy": true
+    },
+    {
+        "name": "SKY SPORT",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
+        "group": "SKY",
+        "useProxy": false
     },
     {
         "name": "SportzX Live",
@@ -132,6 +187,15 @@
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/jkzahzadach20.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/ihfazugfyjcazich17.m3u8?",
         "group": "SportzX",
         "useProxy": true,
         "referer": "https://streamscenter.online/",

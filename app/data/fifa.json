@@ -35,6 +35,18 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "FANCODE - FHD",
+        "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
+        "url": "https://a204aivottepl-a.akamaihd.net/sin-nitro/live/clients/dash/enc/h35gev6jft/out/v1/c64004e114c245a4ab84bb570275a4a9/cenc.mpd",
+        "type": "dash",
+        "group": "FANCODE",
+        "kid": "065051b99bf5cf8d9a3bde5cbde6aaf9",
+        "key": "214bd176832872339ce184338320f9a2",
+        "useProxy": true,
+        "origin": "https://amazon.com",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
+    },
+    {
         "name": "WILLOW - ALT",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bkvy8namph/out/v1/408fe9c1ee2048d98bd629a60b55f8a9/cenc.mpd",
@@ -43,6 +55,18 @@
         "kid": "08e857788244fe19e0ebf8afe19a5baf",
         "key": "07829ed6a8151c4c363713d38687efc8",
         "useProxy": true
+    },
+    {
+        "name": "FANCODE - SD",
+        "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+        "type": "dash",
+        "group": "FANCODE",
+        "kid": "5689304538fa9f3bb3da99c939a2ad4f",
+        "key": "6907c88ed8ebdd35a2fa80b9684715e1",
+        "useProxy": true,
+        "origin": "https://amazon.com",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
     },
     {
         "name": "WILLOW FHD",
@@ -72,13 +96,6 @@
         "kid": "8787005b2c501603a117e26044f93e50",
         "key": "e57ce8dcc0158ef1002ab5bba0f25d14",
         "useProxy": true
-    },
-    {
-        "name": "SKY SPORT",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
-        "group": "SKY",
-        "useProxy": false
     },
     {
         "name": "SportzX Live",
@@ -626,17 +643,6 @@
         "url": "https://hls.streamhub.media/hls/thesport-api-19be5892a432b8ce226c/master.m3u8",
         "group": "LOW",
         "useProxy": false
-    },
-    {
-        "name": "FANCODE FHD",
-        "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
-        "url": "https://a204aivottepl-a.akamaihd.net/sin-nitro/live/clients/dash/enc/h35gev6jft/out/v1/c64004e114c245a4ab84bb570275a4a9/cenc.mpd",
-        "type": "dash",
-        "group": "FANCODE",
-        "kid": "065051b99bf5cf8d9a3bde5cbde6aaf9",
-        "key": "214bd176832872339ce184338320f9a2",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "ELEVEN SPORTS",

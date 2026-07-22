@@ -106,6 +106,14 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "SportzX MLB",
+        "logo": "",
+        "url": "https://chatgpt.hereisman.net/playlist/53671/load-playlist?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://gooz.aapmains.net"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/ijfnakfidch22.m3u8?",

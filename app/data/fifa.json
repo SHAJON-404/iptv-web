@@ -72,14 +72,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX WNBA",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53663/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/bvnsqdfvgha70.m3u8??",
@@ -171,14 +163,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX WNBA",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53662/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/ztyarueaghj71.m3u8??",
@@ -261,14 +245,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53658/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/Czajafjihafch18.m3u8?",
@@ -315,13 +291,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0",
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "SKY SPORT",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
-        "group": "SKY",
-        "useProxy": false
     },
     {
         "name": "HD SERVER",

@@ -1,20 +1,5 @@
 [
     {
-        "name": "TUDN MX HD",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53622/load-playlist?",
-        "group": "TUDN",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://pulltx.cqsycw.com/live/sd-6MwdpntpZtZeCD5WSA.m3u8?txSecret=4a46ac832fbc9884a0b80a843d5677f3&txTime=6A6063E0",
-        "group": "SportzX",
-        "useProxy": false
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/hefbafbakx28.m3u8?",
@@ -31,14 +16,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53650/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
     },
     {
         "name": "SportzX Live",

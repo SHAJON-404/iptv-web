@@ -19,6 +19,22 @@
         "referer": "https://playerembed.xyz/"
     },
     {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://live.vivo200.com/live/sd-1-4589237.m3u8?txSecret=11e6d0c2fe41248a03eff20b5886f4b9&txTime=6A60F74C",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://player.online909.com/"
+    },
+    {
+        "name": "SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.49/hls/RRRR.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/"
+    },
+    {
         "name": "PREMIERER BR",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
@@ -207,13 +223,6 @@
         "useProxy": true
     },
     {
-        "name": "SKY SPORT",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
-        "group": "SKY",
-        "useProxy": false
-    },
-    {
         "name": "TSN SPORTS",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd",
@@ -256,6 +265,29 @@
         "key": "f69c8d4624fddff4ca89bd0b31bdc4a7",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://live.vivo200.com/live/sd-1-4591081.m3u8?txSecret=ce31f8be6c8b56ee5099e1d46a33cb3a&txTime=6A60F6F1",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://player.online909.com/"
+    },
+    {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://hls.streamhub.media/hls/thesport-api-cf89962de572ba5ddac3/master.m3u8",
+        "group": "SERVER",
+        "useProxy": false
+    },
+    {
+        "name": "SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.49/hls/RRRRQ.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/"
     },
     {
         "name": "SportzX Live",

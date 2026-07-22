@@ -73,6 +73,13 @@
         "referer": "https://player.online909.com/"
     },
     {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://hls.streamhub.media/hls/thesport-api-34383b254efd4df13076/master.m3u8",
+        "group": "SERVER",
+        "useProxy": false
+    },
+    {
         "name": "SD SERVER",
         "logo": "",
         "url": "http://193.47.62.49/hls/EEEEQ.m3u8?",
@@ -154,6 +161,13 @@
         "referer": "https://player.online909.com/"
     },
     {
+        "name": "SD SERVER",
+        "logo": "",
+        "url": "https://hls.streamhub.media/hls/thesport-api-1023c0b7b49d69961315/master.m3u8",
+        "group": "SERVER",
+        "useProxy": false
+    },
+    {
         "name": "Premier Sports FHD",
         "logo": "https://play-lh.googleusercontent.com/zG_ZS5v4PfHqWqWLkpVkZB9wRu9MJmEqD4tNpeIYwLOcjU3INQlFeTxoVgwV1R2CbcsI",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
@@ -185,42 +199,6 @@
         "key": "ae24090123b8c72ac5404dc152847cb8",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "WILLOW FHD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wvy4bjqqtx/out/v1/a8eb10fe4a4445a39c4aada4b042fb88/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "8787005b2c501603a117e26044f93e50",
-        "key": "e57ce8dcc0158ef1002ab5bba0f25d14",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "CRICKET FHD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "CRICKET",
-        "useProxy": false,
-        "user-agent": "Mozilla"
-    },
-    {
-        "name": "WILLOW - ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/wvy4bjqqtx/out/v1/a8eb10fe4a4445a39c4aada4b042fb88/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "8787005b2c501603a117e26044f93e50",
-        "key": "e57ce8dcc0158ef1002ab5bba0f25d14",
-        "useProxy": true
-    },
-    {
-        "name": "SKY SPORT",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
-        "group": "SKY",
-        "useProxy": false
     },
     {
         "name": "TSN SPORTS",
@@ -288,6 +266,42 @@
         "group": "SERVER",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "WILLOW FHD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wvy4bjqqtx/out/v1/a8eb10fe4a4445a39c4aada4b042fb88/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "8787005b2c501603a117e26044f93e50",
+        "key": "e57ce8dcc0158ef1002ab5bba0f25d14",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
+        "group": "CRICKET",
+        "useProxy": false,
+        "user-agent": "Mozilla"
+    },
+    {
+        "name": "WILLOW - ALT",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/wvy4bjqqtx/out/v1/a8eb10fe4a4445a39c4aada4b042fb88/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "8787005b2c501603a117e26044f93e50",
+        "key": "e57ce8dcc0158ef1002ab5bba0f25d14",
+        "useProxy": true
+    },
+    {
+        "name": "SKY SPORT",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
+        "group": "SKY",
+        "useProxy": false
     },
     {
         "name": "SportzX Live",

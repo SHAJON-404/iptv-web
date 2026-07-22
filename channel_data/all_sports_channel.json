@@ -19,6 +19,25 @@
         "referer": "https://playerembed.xyz/"
     },
     {
+        "name": "PREMIERER BR",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "type": "dash",
+        "group": "PREMIERER",
+        "kid": "56b79c1782b30e6b6fc973b0e8fd4104",
+        "key": "fa38aaa865a57eda7c77444697ba8ed3",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "GLOBO BR HD",
+        "logo": "",
+        "url": "https://rdcstream.life/live/globorj/index.m3u8?",
+        "group": "GLOBO",
+        "useProxy": true,
+        "referer": "https://playerembed.xyz/"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://pul-tenm.gkykp.com/live/sd-1-4591073.m3u8?txSecret=3068456055b8baa9d9b0b9ebb4942996&txTime=6A621758",
@@ -79,6 +98,28 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
     },
     {
+        "name": "Premier Sports FHD",
+        "logo": "https://play-lh.googleusercontent.com/zG_ZS5v4PfHqWqWLkpVkZB9wRu9MJmEqD4tNpeIYwLOcjU3INQlFeTxoVgwV1R2CbcsI",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd",
+        "type": "dash",
+        "group": "Premier",
+        "kid": "1a5df53609ebc9857898c490f4724918",
+        "key": "77f62980d582ec541280796acf8b2d19",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "PREMIERER BR",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
+        "type": "dash",
+        "group": "PREMIERER",
+        "kid": "d23f7433798a652a7d4f6791d9e1036c",
+        "key": "4942eebd598b5727c5cc484cc62b52e8",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
         "name": "WILLOW FHD",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wvy4bjqqtx/out/v1/a8eb10fe4a4445a39c4aada4b042fb88/cenc.mpd",
@@ -113,6 +154,17 @@
         "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
         "group": "SKY",
         "useProxy": false
+    },
+    {
+        "name": "PREMIERER BR",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
+        "type": "dash",
+        "group": "PREMIERER",
+        "kid": "9dc40460c93087aea84d6315f08ecb64",
+        "key": "f69c8d4624fddff4ca89bd0b31bdc4a7",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "SportzX Live",
@@ -296,16 +348,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "PREMIERER BR",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
-        "type": "dash",
-        "group": "PREMIERER",
-        "kid": "56b79c1782b30e6b6fc973b0e8fd4104",
-        "key": "fa38aaa865a57eda7c77444697ba8ed3",
-        "useProxy": true
     },
     {
         "name": "SporTV BR HD",

@@ -9,6 +9,21 @@
         "origin": "https://streamscenter.online"
     },
     {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://pul-tenm.gkykp.com/live/sd-1-4591073.m3u8?txSecret=3068456055b8baa9d9b0b9ebb4942996&txTime=6A621758",
+        "group": "SportzX",
+        "useProxy": false
+    },
+    {
+        "name": "SD SERVER",
+        "logo": "",
+        "url": "http://193.47.62.41/hls/ADFFFQ.m3u8?",
+        "group": "SERVER",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/"
+    },
+    {
         "name": "WILLOW FHD",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bkvy8namph/out/v1/408fe9c1ee2048d98bd629a60b55f8a9/cenc.mpd",
@@ -47,13 +62,6 @@
         "group": "CRICKET",
         "useProxy": false,
         "user-agent": "Mozilla"
-    },
-    {
-        "name": "BBC SPORTS",
-        "logo": "",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/bbctwo.m3u8",
-        "group": "BBC",
-        "useProxy": false
     },
     {
         "name": "WILLOW - ALT",

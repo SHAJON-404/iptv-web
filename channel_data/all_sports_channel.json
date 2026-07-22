@@ -1,5 +1,13 @@
 [
     {
+        "name": "TUDN MX HD",
+        "logo": "",
+        "url": "https://chatgpt.hereisman.net/playlist/53622/load-playlist?",
+        "group": "TUDN",
+        "useProxy": true,
+        "referer": "https://gooz.aapmains.net"
+    },
+    {
         "name": "SportzX MLB",
         "logo": "",
         "url": "https://chatgpt.hereisman.net/playlist/53653/load-playlist?",
@@ -94,14 +102,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53644/load-playlist?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net"
     },
     {
         "name": "SportzX LIVE",

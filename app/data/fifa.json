@@ -250,14 +250,6 @@
         "referer": "http://www.fawanews.sc/"
     },
     {
-        "name": "SportzX MLB",
-        "logo": "",
-        "url": "https://chatgpt.hereisman.net/playlist/53715/load-playlist?&.m3u8",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://gooz.aapmains.net "
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/dazhfiach15.m3u8?",

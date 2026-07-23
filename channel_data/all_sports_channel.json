@@ -2,21 +2,13 @@
     {
         "name": "PREMIERER BR",
         "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
         "type": "dash",
         "group": "PREMIERER",
-        "kid": "56b79c1782b30e6b6fc973b0e8fd4104",
-        "key": "fa38aaa865a57eda7c77444697ba8ed3",
+        "kid": "9dc40460c93087aea84d6315f08ecb64",
+        "key": "f69c8d4624fddff4ca89bd0b31bdc4a7",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "GLOBO BR HD",
-        "logo": "",
-        "url": "https://rdcstream.life/live/globorj/index.m3u8?",
-        "group": "GLOBO",
-        "useProxy": true,
-        "referer": "https://playerembed.xyz/"
     },
     {
         "name": "FANCODE - FHD",
@@ -85,6 +77,17 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
+        "name": "PREMIERER BR",
+        "logo": "",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/nelfyucw9a/out/v1/6ffb2c365ad14f88b154591beb43d1f6/cenc.mpd",
+        "type": "dash",
+        "group": "PREMIERER",
+        "kid": "56b79c1782b30e6b6fc973b0e8fd4104",
+        "key": "fa38aaa865a57eda7c77444697ba8ed3",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
         "name": "WILLOW FHD",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
@@ -94,6 +97,13 @@
         "key": "b748836c71e6a4ca68ef5b5652db6247",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "WILLOW - SD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
+        "group": "WILLOW",
+        "useProxy": false
     },
     {
         "name": "ICC TV - FHD",
@@ -109,22 +119,22 @@
     {
         "name": "WILLOW FHD",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rpm5xf58oy/out/v1/7fde24af3de04b4c89f2caa3f024cc06/cenc.mpd",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jpjzsonseg/out/v1/26eeb47cccd24e2d8e1975655a1f04e9/cenc.mpd",
         "type": "dash",
         "group": "WILLOW",
-        "kid": "9f567bab672bd15dcbea0c8f29365ca1",
-        "key": "9101126d4d41bca6ecc906e47d8fd143",
+        "kid": "fe6dc83d53e08c5626b6aec2bb4a3afe",
+        "key": "da58f6323d6388054bd316890f729f72",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "WILLOW - ALT",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rpm5xf58oy/out/v1/7fde24af3de04b4c89f2caa3f024cc06/cenc.mpd",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/jpjzsonseg/out/v1/26eeb47cccd24e2d8e1975655a1f04e9/cenc.mpd",
         "type": "dash",
         "group": "WILLOW",
-        "kid": "9f567bab672bd15dcbea0c8f29365ca1",
-        "key": "9101126d4d41bca6ecc906e47d8fd143",
+        "kid": "fe6dc83d53e08c5626b6aec2bb4a3afe",
+        "key": "da58f6323d6388054bd316890f729f72",
         "useProxy": true
     },
     {
@@ -210,29 +220,9 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "PREMIERER BR",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/oy6rp0jwmf/out/v1/580ecf12bad24979baf8dd993dce053e/cenc.mpd",
-        "type": "dash",
-        "group": "PREMIERER",
-        "kid": "9dc40460c93087aea84d6315f08ecb64",
-        "key": "f69c8d4624fddff4ca89bd0b31bdc4a7",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream1.pro/hls/16yuitzaerghbhc16.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream3.pro/hls/hfzljfahzcax29.m3u8?",
         "group": "SportzX",
         "useProxy": true,
         "referer": "https://streamscenter.online/",
@@ -248,6 +238,65 @@
         "key": "98cff9600995fa381c76fdacf3c7edae",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "WILLOW - FHD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oakh3hb4vk/out/v1/a8493a8887bd47c8a40cea87ceef414f/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "89191e6bfbd29dee4c593cb15c4925c3",
+        "key": "ebcd78506f203fd0b3cf422d4a5ba0d4",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "WILLOW - ALT",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oakh3hb4vk/out/v1/a8493a8887bd47c8a40cea87ceef414f/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "89191e6bfbd29dee4c593cb15c4925c3",
+        "key": "ebcd78506f203fd0b3cf422d4a5ba0d4",
+        "useProxy": true
+    },
+    {
+        "name": "GLOBO BR HD",
+        "logo": "",
+        "url": "https://rdcstream.life/live/globorj/index.m3u8?",
+        "group": "GLOBO",
+        "useProxy": true,
+        "referer": "https://playerembed.xyz/"
+    },
+    {
+        "name": "WILLOW FHD",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rpm5xf58oy/out/v1/7fde24af3de04b4c89f2caa3f024cc06/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "9f567bab672bd15dcbea0c8f29365ca1",
+        "key": "9101126d4d41bca6ecc906e47d8fd143",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+    },
+    {
+        "name": "WILLOW - ALT",
+        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
+        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rpm5xf58oy/out/v1/7fde24af3de04b4c89f2caa3f024cc06/cenc.mpd",
+        "type": "dash",
+        "group": "WILLOW",
+        "kid": "9f567bab672bd15dcbea0c8f29365ca1",
+        "key": "9101126d4d41bca6ecc906e47d8fd143",
+        "useProxy": true
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream3.pro/hls/hfzljfahzcax29.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
     },
     {
         "name": "TNT MAX HD",

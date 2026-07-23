@@ -150,6 +150,14 @@
     {
         "name": "SportzX Live",
         "logo": "",
+        "url": "https://live.vivo200.com/live/sd-1-4591127.m3u8?txSecret=caa8c54a54e66f9108cb050ca86b8370&txTime=6A6274A9",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://player.online909.com/"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
         "url": "https://live.vivo200.com/live/sd-1-4590890.m3u8?txSecret=54a37406a25d9ede063e5e365348f975&txTime=6A626975",
         "group": "SportzX",
         "useProxy": true,

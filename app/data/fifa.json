@@ -173,6 +173,14 @@
         "useProxy": true
     },
     {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://live.vivo200.com/live/sd-1-4590886.m3u8?txSecret=b72ba63bda298212f6cbd1d73dee7287&txTime=6A6237FA",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://player.online909.com/"
+    },
+    {
         "name": "WILLOW FHD",
         "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/6okuxrru64/out/v1/2d2cf5a09acc49d68d844903696062b8/cenc.mpd",
@@ -199,15 +207,6 @@
         "url": "https://tmaxapp.site/8wirwjs76erftg/skysport2nz.m3u8",
         "group": "SKY",
         "useProxy": false
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://edgestream1.pro/hls/16yuitzaerghbhc16.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "FOX SPORTS",
@@ -240,6 +239,15 @@
         "kid": "89191e6bfbd29dee4c593cb15c4925c3",
         "key": "ebcd78506f203fd0b3cf422d4a5ba0d4",
         "useProxy": true
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://edgestream1.pro/hls/16yuitzaerghbhc16.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
     },
     {
         "name": "Premier Sports FHD",

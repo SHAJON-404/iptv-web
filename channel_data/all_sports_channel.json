@@ -9,13 +9,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "LOW SERVER",
-        "logo": "",
-        "url": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
-        "group": "LOW",
-        "useProxy": false
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream2.pro/hls/ijfnakfidch22.m3u8?",
@@ -171,42 +164,6 @@
         "key": "fa38aaa865a57eda7c77444697ba8ed3",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "FANCODE - FHD",
-        "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/h35gev6jft/out/v1/c64004e114c245a4ab84bb570275a4a9/cenc.mpd",
-        "type": "dash",
-        "group": "FANCODE",
-        "kid": "065051b99bf5cf8d9a3bde5cbde6aaf9",
-        "key": "214bd176832872339ce184338320f9a2",
-        "useProxy": true,
-        "origin": "https://www.primevideo.com",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
-    },
-    {
-        "name": "FANCODE - ALT",
-        "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
-        "url": "https://a204aivottepl-a.akamaihd.net/sin-nitro/live/clients/dash/enc/h35gev6jft/out/v1/c64004e114c245a4ab84bb570275a4a9/cenc.mpd",
-        "type": "dash",
-        "group": "FANCODE",
-        "kid": "065051b99bf5cf8d9a3bde5cbde6aaf9",
-        "key": "214bd176832872339ce184338320f9a2",
-        "useProxy": true,
-        "origin": "https://amazon.com",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
-    },
-    {
-        "name": "FANCODE - SD",
-        "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
-        "type": "dash",
-        "group": "FANCODE",
-        "kid": "5689304538fa9f3bb3da99c939a2ad4f",
-        "key": "6907c88ed8ebdd35a2fa80b9684715e1",
-        "useProxy": true,
-        "origin": "https://www.primevideo.com",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0"
     },
     {
         "name": "WILLOW FHD",

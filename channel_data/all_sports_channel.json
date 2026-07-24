@@ -26,6 +26,13 @@
         "user-agent": "Mozilla"
     },
     {
+        "name": "LOW SERVER",
+        "logo": "",
+        "url": "http://tvsen5.aynascope.net/willowhd/index.m3u8",
+        "group": "LOW",
+        "useProxy": false
+    },
+    {
         "name": "SD SERVER",
         "logo": "",
         "url": "http://193.47.62.43/hls/vaaaa.m3u8?",
@@ -261,17 +268,6 @@
         "group": "PREMIERER",
         "kid": "d23f7433798a652a7d4f6791d9e1036c",
         "key": "4942eebd598b5727c5cc484cc62b52e8",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "FOX DEPORTES",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "d1a163914db8ffad2c3e94f979896a0d",
-        "key": "9728800a3959aafdd5b0bcfbf3768811",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },

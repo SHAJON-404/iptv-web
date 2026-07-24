@@ -40,15 +40,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "SD SERVER",
-        "logo": "",
-        "url": "http://193.47.62.50/hls/ZLLLQQQQ.m3u8?",
-        "group": "SERVER",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
         "name": "SKY SPORTS HD",
         "logo": "",
         "url": "https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?",

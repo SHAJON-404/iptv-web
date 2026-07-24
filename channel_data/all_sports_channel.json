@@ -150,48 +150,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "WILLOW - FHD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/oakh3hb4vk/out/v1/a8493a8887bd47c8a40cea87ceef414f/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "89191e6bfbd29dee4c593cb15c4925c3",
-        "key": "ebcd78506f203fd0b3cf422d4a5ba0d4",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "WILLOW - ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/oakh3hb4vk/out/v1/a8493a8887bd47c8a40cea87ceef414f/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "89191e6bfbd29dee4c593cb15c4925c3",
-        "key": "ebcd78506f203fd0b3cf422d4a5ba0d4",
-        "useProxy": true
-    },
-    {
-        "name": "WILLOW FHD",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/jpjzsonseg/out/v1/26eeb47cccd24e2d8e1975655a1f04e9/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "fe6dc83d53e08c5626b6aec2bb4a3afe",
-        "key": "da58f6323d6388054bd316890f729f72",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "WILLOW - ALT",
-        "logo": "https://s21.q4cdn.com/819998841/files/doc_news/2024/May/Willow-logo-transparent-cb.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/jpjzsonseg/out/v1/26eeb47cccd24e2d8e1975655a1f04e9/cenc.mpd",
-        "type": "dash",
-        "group": "WILLOW",
-        "kid": "fe6dc83d53e08c5626b6aec2bb4a3afe",
-        "key": "da58f6323d6388054bd316890f729f72",
-        "useProxy": true
-    },
-    {
         "name": "FANCODE - FHD",
         "logo": "https://m.media-amazon.com/images/I/21K+HipHr6L.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/h35gev6jft/out/v1/c64004e114c245a4ab84bb570275a4a9/cenc.mpd",

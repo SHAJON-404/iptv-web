@@ -213,17 +213,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "PREMIERER BR",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/6onrfniyry/out/v1/f23069c61dbf4e00890a40b705a84079/cenc.mpd",
-        "type": "dash",
-        "group": "PREMIERER",
-        "kid": "d23f7433798a652a7d4f6791d9e1036c",
-        "key": "4942eebd598b5727c5cc484cc62b52e8",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "GLOBO BR HD",
         "logo": "",
         "url": "https://rdcstream.life/live/globorj/index.m3u8?",

@@ -250,13 +250,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://tmaxapp.site/8wirwjs76erftg/skysport5nz.m3u8",
-        "group": "SportzX",
-        "useProxy": false
-    },
-    {
         "name": "TSN SPORTS",
         "logo": "",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",

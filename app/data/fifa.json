@@ -675,27 +675,6 @@
         "useProxy": true
     },
     {
-        "logo": "https://imglink.cc/cdn/Kvj2fsr4S8.png",
-        "group": "DAZN",
-        "name": "DAZN 1 HD",
-        "url": "http://znty.dyndns.org:5010/hls/eleven1.m3u8",
-        "useProxy": false
-    },
-    {
-        "logo": "https://imglink.cc/cdn/Kvj2fsr4S8.png",
-        "group": "DAZN",
-        "name": "DAZN 2 HD",
-        "url": "http://znty.dyndns.org:5010/hls/eleven2.m3u8",
-        "useProxy": false
-    },
-    {
-        "logo": "https://imglink.cc/cdn/Kvj2fsr4S8.png",
-        "group": "DAZN",
-        "name": "DAZN 5 HD",
-        "url": "http://znty.dyndns.org:5010/hls/eleven5.m3u8",
-        "useProxy": false
-    },
-    {
         "logo": "https://imglink.cc/cdn/kIiut6WBq0.jpg",
         "group": "Bein Sports  - 🇫🇷 France",
         "name": "Bein Sports  - 🇫🇷 France",

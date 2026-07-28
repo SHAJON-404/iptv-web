@@ -191,14 +191,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "GLOBO BR HD",
-        "logo": "",
-        "url": "https://rdcstream.life/live/globorj/index.m3u8?",
-        "group": "GLOBO",
-        "useProxy": true,
-        "referer": "https://playerembed.xyz/"
-    },
-    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://edgestream3.pro/hls/hfzljfahzcax29.m3u8?",

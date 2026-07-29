@@ -637,13 +637,6 @@
     },
     {
         "logo": "https://imglink.cc/cdn/kIiut6WBq0.jpg",
-        "group": "Bein Sports  - 🇫🇷 France",
-        "name": "Bein Sports  - 🇫🇷 France",
-        "url": "http://145.239.5.177/559/mpegts",
-        "useProxy": false
-    },
-    {
-        "logo": "https://imglink.cc/cdn/kIiut6WBq0.jpg",
         "group": "Bein Sports",
         "name": "Bein Sports 4",
         "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",

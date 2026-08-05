@@ -250,13 +250,6 @@
         "origin": "https://streamscenter.online"
     },
     {
-        "name": "HD SERVER",
-        "logo": "",
-        "url": "https://hls.streamhub.media/hls/thesport-api-34383b254efd4df13076/master.m3u8",
-        "group": "SERVER",
-        "useProxy": false
-    },
-    {
         "name": "SD SERVER",
         "logo": "",
         "url": "https://hls.streamhub.media/hls/thesport-api-1023c0b7b49d69961315/master.m3u8",
@@ -519,13 +512,6 @@
         "useProxy": true,
         "referer": "https://streamscenter.online/",
         "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "HD SERVER",
-        "logo": "",
-        "url": "https://hls.streamhub.media/hls/thesport-api-076cecf54325a5407fe3/master.m3u8",
-        "group": "SERVER",
-        "useProxy": false
     },
     {
         "name": "EUROSPORT2 FHD",

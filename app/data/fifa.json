@@ -75,17 +75,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "TSN SPORTS",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd",
-        "type": "dash",
-        "group": "TSN",
-        "kid": "d3250252765347a0c2603c6cb4869f8c",
-        "key": "0c19319460da7e9ed816db46ce839b37",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "SD SERVER",
         "logo": "",
         "url": "https://hls.streamhub.media/hls/thesport-api-1023c0b7b49d69961315/master.m3u8",

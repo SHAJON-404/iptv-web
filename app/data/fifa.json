@@ -74,16 +74,6 @@
         "useProxy": true
     },
     {
-        "name": "FULL MATCH PARAMOUNT",
-        "logo": "",
-        "url": "https://abdfyr5aaaaaaaamblknqqdakgoyf.bia-cf.live.pv-cdn.net/iad-nitro/jab-assets/jab-prod-iad/live/dash/out/v1/3ee18fe6099c4ab1a985bd8034e5fac2/ipztczhdhupw/cenc-44e61c.mpd",
-        "type": "dash",
-        "group": "FULL",
-        "kid": "6a71d7af70eaeb1b018ded7640a26562",
-        "key": "5d7f73b42c19d3bb68c55d6ee2676b7d",
-        "useProxy": true
-    },
-    {
         "logo": "https://imglink.cc/cdn/kIiut6WBq0.jpg",
         "group": "Bein Sports",
         "name": "Bein Sports 4",

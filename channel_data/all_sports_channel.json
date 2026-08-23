@@ -10,13 +10,6 @@
         "useProxy": true
     },
     {
-        "name": "HD SERVER",
-        "logo": "",
-        "url": "https://hls.streamhub.media/hls/thesport-api-cf89962de572ba5ddac3/master.m3u8",
-        "group": "SERVER",
-        "useProxy": false
-    },
-    {
         "name": "Tap Sports",
         "logo": "",
         "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd",

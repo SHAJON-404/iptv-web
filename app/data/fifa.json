@@ -47,26 +47,6 @@
         "useProxy": true
     },
     {
-        "name": "EUROSPORT1 FHD",
-        "logo": "",
-        "url": "https://cache01.zapitv.com/live/eds_c2/eurosport_1_hd/dash_live_ez/eurosport_1_hd.mpd",
-        "type": "dash",
-        "group": "EUROSPORT",
-        "kid": "0f4751abc997473d9138d17b5944be04",
-        "key": "a0aefedd2376a54b8b50f9b7c2d50ac7",
-        "useProxy": true
-    },
-    {
-        "name": "EUROSPORT2 FHD",
-        "logo": "",
-        "url": "https://cache01.zapitv.com/live/eds_c2/eurosport_2_hd/dash_live_ez/eurosport_2_hd.mpd",
-        "type": "dash",
-        "group": "EUROSPORT",
-        "kid": "e369d9ab101d4b60ba13c0384f503528",
-        "key": "041e35e31381521b3398af5c6dd99414",
-        "useProxy": true
-    },
-    {
         "logo": "https://imglink.cc/cdn/kIiut6WBq0.jpg",
         "group": "Bein Sports",
         "name": "Bein Sports 4",

@@ -1,15 +1,5 @@
 [
     {
-        "name": "ELEVEN SPORTS",
-        "logo": "",
-        "url": "https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd",
-        "type": "dash",
-        "group": "ELEVEN",
-        "kid": "69021095220f3c0eae9bc24215fd692b",
-        "key": "eb58cfe0458ed0b48f7351fa3393ad59",
-        "useProxy": true
-    },
-    {
         "name": "Tap Sports",
         "logo": "",
         "url": "https://qp-pldt-live-grp-11-prod.akamaized.net/out/u/dr_tapsports.mpd",
